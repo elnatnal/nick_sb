@@ -1,0 +1,558 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+
+/* 
+wrapping styles in a function so we can call it
+inside of media queries. We also do this so we can
+call this function in the ie.less file. Which means
+IE will get all the styles without any hefty work.
+*/
+
+.768up() { /* DO NOT DELETE */
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/********************
+WORDPRESS BODY CLASSES
+style a page via class
+********************/
+
+.rtl {}
+.home {} /* home page */
+.blog {} 
+.archive {} /* archive page */
+.date {} /* date archive page */
+	.date-paged-1 {} /* replace the number to the corresponding page number */
+.search {} /* search page */
+	.search-results {} /* search result page */
+	.search-no-results {} /* no results search page */
+	.search-paged-1 {} /* individual paged search (i.e. body.search-paged-3) */
+.error404 {} /* 404 page */
+.single {} /* single post page */
+	.postid-1 {} /* individual post page by id (i.e. body.postid-73) */
+	.single-paged-1 {} /* individual paged single (i.e. body.single-paged-3) */
+.attachment {} /* attatchment page */
+	.attachmentid-1 {} /* individual attatchment page (i.e. body.attachmentid-763) */
+	.attachment-mime-type {} /* style mime type pages */
+.author {} /* author page */
+	.author-nicename {} /* user nicename (i.e. body.author-samueladams) */
+	.author-paged-1 {} /* paged author archives (i.e. body.author-paged-4) for page 4 */
+.category {} /* category page */
+	.category-1 {} /* individual category page (i.e. body.category-6) */
+	.category-paged-1 {} /* replace the number to the corresponding page number */
+.tag {} /* tag page */
+	.tag-slug {} /* individual tag page (i.e. body.tag-news) */
+	.tag-paged-1 {} /* replace the number to the corresponding page number */
+.page-template {} /* custom page template page */
+	.page-template-page-php {} /* individual page template (i.e. body.page-template-contact-php */
+	.page-paged-1 {} /* replace the number to the corresponding page number */
+	.page-parent {}
+	.page-child {}
+	.parent-pageid-1 {} /* replace the number to the corresponding page number */
+.logged-in {} /* if user is logged in */
+.paged {} /* paged items like search results or archives */
+	.paged-1 {} /* individual paged (i.e. body.paged-3) */
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	max-width: 960px;
+}
+	/***** Grid Options down here, where they are usable ******/
+	/* layout options ( all have margins right & left of 1%) */
+	.col60  { width: 6.3829787%; } /* width 60px  / grid_1  */
+	.col140 { width: 14.893617%; } /* width 140px / grid_2  */
+	.col220 { width: 23.404255%; } /* width 220px / grid_3  */
+	.col300 { width: 31.914894%; } /* width 300px / grid_4  */
+	.col380 { width: 40.425532%; } /* width 380px / grid_5  */
+	.col480 { width: 48.936170%; } /* width 480px / grid_6  */
+	.col540 { width: 57.446809%; } /* width 540px / grid_7  */
+	.col620 { width: 65.957447%; } /* width 620px / grid_8  */
+	.col700 { width: 74.468085%; } /* width 700px / grid_9  */
+	.col780 { width: 82.978723%; } /* width 780px / grid_10 */
+	.col860 { width: 91.489362%; } /* width 860px / grid_11 */
+	.col940 { width: 100.0%;     } /* width 940px / grid_12 */
+	
+	/* layout & column defaults */
+	.col60, .col140, .col220, .col300, .col380, .col480, .col540, .col620, .col700, .col780, .col860, .col940 { 
+		display: inline; 
+		float: left; 
+		position: relative;
+		margin-left: 1.0638298%;   /* 10px */ 
+		margin-right: 1.0638298%;  /* 10px */
+	}
+	
+	/* floats */
+	.left { float: left; }
+	.right { float: right; }
+	
+	/* default styles & fixes */
+	.first { margin-left: 0; } /* fixes alignment */
+	.last { margin-right: 0; } /* fixes alignment */
+
+/*********************
+HEADER SYTLES
+*********************/
+
+.header {}
+
+	#logo {}
+	
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {}
+
+	.menu {}
+	
+		.menu ul {
+			background: #eee; 
+		}
+		
+			.menu li {
+				float: left;
+				position: relative;
+			}
+				.menu li a {
+					border-bottom: 0;
+				}
+					.menu li a:hover {
+						background-color: #dedede;
+					}
+				
+					.menu li:first-child a {}
+					.menu li:last-child a {}
+					
+					/* highlight current page */
+					.menu li.current-menu-item a, 
+					.menu li.current_page_item a,
+					.menu li.current-page-ancestor a {}
+					
+					/*
+					plan your menus and drop-downs wisely.
+					*/
+					.menu ul li ul {
+						width: 200px;
+						border: 1px solid #ccc;
+						border-top: 0;
+						position: absolute;
+						display: none;
+						z-index: 8999;
+					}
+					
+						/* show the dropdowns on hover */
+						.menu ul li:hover ul {
+							top: auto;
+							display: block;
+						}
+						
+						.menu ul ul li a {
+							padding-left: 10px;
+							border-right: 0;
+							display: block;
+							width: 180px;
+							border-bottom: 1px solid #ccc;
+						}
+							.menu ul li a:hover {}
+							.menu ul ul li:first-child a {}
+							.menu ul li:last-child a {
+								border-bottom: 0;
+							}
+							
+							/* 
+							more levels
+							*/
+							.menu ul ul ul {
+								
+							}
+								.menu ul li:hover ul ul { }
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {}
+	
+		.hentry {}
+		
+		.single-title, .page-title {}
+		.single-title {}
+		.page-title {}
+		.archive_title { }
+	
+		/* want to style individual post classes? Booya! */
+		.post-id {} /* post by id (i.e. post-3) */
+		.post {} /* general post style */
+		.page {} /* general article on a page style */
+		.attachment {} /* general style on an attatchment */
+		.sticky {} /* sticky post style */
+		.hentry {} /* hentry class */
+		.category-slug {} /* style by category (i.e. category-videos) */
+		.tag-slug {} /* style by tag (i.e. tag-news) */
+	
+		/* post meta */
+		.meta {}
+			.meta time {}
+			
+		/* post content */
+		.post_content {}
+			
+			.post_content p {}
+			.post_content ul, .post_content ol, .post_content table, .post_content dl {}
+			.post_content ul, .post_content ol {}
+			.post_content li {}
+			.post_content ul li {}
+			.post_content ol li {}
+			
+			.post_content blockquote {}
+			.post_content blockquote:before {} /* this adds the quote before the blockquote */
+			
+			.post_content dl {}
+			.post_content dt {}
+			.post_content dd {}
+			
+			.post_content img {}
+			
+			/* image alignment */
+			.alignleft, img.alignleft {}
+			.alignright, img.alignright {}
+			.aligncenter, img.aligncenter {}
+			
+			.post_content video, .post_content object {}
+			.post_content pre, .post_content code {}
+			
+			.wp-caption {}
+			.wp-caption img {}
+			.wp-caption p.wp-caption-text {}
+			
+			/* image gallery styles */
+			.gallery dl {}
+			.gallery dt {}
+			.gallery dd {}
+			.gallery dl a {}
+			.gallery dl img {}
+			.gallery-caption {}
+			
+			.size-full {}
+			.size-large {}
+			.size-medium {}
+			.size-thumbnail {}
+			
+		.hentry footer {}	
+
+/******************************************************************
+PAGE NAVI STYLES
+******************************************************************/
+
+.page-navigation, .wp-prev-next {}
+	.bones_page_navi, .wp-prev-next ul {}
+	
+		.bones_page_navi li {} 
+			
+			.bones_page_navi li a {}
+				.bones_page_navi li a:hover {}
+		
+		/* current page link */	
+		.bones_page_navi li.bpn-current {}	
+			/* hovering on current page link */
+			.bones_page_navi li.bpn-current:hover {}
+			
+		/* common styles for page-navi links */
+		.bones_page_navi li.bpn-prev-link a, .bones_page_navi li.bpn-next-link a {}
+		.bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {} 
+		
+		/* previous link */
+		.bones_page_navi li.bpn-prev-link {} 
+			.bones_page_navi li.bpn-prev-link a {}
+				.bones_page_navi li.bpn-prev-link a:hover {}
+		
+		/* next page link */		
+		.bones_page_navi li.bpn-next-link {} 
+			.bones_page_navi li.bpn-next-link a {}
+				.bones_page_navi li.bpn-next-link a:hover {}
+				
+		/* first page link */
+		.bones_page_navi li.bpn-first-page-link {} 
+			.bones_page_navi li.bpn-first-page-link a {}
+				.bones_page_navi li.bpn-first-page-link a:hover {}
+		
+		/* last page link */
+		.bones_page_navi li.bpn-last-page-link {} 
+			.bones_page_navi li.bpn-last-page-link a {}
+				.bones_page_navi li.bpn-last-page-link a:hover {}
+	
+	/* fallback previous & next links */
+	.wp-prev-next {}
+		.wp-prev-next ul {}
+			.wp-prev-next .prev-link {}
+			.wp-prev-next .next-link {}
+
+
+
+/******************************************************************
+COMMENT STYLES
+******************************************************************/
+
+#comments {}/* h3 comment title */
+	#comments span {} /* number of comments span */
+	
+.comment-nav {}
+	.comment-nav ul {}
+		.comment-nav ul li {}
+		
+.commentlist {}
+	.commentlist li {}
+		.commentlist li[class*=depth-] {}
+			.commentlist li.depth-1 {}
+				.commentlist li:not(.depth-1) {}
+			.commentlist li.depth-2 {}
+			.commentlist li.depth-3 {}
+			.commentlist li.depth-4 {}
+			.commentlist li.depth-5 {}
+			.commentlist li:last-child {}
+				.commentlist li ul.children li {}
+				.commentlist li ul.children li.alt {}
+				.commentlist li ul.children li.byuser {}
+				.commentlist li ul.children li.comment {}
+				.commentlist li ul.children li.depth-1 {} /* change number for different depth */
+				.commentlist li ul.children li.bypostauthor {}
+				.commentlist li ul.children li.comment-author-admin {}
+				.commentlist li ul.children .alt {}
+				.commentlist li ul.children .odd {}
+				.commentlist li ul.children .even {}
+			.commentlist .alt {}
+			.commentlist .odd {}
+			.commentlist .even {}
+			.commentlist .parent {}
+			.commentlist .comment {}
+			.commentlist .children {}
+			.commentlist .pingback {}
+			.commentlist .bypostauthor {}
+			.commentlist .comment-author {}
+			.commentlist .comment-author-admin {}
+			.commentlist .thread-alt {}
+			.commentlist .thread-odd {}
+			.commentlist .thread-even {}	
+			
+			.commentlist .vcard {}
+				.commentlist .vcard cite.fn {}
+				.commentlist .vcard time {}
+					.commentlist .vcard time a {}
+						.commentlist .vcard time a:hover {}
+				.commentlist .vcard img.photo {}
+				.commentlist .vcard img.avatar {}
+					.commentlist .vcard cite.fn a.url {}
+				.commentlist .comment-meta {} 
+					.commentlist .comment-meta a {}
+				.commentlist .commentmetadata {}
+					.commentlist .commentmetadata a {}
+			.commentlist li .comment_content {}
+				.commentlist li .comment_content p {}
+				.commentlist li ul {}		
+				.commentlist .comment-reply-link {}
+					.commentlist a.comment-reply-link:hover {}
+
+/******************************************************************
+COMMENT FORM STYLES
+******************************************************************/
+
+.respond-form {}
+	#comment-form-title {}
+	
+	#cancel-comment-reply {}
+			#cancel-comment-reply a {}
+			
+	.respond-form form[method=post] { }
+		
+		.comments-logged-in-as {}
+		
+		.respond-form form[method=post] li {}
+			.respond-form form[method=post] li label, .respond-form form[method=post] li small {}
+			.respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url], .respond-form textarea {}
+			.respond-form input[type=text]:focus, .respond-form input[type=email]:focus, .respond-form input[type=url]:focus, .respond-form textarea:focus {}
+			.respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url] {}
+			
+			#allowed_tags {}
+			.respond-form textarea {}
+			#submit {}
+		
+	/* form validation */
+	.respond-form input:invalid, .respond-form textarea:invalid {}		
+	
+	/* no comments */
+	.nocomments {}			
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {
+	margin-top: 2.2em;
+}
+
+	.widget {
+		padding: 0 10px;
+		margin: 2.2em 0;
+	}
+	
+		.widgettitle {
+			border-bottom: 2px solid #444;
+			margin-bottom: 0.75em;
+		}
+		
+		.widget ul {}
+	
+		.widget li {
+			margin-bottom: 0.75em;
+		}
+		
+			.widget li:first-child {}
+			.widget li:last-child {}
+		
+			.widget li a {}
+			
+			.widget li ul {
+				margin-top: 0.75em;
+				padding-left: 1em;
+			}
+
+	/* links widget */
+	.widget_links {}
+	.widget_links ul {}
+	.widget_links ul li {}
+	.widget_links ul li a {}
+	
+	/* meta widget */
+	.widget_meta {}
+	.widget_meta ul {}
+	.widget_meta ul li {}
+	.widget_meta ul li a {}
+	
+	/* pages widget */
+	.widget_pages {}
+	.widget_pages ul {}
+	.widget_pages ul li {}
+	.widget_pages ul li a {}
+	
+	/* recent-posts widget */
+	.widget_recent_entries {}
+	.widget_recent_entries ul {}
+	.widget_recent_entries ul li {}
+	.widget_recent_entries ul li a {}
+	
+	/* archives widget */
+	.widget_archive {}
+	.widget_archive ul {}
+	.widget_archive ul li {} 
+	.widget_archive ul li a {}
+	.widget_archive select {}
+	.widget_archive option {}
+	
+	/* tag-cloud widget */
+	.widget_links {}
+	.widget_links li:after {}
+	.widget_links li:before {}
+	.widget_tag_cloud {}
+	.widget_tag_cloud a {}
+	.widget_tag_cloud a:after {}
+	.widget_tag_cloud a:before {}
+	
+	/* calendar widget */
+	.widget_calendar {}
+	#calendar_wrap {}
+	#calendar_wrap th {}
+	#calendar_wrap td {}
+	#wp-calendar tr td {}
+	#wp-calendar caption {}
+	#wp-calendar a {}
+	#wp-calendar #today {}
+	#wp-calendar #prev {}
+	#wp-calendar #next {}
+	#wp-calendar #next a {}
+	#wp-calendar #prev a {}
+	
+	/* category widget */
+	.widget_categories {}
+	.widget_categories ul {}
+	.widget_categories ul li {} 
+	.widget_categories ul ul.children {}
+	.widget_categories a {}
+	.widget_categories select{}
+	.widget_categories select#cat {}
+	.widget_categories select.postform {}
+	.widget_categories option {}
+	.widget_categories .level-0 {}
+	.widget_categories .level-1 {}
+	.widget_categories .level-2 {}
+	.widget_categories .level-3 {}
+	
+	/* recent-comments widget */
+	.recentcomments {}
+	#recentcomments {}
+	#recentcomments li {}
+	#recentcomments li a {}
+	.widget_recent_comments {}
+	
+	/* search widget */
+	#searchform {}
+	.widget_search {}
+	.screen-reader-text {}
+	
+	/* text widget */
+	.textwidget {}
+	.widget_text {}
+	.textwidget p {}
+	
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {}
+	
+	/*
+	you'll probably need to do quite a bit
+	of overriding here if you styled them for
+	mobile. Make sure to double check these!
+	*/
+	.footer-links {}
+		.footer-links ul {}
+			.footer-links li {}
+				.footer-links li a {}
+					
+					/* hover styles */
+					.footer-links li a:hover {} 
+				
+				/* highlight current page */	
+				.nav li.current-menu-item a, .nav li.current_page_item a {}
+				
+				/* 
+				be careful with the depth of your menus.
+				it's very rare to have multi-depth menus in
+				the footer.
+				*/
+				.footer-links .sub-menu {}
+			
+	.attribution {}
+	
+
+} /* end of the function (DO NOT DELETE) */

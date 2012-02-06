@@ -1,0 +1,358 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to 
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection. 
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.less styles.
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {}
+
+/*********************
+HEADER SYTLES
+*********************/
+
+.header {}
+
+	#logo {}
+	
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {}
+	.menu {}
+		.menu ul {}
+			.menu li {}
+				.menu li a {}
+					
+					/*
+					you can use hover styles here even though this size
+					has the possibility of bieng a mobile device.
+					*/
+					.menu li a:hover {}
+				
+					.menu li:first-child a {}
+					.menu li:last-child a {}
+					
+					/* highlight current page */
+					.menu li.current-menu-item a, 
+					.menu li.current_page_item a,
+					.menu li.current-page-ancestor a {}
+					
+					/*
+					plan your menus and drop-downs wisely.
+					*/
+					.menu .sub-menu, .menu .children {}
+						.menu .sub-menu li a {}
+							.menu .sub-menu li a:hover {}
+							.menu .sub-menu li:last-child a {}
+							
+							/* 
+							more levels
+							*/
+							.menu .sub-menu ul { }
+								.menu .sub-menu li:hover ul { }
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#content {}
+	
+		.hentry {}
+		
+		.single-title, .page-title {}
+		.single-title {}
+		.page-title {}
+		.archive_title { }
+	
+		/* want to style individual post classes? Booya! */
+		.post-id {} /* post by id (i.e. post-3) */
+		.post {} /* general post style */
+		.page {} /* general article on a page style */
+		.attachment {} /* general style on an attatchment */
+		.sticky {} /* sticky post style */
+		.hentry {} /* hentry class */
+		.category-slug {} /* style by category (i.e. category-videos) */
+		.tag-slug {} /* style by tag (i.e. tag-news) */
+	
+		/* post meta */
+		.meta {}
+			.meta time {}
+			
+		/* post content */
+		.post_content {}
+			
+			.post_content p {}
+			.post_content ul, .post_content ol, .post_content table, .post_content dl {}
+			.post_content ul, .post_content ol {}
+			.post_content li {}
+			.post_content ul li {}
+			.post_content ol li {}
+			
+			.post_content blockquote {}
+			.post_content blockquote:before {} /* this adds the quote before the blockquote */
+			
+			.post_content dl {}
+			.post_content dt {}
+			.post_content dd {}
+			
+			.post_content img {}
+			
+			/* at this larger size, we can start to align images */
+			.alignleft, img.alignleft { 
+				margin-right: 1.5em; 
+				display: inline; 
+				float: left; 
+			}
+			.alignright, img.alignright { 
+				margin-left: 1.5em; 
+				display: inline; 
+				float: right; 
+			}
+			.aligncenter, img.aligncenter { 
+				margin-right: auto; 
+				margin-left: auto; 
+				display: block; 
+				clear: both; 
+			}
+			
+			.post_content video, .post_content object {}
+			.post_content pre, .post_content code {}
+			
+			.wp-caption {}
+			.wp-caption img {}
+			.wp-caption p.wp-caption-text {}
+			
+			/* image gallery styles */
+			.gallery dl {}
+			.gallery dt {}
+			.gallery dd {}
+			.gallery dl a {}
+			.gallery dl img {}
+			.gallery-caption {}
+			
+			.size-full {}
+			.size-large {}
+			.size-medium {}
+			.size-thumbnail {}
+			
+		.hentry footer {}	
+		
+/******************************************************************
+PAGE NAVI STYLES
+******************************************************************/
+
+.page-navigation, .wp-prev-next {}
+	.bones_page_navi, .wp-prev-next ul {}
+	
+		.bones_page_navi li {} 
+			
+			.bones_page_navi li a {}
+				.bones_page_navi li a:hover {}
+		
+		/* current page link */	
+		.bones_page_navi li.bpn-current {}	
+			/* hovering on current page link */
+			.bones_page_navi li.bpn-current:hover {}
+			
+		/* common styles for page-navi links */
+		.bones_page_navi li.bpn-prev-link a, .bones_page_navi li.bpn-next-link a {}
+		.bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {} 
+		
+		/* previous link */
+		.bones_page_navi li.bpn-prev-link {} 
+			.bones_page_navi li.bpn-prev-link a {}
+				.bones_page_navi li.bpn-prev-link a:hover {}
+		
+		/* next page link */		
+		.bones_page_navi li.bpn-next-link {} 
+			.bones_page_navi li.bpn-next-link a {}
+				.bones_page_navi li.bpn-next-link a:hover {}
+				
+		/* first page link */
+		.bones_page_navi li.bpn-first-page-link {} 
+			.bones_page_navi li.bpn-first-page-link a {}
+				.bones_page_navi li.bpn-first-page-link a:hover {}
+		
+		/* last page link */
+		.bones_page_navi li.bpn-last-page-link {} 
+			.bones_page_navi li.bpn-last-page-link a {}
+				.bones_page_navi li.bpn-last-page-link a:hover {}
+	
+	/* fallback previous & next links */
+	.wp-prev-next {}
+		.wp-prev-next ul {}
+			.wp-prev-next .prev-link {}
+			.wp-prev-next .next-link {}
+
+
+/******************************************************************
+COMMENT STYLES
+******************************************************************/
+
+#comments {}/* h3 comment title */
+	#comments span {} /* number of comments span */
+	
+.comment-nav {}
+	.comment-nav ul {}
+		.comment-nav ul li {}
+		
+.commentlist {}
+	.commentlist li {}
+		.commentlist li[class*=depth-] {}
+			.commentlist li.depth-1 {}
+				.commentlist li:not(.depth-1) {}
+			.commentlist li.depth-2 {}
+			.commentlist li.depth-3 {}
+			.commentlist li.depth-4 {}
+			.commentlist li.depth-5 {}
+			.commentlist li:last-child {}
+				.commentlist li ul.children li {}
+				.commentlist li ul.children li.alt {}
+				.commentlist li ul.children li.byuser {}
+				.commentlist li ul.children li.comment {}
+				.commentlist li ul.children li.depth-1 {} /* change number for different depth */
+				.commentlist li ul.children li.bypostauthor {}
+				.commentlist li ul.children li.comment-author-admin {}
+				.commentlist li ul.children .alt {}
+				.commentlist li ul.children .odd {}
+				.commentlist li ul.children .even {}
+			.commentlist .alt {}
+			.commentlist .odd {}
+			.commentlist .even {}
+			.commentlist .parent {}
+			.commentlist .comment {}
+			.commentlist .children {}
+			.commentlist .pingback {}
+			.commentlist .bypostauthor {}
+			.commentlist .comment-author {}
+			.commentlist .comment-author-admin {}
+			.commentlist .thread-alt {}
+			.commentlist .thread-odd {}
+			.commentlist .thread-even {}	
+			
+			.commentlist .vcard { }
+				.commentlist .vcard cite.fn {}
+				.commentlist .vcard time {}
+					.commentlist .vcard time a {}
+						.commentlist .vcard time a:hover {}
+				.commentlist .vcard img.photo {}
+				.commentlist .vcard img.avatar {}
+					.commentlist .vcard cite.fn a.url {}
+				.commentlist .comment-meta {} 
+					.commentlist .comment-meta a {}
+				.commentlist .commentmetadata {}
+					.commentlist .commentmetadata a {}
+			.commentlist li .comment_content {}
+				.commentlist li .comment_content p {}
+				.commentlist li ul {}		
+				.commentlist .comment-reply-link {}
+					.commentlist a.comment-reply-link:hover {}
+
+
+/******************************************************************
+COMMENT FORM STYLES
+******************************************************************/
+
+.respond-form {}
+	#comment-form-title {}
+	
+	#cancel-comment-reply {}
+			#cancel-comment-reply a {}
+			
+	.respond-form form[method=post] {}
+		
+		.comments-logged-in-as {}
+		
+		.respond-form form[method=post] li { }
+			.respond-form form[method=post] li label, 
+			.respond-form form[method=post] li small {}
+			.respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url], .respond-form textarea {}
+			.respond-form input[type=text]:focus, .respond-form input[type=email]:focus, .respond-form input[type=url]:focus, .respond-form textarea:focus {}
+			.respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url] {}
+			
+			#allowed_tags {}
+			.respond-form textarea {}
+			#submit {}
+		
+	/* form validation */
+	.respond-form input:invalid, .respond-form textarea:invalid {}		
+	
+	/* no comments */
+	.nocomments {}			
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.sidebar {}
+
+	.widget {}
+	
+		.widgettitle {}
+		
+		.widget ul {}
+	
+		.widget li {}
+		
+			.widget li:first-child {}
+			.widget li:last-child {}
+		
+			.widget li a {}
+			
+			.widget li ul {}
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {}
+	
+	/*
+	check your menus here. do they look good?
+	do they need tweaking?
+	*/
+	.footer-links {}
+		.footer-links ul {}
+			.footer-links li {}
+				.footer-links li a {}
+					
+					/* hover styles */
+					.footer-links li a:hover {} 
+				
+				/* highlight current page */	
+				.nav li.current-menu-item a, .nav li.current_page_item a {}
+				
+				/* 
+				be careful with the depth of your menus.
+				it's very rare to have multi-depth menus in
+				the footer.
+				*/
+				.footer-links .sub-menu {}
+			
+	.attribution {}
+	

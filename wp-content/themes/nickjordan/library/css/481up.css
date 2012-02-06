@@ -1,0 +1,114 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to 
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection. 
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.less styles.
+
+******************************************************************/
+/*********************
+GENERAL STYLES
+*********************/
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+/*********************
+HEADER SYTLES
+*********************/
+/*********************
+NAVIGATION STYLES
+*********************/
+/*
+you can use hover styles here even though this size
+has the possibility of bieng a mobile device.
+*/
+/* highlight current page */
+/*
+plan your menus and drop-downs wisely.
+*/
+/* 
+more levels
+*/
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+/* want to style individual post classes? Booya! */
+/* post by id (i.e. post-3) */
+/* general post style */
+/* general article on a page style */
+/* general style on an attatchment */
+/* sticky post style */
+/* hentry class */
+/* style by category (i.e. category-videos) */
+/* style by tag (i.e. tag-news) */
+/* post meta */
+/* post content */
+/* this adds the quote before the blockquote */
+/* at this larger size, we can start to align images */
+/* line 124, ../scss/481up.scss */
+.alignleft, img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left; }
+
+/* line 129, ../scss/481up.scss */
+.alignright, img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right; }
+
+/* line 134, ../scss/481up.scss */
+.aligncenter, img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both; }
+
+/* image gallery styles */
+/******************************************************************
+PAGE NAVI STYLES
+******************************************************************/
+/* current page link */
+/* hovering on current page link */
+/* common styles for page-navi links */
+/* previous link */
+/* next page link */
+/* first page link */
+/* last page link */
+/* fallback previous & next links */
+/******************************************************************
+COMMENT STYLES
+******************************************************************/
+/* h3 comment title */
+/* number of comments span */
+/* change number for different depth */
+/******************************************************************
+COMMENT FORM STYLES
+******************************************************************/
+/* form validation */
+/* no comments */
+/*********************
+SIDEBARS & ASIDES
+*********************/
+/*********************
+FOOTER STYLES
+*********************/
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+/* hover styles */
+/* highlight current page */
+/* 
+be careful with the depth of your menus.
+it's very rare to have multi-depth menus in
+the footer.
+*/
