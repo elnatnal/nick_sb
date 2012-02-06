@@ -103,9 +103,10 @@ LAYOUT & GRID STYLES
 HEADER SYTLES
 *********************/
 
-.header {}
+.header {
+}
 
-	#logo {}
+
 	
 /*********************
 NAVIGATION STYLES
@@ -519,8 +520,34 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
-.footer {}
+.footer {
 	
+	#recent-blog-posts{
+		width:44.936170%;;
+		display:inline-block;
+	}
+	#tweet-feed{
+		width:27.914894%;
+		display:inline-block;
+		margin-left: 4.3829787%;
+	}
+	#social{
+		width:14.893617%;
+		display:inline-block;
+		margin-left: 4.3829787%;
+	}
+	.attribution {float:left;}
+	
+	nav {
+		float:right;
+	}
+	nav ul li{
+		display:inline;
+	}
+	
+	
+}
+
 	/*
 	you'll probably need to do quite a bit
 	of overriding here if you styled them for
@@ -544,5 +571,5 @@ FOOTER STYLES
 				*/
 				.footer-links .sub-menu {}
 			
-	.attribution {}
+
 	

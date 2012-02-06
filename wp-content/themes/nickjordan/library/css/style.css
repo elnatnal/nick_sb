@@ -1,29 +1,6 @@
-/******************************************************************
-Site Name: 
-Author: 
-
-Stylesheet: Main Stylesheet
-
-Here's where the magic happens. Here, you'll see we are calling in
-the seperate functions for each media query. The base mobile 
-stylesheet is called in the header, so here we're working up from 
-there. To edit the css, just find the corresponding LESS file.
-******************************************************************/
-/*
-Base.css contains the main mobile styles and is called in the 
-header. This way mobile devices get ONLY the styles that apply
-to them. No muss, no fuss.
-
-normalize.css and the mixins are also called within that base file 
-*/
-/******************************************************************
-AVERAGE VIEWING SIZE 
-This is the average viewing window. So Desktops, Laptops, and 
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
-******************************************************************/
+/* Site Name: Nick Jordan's Personal Website
+Author: Jonathan Stephens */
 @media only screen and (min-width: 481px) {
-  /* styles in 481up.scss */
   /******************************************************************
   Site Name: 
   Author: 
@@ -138,15 +115,7 @@ you can add resource intensive styles.
   it's very rare to have multi-depth menus in
   the footer.
   */ }
-/* end of media query */
-/******************************************************************
-TABLET & SMALLER LAPTOPS
-This is the average viewing window. So Desktops, Laptops, and 
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
-******************************************************************/
 @media only screen and (min-width: 768px) {
-  /* styles in 768up.scss */
   /******************************************************************
   Site Name: 
   Author: 
@@ -304,20 +273,20 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 118, ../scss/768up.scss */
+  /* line 119, ../scss/768up.scss */
   .menu ul {
     background: #eee; }
 
-  /* line 122, ../scss/768up.scss */
+  /* line 123, ../scss/768up.scss */
   .menu li {
     float: left;
     position: relative; }
 
-  /* line 126, ../scss/768up.scss */
+  /* line 127, ../scss/768up.scss */
   .menu li a {
     border-bottom: 0; }
 
-  /* line 129, ../scss/768up.scss */
+  /* line 130, ../scss/768up.scss */
   .menu li a:hover {
     background-color: #dedede; }
 
@@ -325,7 +294,7 @@ you can add resource intensive styles.
   /*
   plan your menus and drop-downs wisely.
   */
-  /* line 144, ../scss/768up.scss */
+  /* line 145, ../scss/768up.scss */
   .menu ul li ul {
     width: 200px;
     border: 1px solid #ccc;
@@ -335,12 +304,12 @@ you can add resource intensive styles.
     z-index: 8999; }
 
   /* show the dropdowns on hover */
-  /* line 154, ../scss/768up.scss */
+  /* line 155, ../scss/768up.scss */
   .menu ul li:hover ul {
     top: auto;
     display: block; }
 
-  /* line 159, ../scss/768up.scss */
+  /* line 160, ../scss/768up.scss */
   .menu ul ul li a {
     padding-left: 10px;
     border-right: 0;
@@ -348,7 +317,7 @@ you can add resource intensive styles.
     width: 180px;
     border-bottom: 1px solid #ccc; }
 
-  /* line 168, ../scss/768up.scss */
+  /* line 169, ../scss/768up.scss */
   .menu ul li:last-child a {
     border-bottom: 0; }
 
@@ -397,25 +366,25 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 400, ../scss/768up.scss */
+  /* line 401, ../scss/768up.scss */
   .sidebar {
     margin-top: 2.2em; }
 
-  /* line 404, ../scss/768up.scss */
+  /* line 405, ../scss/768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0; }
 
-  /* line 409, ../scss/768up.scss */
+  /* line 410, ../scss/768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em; }
 
-  /* line 416, ../scss/768up.scss */
+  /* line 417, ../scss/768up.scss */
   .widget li {
     margin-bottom: 0.75em; }
 
-  /* line 425, ../scss/768up.scss */
+  /* line 426, ../scss/768up.scss */
   .widget li ul {
     margin-top: 0.75em;
     padding-left: 1em; }
@@ -434,6 +403,30 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
+  /* line 525, ../scss/768up.scss */
+  .footer #recent-blog-posts {
+    width: 44.936170%;
+    display: inline-block; }
+  /* line 529, ../scss/768up.scss */
+  .footer #tweet-feed {
+    width: 27.914894%;
+    display: inline-block;
+    margin-left: 4.3829787%; }
+  /* line 534, ../scss/768up.scss */
+  .footer #social {
+    width: 14.893617%;
+    display: inline-block;
+    margin-left: 4.3829787%; }
+  /* line 539, ../scss/768up.scss */
+  .footer .attribution {
+    float: left; }
+  /* line 541, ../scss/768up.scss */
+  .footer nav {
+    float: right; }
+  /* line 544, ../scss/768up.scss */
+  .footer nav ul li {
+    display: inline; }
+
   /*
   you'll probably need to do quite a bit
   of overriding here if you styled them for
@@ -446,15 +439,7 @@ you can add resource intensive styles.
   it's very rare to have multi-depth menus in
   the footer.
   */ }
-/* end of media query */
-/******************************************************************
-DESKTOP 
-This is the average viewing window. So Desktops, Laptops, and 
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
-******************************************************************/
 @media only screen and (min-width: 992px) {
-  /* styles in 992up.scss */
   /******************************************************************
   Site Name: 
   Author: 
@@ -468,29 +453,9 @@ you can add resource intensive styles.
   come into play. Have fun!
   
   ******************************************************************/ }
-/* end of media query */
-/******************************************************************
-LARGE VIEWING SIZE 
-This is for the larger monitors and possibly full screen viewers.
-******************************************************************/
-@media only screen and (min-width: 1240px) {
-  /* styles in 1240up.scss */
-  /******************************************************************
-  Site Name: 
-  Author: 
-  
-  Stylesheet: Super Large Monitor Stylesheet
-  
-  You can add some advanced styles here if you like. This kicks in
-  on larger screens.
-  
-  ******************************************************************/ }
-/* end of media query */
-/******************************************************************
-PRINT STYLESHEET
-******************************************************************/
+/*  PRINT STYLESHEET  */
 @media print {
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -498,48 +463,48 @@ PRINT STYLESHEET
     filter: none !important;
     -ms-filter: none !important; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   thead {
     display: table-header-group; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   tr, img {
     page-break-inside: avoid; }
 
-  /* line 74, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 75, ../scss/style.scss */
+  /* line 18, ../scss/style.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 75, ../scss/style.scss */
+  /* line 18, ../scss/style.scss */
   h2, h3 {
     page-break-after: avoid; } }

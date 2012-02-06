@@ -1,23 +1,4 @@
-/*! normalize.css 2011-11-04T15:38 UTC - http://github.com/necolas/normalize.css */
-
-/* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
-/*
- * Corrects block display not defined in IE6/7/8/9 & FF3
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
     display: block;
 }
 
@@ -25,9 +6,7 @@ section {
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
 
-audio,
-canvas,
-video {
+audio, canvas, video {
     display: inline-block;
     *display: inline;
     *zoom: 1;
@@ -54,15 +33,6 @@ audio:not([controls]) {
 /* =============================================================================
    Base
    ========================================================================== */
-
-/*
- * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
- *    http://clagnut.com/blog/348/#c790
- * 2. Keeps page centred in all browsers regardless of content height
- * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
- *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
- */
-
 html {
     font-size: 100%; /* 1 */
     overflow-y: scroll; /* 2 */
@@ -82,11 +52,7 @@ body {
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
 
-body,
-button,
-input,
-select,
-textarea {
+body, button, input, select, textarea {
     font-family: sans-serif;
 }
 
@@ -430,12 +396,6 @@ table {
     border-spacing: 0;
 }
 
-/******************************************************************
-CUSTOMIZED RESET VALUES
-I added these extra styles as a more personalized reset. Feel free
-to remove them if you like or add your own. If you want to update
-the normalize styles, make sure to edit from this point up.
-******************************************************************/
 
 ul, ol {
 	padding: 0;
@@ -451,7 +411,6 @@ dd {
 	list-style: none;
 }
 
-/* proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens) */
 p { 
 	-webkit-hyphens: auto; 
 	   -moz-hyphens: auto; 
