@@ -40,9 +40,19 @@ Author: Jonathan Stephens
 			float:right;
 			margin-top:1.67em;
 			}
-	
-		
 	}
+
+
+	#bottom-header{
+		background:rgb(0,0,0) url('../images/bg-home-bottomhead.jpg') top;
+		color:#fff;
+		display:block;
+		margin-top:.7em;
+		border-bottom:2px solid $blue;
+		text-align:center;
+
+	}
+
 }
 
 body {
@@ -155,6 +165,37 @@ h5, .h5 {
 	letter-spacing: 2px; 
 }
 
+.header #bottom-header{	
+
+	section#home {
+		height:15em;		
+		h1{
+			font-size:3.2em;
+			text-shadow: 5px 5px 8px #000000;
+			filter: dropshadow(color=#000000, offx=5, offy=5);
+			margin-top:1.3em;
+			text-align:left;
+		}
+
+		h2{
+			opacity:.8;
+			text-shadow: 5px 5px 8px #000000;
+			filter: dropshadow(color=#000000, offx=5, offy=5);
+			font-size:1.5em;
+			opacity:.8;
+			margin-top:-1.8em;
+			text-align:left;
+		}
+	}
+
+	section#blog{
+		text-align:left;
+		height:5em;
+		
+		h1{margin-top:.4em;}
+	}
+}
+
 /*  HEADER SYTLES  */
 
 .header {}
@@ -228,7 +269,26 @@ h5, .h5 {
 		text-decoration:none;
 	}
 }
-	
+
+
+section#about{
+	width:100%;
+	display:block;
+	margin-top:10em;
+
+	div.left-column {
+		float:left;
+		
+		blockquote{
+			font-style:italic;
+			color:$blue;
+			font-size:1.75em;
+			line-height:1.5em;
+			margin:0;
+		}
+	}
+
+}
 		.hentry {}
 		
 		.single-title, .page-title {}
@@ -605,8 +665,9 @@ h5, .h5 {
 
 .footer {
 	clear: both;
-	background-color:rgba(255,255,255,.9);
-
+	background:rgba(255,255,255,.9) url('../images/bg-footer.png') repeat-x top;
+	padding-top:1em;
+	
 		a, a:visited, a:hover, a:active{
 		border-bottom:none;
 		}

@@ -80,7 +80,7 @@
 				
 					<nav role="navigation" class="nav">
 							<ul>
-								<li><a href="<?php site_url(); ?>/blog">Blog</a></li>
+								<li><a href="blog">Blog</a></li>
 								<li><a href="<?php site_url(); ?>#contact">Contact</a></li>
 								<li><a href="<?php site_url(); ?>#about">About</a></li>
 							</ul>
@@ -88,11 +88,22 @@
 				
 				</div> <!-- end #top-header -->
 			
-				<div id="bottom-header" class="wrap clearfix">
+				<div id="bottom-header" class="clearfix">
+							<?php if (is_front_page()) { ?>
 
+					            <section id="home" class="content clearfix">
+					            <hgroup  class="wrap banner">
+					                <h1>I'm Nick Jordan</h1>		
+									<h2>I'm a technology entrepreneur in Durham, N.C.</h2>
+					            </hgroup>
+					
+							<?php } else { ?>
 
-
-
+							<section  id="blog" class="content clearfix">
+							    <hgroup class="wrap banner">
+							        <h1>Blog</h1>		
+							    </hgroup>
+					        <?php } ?>
 
 				</div> <!-- end #bottom-header -->
 			
