@@ -171,37 +171,3 @@ BOX SHADOWS
 	background-image: -ms-linear-gradient(top, $from, $to);
 	background-image: linear-gradient(top, $from, $to);
 }
-
-/*  BUTTONS  */
-
-.button, .button:visited {
-	border: 1px solid darken($blue, 13%);
-	border-top-color: darken($blue, 7%);
-	border-left-color: darken($blue, 7%);
-	padding: 4px 12px;
-	color: $white;
-	display: inline-block;
-	font-size: 11px;
-	font-weight: bold;
-	text-decoration: none;
-	text-shadow: 0 1px rgba(0,0,0, .75);
-	cursor: pointer;
-	margin-bottom: 20px;
-	line-height: 21px;
-	@include borderRadius(4px);
-	@include css-gradient($blue,darken($blue, 5%));
-
-
-	&:hover, &:focus {
-		color: $white;
-	  	border: 1px solid darken($blue, 13%);
-	  	border-top-color: darken($blue, 20%);
-	 	border-left-color: darken($blue, 20%);
-		@include css-gradient(darken($blue, 5%),darken($blue, 10%));
-	}
-	
-	&:active {
-		@include css-gradient(darken($blue, 5%),$blue);
-	}
-		
-}

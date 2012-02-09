@@ -144,20 +144,24 @@ LAYOUT & GRID STYLES
 HEADER SYTLES
 *********************/
 /* line 99, ../scss/768up.scss */
-.header #bottom-header section#home {
+#bottom-header section#home {
   height: 40em; }
   /* line 102, ../scss/768up.scss */
-  .header #bottom-header section#home h1 {
+  #bottom-header section#home h1 {
     font-size: 8em;
     margin-top: 1.3em;
     text-align: center; }
   /* line 108, ../scss/768up.scss */
-  .header #bottom-header section#home h2 {
+  #bottom-header section#home h2 {
     opacity: .8;
-    font-size: 2em;
+    font-size: 2.8em;
     opacity: .8;
-    margin-top: -3em;
+    margin-top: -2.6em;
     text-align: center; }
+
+/* line 119, ../scss/768up.scss */
+#content.frontpage {
+  margin-top: 2.2em; }
 
 /*********************
 NAVIGATION STYLES
@@ -217,108 +221,103 @@ more levels
 POSTS & CONTENT STYLES
 *********************/
 /* line 196, ../scss/768up.scss */
-#content {
-  margin-top: 40em; }
-
-/* line 199, ../scss/768up.scss */
 section#about {
   width: 100%;
-  height: 600px;
-  display: block;
-  margin-top: -2.5em; }
-  /* line 205, ../scss/768up.scss */
+  height: 525px;
+  margin-top: 0em; }
+  /* line 201, ../scss/768up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 210, ../scss/768up.scss */
+  /* line 206, ../scss/768up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 214, ../scss/768up.scss */
+    /* line 210, ../scss/768up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 222, ../scss/768up.scss */
+    /* line 218, ../scss/768up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 228, ../scss/768up.scss */
+  /* line 224, ../scss/768up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 51px;
     margin-top: -1em; }
-    /* line 234, ../scss/768up.scss */
+    /* line 230, ../scss/768up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 235, ../scss/768up.scss */
+    /* line 231, ../scss/768up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 236, ../scss/768up.scss */
+    /* line 232, ../scss/768up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 238, ../scss/768up.scss */
+      /* line 234, ../scss/768up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
         width: 300px;
         float: left; }
-        /* line 243, ../scss/768up.scss */
+        /* line 239, ../scss/768up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 246, ../scss/768up.scss */
+      /* line 242, ../scss/768up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 267px;
         float: right; }
-        /* line 251, ../scss/768up.scss */
+        /* line 247, ../scss/768up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 257, ../scss/768up.scss */
+    /* line 253, ../scss/768up.scss */
     section#about div.right-column section.clients a.cbc {
       height: 173px;
       width: 143px;
       float: left; }
-      /* line 262, ../scss/768up.scss */
+      /* line 258, ../scss/768up.scss */
       section#about div.right-column section.clients a.cbc img {
         margin-top: 33px;
         margin-left: 22px; }
-    /* line 264, ../scss/768up.scss */
+    /* line 260, ../scss/768up.scss */
     section#about div.right-column section.clients div.client-right-column {
       width: 433px;
       float: right; }
-      /* line 267, ../scss/768up.scss */
+      /* line 263, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.groundworklabs {
         height: 87px;
         width: 433px;
         margin-bottom: 1.5em; }
-        /* line 272, ../scss/768up.scss */
+        /* line 268, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
           margin-top: 10px;
           margin-left: 56px; }
-      /* line 276, ../scss/768up.scss */
+      /* line 272, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.sony {
         height: 64px;
         width: 159px;
         float: left; }
-        /* line 281, ../scss/768up.scss */
+        /* line 277, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony img {
           margin-top: 23px;
           margin-left: 27px; }
-      /* line 284, ../scss/768up.scss */
+      /* line 280, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.alphamed {
         height: 64px;
         width: 248px;
         float: right; }
-        /* line 289, ../scss/768up.scss */
+        /* line 285, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed img {
           margin-top: 10px;
           margin-left: 18px; }
@@ -362,25 +361,25 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 511, ../scss/768up.scss */
+/* line 507, ../scss/768up.scss */
 .sidebar {
   margin-top: 2.2em; }
 
-/* line 515, ../scss/768up.scss */
+/* line 511, ../scss/768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0; }
 
-/* line 520, ../scss/768up.scss */
+/* line 516, ../scss/768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em; }
 
-/* line 527, ../scss/768up.scss */
+/* line 523, ../scss/768up.scss */
 .widget li {
   margin-bottom: 0.75em; }
 
-/* line 536, ../scss/768up.scss */
+/* line 532, ../scss/768up.scss */
 .widget li ul {
   margin-top: 0.75em;
   padding-left: 1em; }
@@ -399,27 +398,29 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 635, ../scss/768up.scss */
+/* line 631, ../scss/768up.scss */
 .footer #recent-blog-posts {
   width: 44.936170%;
-  display: inline-block; }
-/* line 639, ../scss/768up.scss */
+  display: inline-block;
+  float: left; }
+/* line 636, ../scss/768up.scss */
 .footer #tweet-feed {
   width: 27.914894%;
   display: inline-block;
   margin-left: 4.3829787%; }
-/* line 644, ../scss/768up.scss */
+/* line 641, ../scss/768up.scss */
 .footer #social {
   width: 14.893617%;
   display: inline-block;
-  margin-left: 4.3829787%; }
-/* line 649, ../scss/768up.scss */
+  margin-left: 4.3829787%;
+  float: right; }
+/* line 647, ../scss/768up.scss */
 .footer .attribution {
   float: left; }
-/* line 651, ../scss/768up.scss */
+/* line 649, ../scss/768up.scss */
 .footer nav {
   float: right; }
-/* line 654, ../scss/768up.scss */
+/* line 652, ../scss/768up.scss */
 .footer nav ul li {
   display: inline; }
 

@@ -1,13 +1,18 @@
 <?php get_header(); ?>
 			
-			<div id="content">
+			<?php if (is_front_page()) { ?>
+				<div id="content" class="frontpage">
+			<?php } else { ?>
+				<div id="content">
+	        <?php } ?>
 			
-				<div id="inner-content" class="wrap clearfix">
+		
 			
+				<div id="inner-content" class="clearfix">
+				<div class="wrap">
 					<div id="main" class="left first clearfix" role="main">
 											
 					<section id="about">
-
 						<div class="left-column">
 							<blockquote>My experience lies in business development, product strategy and growth hacking</blockquote>
 							<section>
@@ -37,48 +42,55 @@
 							</section>	
 										
 						</div>
-						
-						<footer>
-							<a href="#contact">Get in Touch</a>				
-						</footer>
 					</section> 
-					
+					</div>
+					</div>
 					
 					<section id="contact">
-						
+						<div class="wrap">
 						<header>
 							<hgroup>
 								<h1 class="contact-title" itemprop="headline">Contact Information</h1>	
 								<h2 class="subhead">If you are interested in working together, in one way or another, please find and connect with me.</h2>	
 							</hgroup>				
 						</header>
-						
-						<div class="twitter">
+						<ul>
+							<li>
+								<div class="twitter">
+									<a href="http://twitter.com/nick_sb/">Twitter</a>
+								</div>
+							</li>
 							
-						</div>
+							<li>
+								<div class="facebook">
+									<a href="http://facebook.com/nickjordan99/">Facebook</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="linkedin">
+									<a href="http://www.linkedin.com/profile/view?id=20902507&trk=tab_pro  ">LinkedIn</a>
+								</div>
+							</li>
 
-						<div class="facebook">
-
-						</div>
-
-						<div class="linkedin">
-
-						</div>
-
-						<div class="skype">
-
-						</div>
-						
-						<div class="mail">
-
-						</div>
-
+							<li>
+								<div class="skype">
+									<a href="skype:nick.jordan.1?call">Skype</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="mail">
+									<a href="mailto:nick@smashingboxes.com">Mail</a>
+								</div>
+							</li>
+						</ul>
 
 						<footer>			
 						</footer> <!-- end article footer -->
 										
 					</section>
-					
+					</div>
 					</div> <!-- end #main -->
     			    			
     			</div> <!-- #inner-content -->

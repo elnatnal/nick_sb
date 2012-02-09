@@ -30,8 +30,8 @@
 		<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write(unescape('%3Cscript src="<?php echo get_template_directory_uri(); ?>/library/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
-		<script lang="javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.tweet.js" media="all" rel="stylesheet" type="text/css"/>
-		
+		<script lang="javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.tweet.js" media="all" rel="stylesheet" type="text/js"/></script>
+
 		<!-- modernizr (without media query polyfill) -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.full.min.js"></script>
 		
@@ -45,7 +45,7 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/style.css" media="(min-width:481px)">	
 		<link href="<?php echo get_template_directory_uri(); ?>/library/css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
 		
-		<script type="text/javascript">
+<!--		<script type="text/javascript">
       jQuery(function($){
         $(".tweet").tweet({
           join_text: "auto",
@@ -60,7 +60,8 @@
           loading_text: "loading tweets..."
         });
       });
-</script>
+</script>		
+-->
 		
 		<!-- load all styles for IE -->
 		<!--[if (lt IE 9) & (!IEMobile)]>
@@ -70,42 +71,41 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-	
-		<div id="container">
-			
-			<header role="banner" class="header">
-			
+			<header role="banner" class="header fixed">
 				<div id="top-header" class="wrap clearfix">
 					<h1 id="logo" class="h1 clearfix"><a href="<?php echo site_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
 				
 					<nav role="navigation" class="nav">
 							<ul>
-								<li><a href="blog">Blog</a></li>
-								<li><a href="<?php site_url(); ?>#contact">Contact</a></li>
-								<li><a href="<?php site_url(); ?>#about">About</a></li>
+								<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+								<li><a class="scc" href="<?php site_url(); ?>#contact">Contact</a></li>
+								<li><a class="sca" href="<?php site_url(); ?>#about">About</a></li>
 							</ul>
 					</nav>										
-				
-				</div> <!-- end #top-header -->
+				</div>
+			</header>
+				<!-- end #top-header -->
 			
-				<div id="bottom-header" class="clearfix">
-							<?php if (is_front_page()) { ?>
+			<div id="bottom-header" class="clearfix">
+					<?php if (is_front_page()) { ?>
 
-					            <section id="home" class="content clearfix">
-					            <hgroup  class="wrap banner">
-					                <h1>I'm Nick Jordan</h1>		
-									<h2>I'm a technology entrepreneur in Durham, N.C.</h2>
-					            </hgroup>
-					
-							<?php } else { ?>
+			            <section id="home" class="content clearfix">
+			            <hgroup  class="wrap banner">
+			                <h1>I'm Nick Jordan</h1>		
+							<h2>I'm a technology entrepreneur in Durham, N.C.</h2>
+			            </hgroup>
+				
+					<?php } else { ?>
 
-							<section  id="blog" class="content clearfix">
-							    <hgroup class="wrap banner">
-							        <h1>Blog</h1>		
-							    </hgroup>
-					        <?php } ?>
-
-				</div> <!-- end #bottom-header -->
+					<section  id="blog" class="content clearfix">
+				    	<hgroup class="wrap banner">
+					        <h1>Blog</h1>		
+					    </hgroup>
+			        <?php } ?>
+			</div> <!-- end #bottom-header -->
 			
 			
 			</header> <!-- end header -->
+		
+		<div id="container">
+		

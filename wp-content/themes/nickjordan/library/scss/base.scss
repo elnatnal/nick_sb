@@ -14,7 +14,17 @@ Author: Jonathan Stephens
 
 .header {
 	background:url('../images/bg-tophead.png') repeat-x;
-	height:100px;
+	height:79px;
+	margin-bottom:-42px;
+	position:fixed;
+	width:100%;
+	margin-top:-12px;
+	z-index:4242;
+	display:block;
+
+	#top-header{
+		background:#fff;
+	}
 	
 	a, a:visited{
 		border-bottom:none;
@@ -41,19 +51,46 @@ Author: Jonathan Stephens
 			margin-top:1.67em;
 			}
 	}
-
-
-	#bottom-header{
-		background:rgb(0,0,0) url('../images/bg-home-bottomhead.jpg') top;
-		color:#fff;
-		display:block;
-		margin-top:.7em;
-		border-bottom:2px solid $blue;
-		text-align:center;
-
-	}
+}
+#bottom-header{
+	background:rgb(0,0,0) url('../images/bg-home-bottomhead.jpg') top;
+	color:#fff;
+	display:block;
+	margin-top:.7em;
+	border-bottom:2px solid $blue;
+	text-align:center;
 
 }
+
+section#contact {
+	background:rgb(0,0,0) url('../images/bg-contact.jpg') top;
+	display:inline-block;
+	width:100%;
+	height:415px;
+	margin-bottom:-15px;
+	border-top:2px solid $blue;
+	z-index:-10;
+	color:#fff;
+	
+	h1{
+		text-transform:uppercase;
+		font-size:5.32em;
+		font-weight:bold;
+		margin-top:0.3em;
+		opacity:.9;
+		text-shadow: 5px 5px 8px #000000;
+		filter: dropshadow(color=#000000, offx=5, offy=5);
+	}
+	h2{
+		font-size:1.53em;
+		font-style:italic;
+		opacity:.9;
+		margin-top:-3.3em;
+		text-shadow: 5px 5px 8px #000000;
+		filter: dropshadow(color=#000000, offx=5, offy=5);
+	}
+}
+
 
 body {
 	font: 14px/21px $serif;
@@ -165,7 +202,7 @@ h5, .h5 {
 	letter-spacing: 2px; 
 }
 
-.header #bottom-header{	
+#bottom-header{	
 
 	section#home {
 		height:15em;		
@@ -191,6 +228,7 @@ h5, .h5 {
 	section#blog{
 		text-align:left;
 		height:5em;
+		margin-top:25px;
 		
 		h1{margin-top:.4em;}
 	}
@@ -262,9 +300,7 @@ h5, .h5 {
 
 /*  POSTS & CONTENT STYLES  */
 
-#content { 
-	margin-top: 2.2em; 
-	
+#content { 	
 	a{
 		text-decoration:none;
 	}
@@ -274,7 +310,8 @@ h5, .h5 {
 section#about{
 	width:100%;
 	display:block;
-	margin-top:10em;
+	margin-top:1em;
+	background-color:#fff;
 
 	div.left-column {
 		float:left;
@@ -288,6 +325,95 @@ section#about{
 		}
 	}
 
+}
+
+
+section#contact{
+
+	
+	ul li{
+		display:inline-block;
+		margin-left:1.35em;
+		margin-top:2em;
+	
+	
+		div.twitter {			
+			a, a:visited{
+				display:block;
+				background:url('../images/backup-twitter.png') no-repeat;
+				z-index:-42;
+				height:166px;
+				width:166px;
+				text-indent:99999999999%;
+				border:none;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-twitter-hvr.png');
+			}
+		}
+
+		div.facebook {			
+			a, a:visited{
+				display:block;
+				background:url('../images/backup-facebook.png') no-repeat;
+				z-index:-42;
+				height:169px;
+				width:169px;
+				text-indent:99999999999%;
+				border:none;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-facebook-hvr.png');
+			}
+		}
+		
+		div.linkedin {			
+			a, a:visited{
+				display:block;
+				background:url('../images/backup-linkedin.png') no-repeat;
+				z-index:-42;
+				height:168px;
+				width:171px;
+				text-indent:99999999999%;
+				border:none;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-linkedin-hvr.png');
+			}
+		}
+		
+		div.skype {			
+			a, a:visited{
+				display:block;
+				background:url('../images/backup-skype.png') no-repeat;
+				z-index:-42;
+				height:165px;
+				width:166px;
+				text-indent:99999999999%;
+				border:none;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-skype-hvr.png');
+			}
+		}
+		
+		div.mail {			
+			a, a:visited{
+				display:block;
+				background:url('../images/backup-mail.png') no-repeat;
+				z-index:-42;
+				height:160px;
+				width:171px;
+				text-indent:99999999999%;
+				border:none;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-mail-hvr.png');
+			}
+		}
+	}
+	
+	
 }
 		.hentry {}
 		
@@ -665,20 +791,50 @@ section#about{
 
 .footer {
 	clear: both;
+	z-index:100;
 	background:rgba(255,255,255,.9) url('../images/bg-footer.png') repeat-x top;
 	padding-top:1em;
 	
-		a, a:visited, a:hover, a:active{
-		border-bottom:none;
-		}
-		
-		nav ul li{padding-left: 5%;}
-		
 		h4{
 			font:1em/1.5em $serif-caps;
 			text-transform:uppercase;
+			margin-bottom:0;
+			font-weight:bold;
 		}
+		
+		a, a:visited{
+			border:none;
+			color:$blue;
+			margin-bottom:-1em;
+		}
+
+		a:hover, a:active{
+			color:$black;
+		}
+
+		p{margin-top:0.1em;}
+		
+		nav ul li{
+			margin-left:2em;}
+
+		nav ul li{
+			a.twitter{
+margin-left:2em;
+			}
+			
+		}
+		
+		
+		p.button {
+			float:right;
+			font-weight:200;
+			font-style:italic;
+		}
+		
+
+
 }
+
 	.footer-links {}
 		.footer-links ul {}
 			.footer-links li {}
@@ -694,4 +850,6 @@ section#about{
 				.footer-links .sub-menu {}
 			
 	.attribution {}
-	
+
+::selection{background-color:$blue; color:#fff;}
+::-moz-selection{background-color:$blue; color:#fff;}
