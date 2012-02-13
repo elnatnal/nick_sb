@@ -29,7 +29,11 @@
 			
 					<div id="tweet-feed">
 						<h4>Recent Tweets</h4>
-						<div class="tweet"></div>
+						<div class="recent-tweets">
+							<ul id="twitter_update_list">
+								<li>&nbsp;</li>
+							</ul>
+						</div>					
 					</div>
 				
 				
@@ -50,8 +54,8 @@
 					<nav>
 						<ul>
 							<li><a href="<?php site_url(); ?>">Home</a></li>
-							<li><a href="<?php site_url(); ?>#about">About</a></li>
-							<li><a href="<?php site_url(); ?>#contact">Contact</a></li>
+							<li><a class="scc" href="<?php site_url(); ?>#about">About</a></li>
+							<li><a class="sca" href="<?php site_url(); ?>#contact">Contact</a></li>
 							<li><a href="<?php site_url(); ?>/blog">Blog</a></li>
 						</ul>
 					</nav>
@@ -64,6 +68,8 @@
 		<!-- scripts are now optimized via Modernizr.load -->	
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/scripts.js"></script>
 		<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+		<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+		<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/nick_sb.json?callback=twitterCallback2&count=3"></script>
 		<!-- prompt for Google Chrome Frame for IE6 users -->
 		<!--[if lt IE 7 ]>
   			<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
@@ -72,7 +78,7 @@
 		
 	        <script type="text/javascript">
 	            $(document).ready(function(){
-	                $("header nav a.scc, header nav a.sca").click(function(e) {
+	                $("a.scc, a.sca").click(function(e) {
 					  e.preventDefault();
 
 					  var target = $(this).attr("href");

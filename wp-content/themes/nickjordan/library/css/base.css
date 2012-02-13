@@ -1166,15 +1166,31 @@ but it's up to you. Feel free to change it up.
     font-weight: 200;
     font-style: italic; }
 
+/* line 836, ../scss/base.scss */
+footer #tweet-feed ul {
+  margin-top: -0.5em; }
+/* line 837, ../scss/base.scss */
+footer #tweet-feed li {
+  margin-top: .5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #19c7db; }
+
+/* line 843, ../scss/base.scss */
+hr {
+  color: #19c7db;
+  background-color: #19c7db;
+  border: none;
+  height: 1px; }
+
 /* remember, no hover in mobile */
 /* highlight current page */
 /* be careful with the depth of your menus */
-/* line 854, ../scss/base.scss */
+/* line 861, ../scss/base.scss */
 ::selection {
   background-color: #19c7db;
   color: #fff; }
 
-/* line 855, ../scss/base.scss */
+/* line 862, ../scss/base.scss */
 ::-moz-selection {
   background-color: #19c7db;
   color: #fff; }

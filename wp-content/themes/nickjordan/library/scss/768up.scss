@@ -290,6 +290,23 @@ POSTS & CONTENT STYLES
 	}
 	
 	
+#main{
+	header h1.h2{
+		width:78%;
+		float:left;
+	}
+
+	p.meta{
+		float:left;
+		width:12%;
+	}
+	
+	section.post_content{
+		width:60%;
+		float:right;
+	}
+}
+	
 		.hentry {}
 		
 		.single-title, .page-title {}
@@ -637,13 +654,17 @@ FOOTER STYLES
 		width:27.914894%;
 		display:inline-block;
 		margin-left: 4.3829787%;
+		float:left;
 	}
 	#social{
 		width:14.893617%;
 		display:inline-block;
 		margin-left: 4.3829787%;
 		float:right;
+		
+		h4 {margin-bottom:-1em;}
 	}
+
 	.attribution {float:left;}
 	
 	nav {

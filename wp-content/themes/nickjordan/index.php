@@ -4,17 +4,15 @@
 			
 				<div id="inner-content" class="wrap clearfix">
 			
-					<div id="main" class="col620 left first clearfix" role="main">
+					<div id="main" class="clearfix" role="main">
 					
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-							
 							<header>
+								<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1><br />
 								
-								<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-								
-								<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
+								<p class="meta"><time datetime="<?php echo the_time('j-m-y'); ?>" pubdate></time> <?php _e("Tagged", "bonestheme"); ?> <?php the_tags(', '); ?>.</p>
 							
 							</header> <!-- end article header -->
 						
@@ -65,7 +63,7 @@
 					
 					</div> <!-- end #main -->
     				
-					<?php get_sidebar(); // sidebar 1 ?>
+			<!--		<?php get_sidebar(); // sidebar 1 ?> -->
 					
 				</div> <!-- end #inner-content -->
     

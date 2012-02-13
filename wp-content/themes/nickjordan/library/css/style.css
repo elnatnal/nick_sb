@@ -440,6 +440,19 @@ Author: Jonathan Stephens */
             margin-top: 10px;
             margin-left: 18px; }
 
+  /* line 294, ../scss/768up.scss */
+  #main header h1.h2 {
+    width: 78%;
+    float: left; }
+  /* line 299, ../scss/768up.scss */
+  #main p.meta {
+    float: left;
+    width: 12%; }
+  /* line 304, ../scss/768up.scss */
+  #main section.post_content {
+    width: 60%;
+    float: right; }
+
   /* want to style individual post classes? Booya! */
   /* post by id (i.e. post-3) */
   /* general post style */
@@ -479,25 +492,25 @@ Author: Jonathan Stephens */
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 507, ../scss/768up.scss */
+  /* line 524, ../scss/768up.scss */
   .sidebar {
     margin-top: 2.2em; }
 
-  /* line 511, ../scss/768up.scss */
+  /* line 528, ../scss/768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0; }
 
-  /* line 516, ../scss/768up.scss */
+  /* line 533, ../scss/768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em; }
 
-  /* line 523, ../scss/768up.scss */
+  /* line 540, ../scss/768up.scss */
   .widget li {
     margin-bottom: 0.75em; }
 
-  /* line 532, ../scss/768up.scss */
+  /* line 549, ../scss/768up.scss */
   .widget li ul {
     margin-top: 0.75em;
     padding-left: 1em; }
@@ -516,29 +529,33 @@ Author: Jonathan Stephens */
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 631, ../scss/768up.scss */
+  /* line 648, ../scss/768up.scss */
   .footer #recent-blog-posts {
     width: 44.936170%;
     display: inline-block;
     float: left; }
-  /* line 636, ../scss/768up.scss */
+  /* line 653, ../scss/768up.scss */
   .footer #tweet-feed {
     width: 27.914894%;
     display: inline-block;
-    margin-left: 4.3829787%; }
-  /* line 641, ../scss/768up.scss */
+    margin-left: 4.3829787%;
+    float: left; }
+  /* line 659, ../scss/768up.scss */
   .footer #social {
     width: 14.893617%;
     display: inline-block;
     margin-left: 4.3829787%;
     float: right; }
-  /* line 647, ../scss/768up.scss */
+    /* line 665, ../scss/768up.scss */
+    .footer #social h4 {
+      margin-bottom: -1em; }
+  /* line 668, ../scss/768up.scss */
   .footer .attribution {
     float: left; }
-  /* line 649, ../scss/768up.scss */
+  /* line 670, ../scss/768up.scss */
   .footer nav {
     float: right; }
-  /* line 652, ../scss/768up.scss */
+  /* line 673, ../scss/768up.scss */
   .footer nav ul li {
     display: inline; }
 

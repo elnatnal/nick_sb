@@ -830,10 +830,17 @@ margin-left:2em;
 			font-weight:200;
 			font-style:italic;
 		}
-		
-
-
 }
+
+footer #tweet-feed{
+	ul{margin-top:-.5em;}
+	li{
+		margin-top:.5em;
+		padding-bottom:.5em;
+		border-bottom:1px solid $blue;
+	}
+}
+hr{color:$blue;background-color:$blue;border:none;height:1px;}
 
 	.footer-links {}
 		.footer-links ul {}
