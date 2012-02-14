@@ -288,25 +288,48 @@ POSTS & CONTENT STYLES
 				}
 		}
 	}
-	
+
+p{font-size:1.05em;
+	line-height:1.75em;}
+section.post_excerpt, section.post_content{margin-top:-1em; margin-left:7em;}
+
+h1.h2 a{
+	border:none;}
 	
 #main{
+	width:82.404255%;
+	float:left;
+	
 	header h1.h2{
-		width:78%;
+		width:100%;
 		float:left;
+		margin-bottom:0;
 	}
 
 	p.meta{
-		float:left;
-		width:12%;
+		width:100%;
+		margin-top:-.5em;
 	}
 	
+	section.post_excerpt{
+		width:80%;		
+	}
 	section.post_content{
-		width:60%;
-		float:right;
+		width:80%;
 	}
-}
 	
+	ul{
+		list-style-type:disc;
+	}
+	
+	ol{
+		list-style-type:decimal;
+	}
+	ul, ol{
+		margin-left:-.18em;
+	}
+
+}
 		.hentry {}
 		
 		.single-title, .page-title {}
@@ -523,7 +546,8 @@ SIDEBARS & ASIDES
 
 .sidebar {
 	margin-top: 2.2em;
-}
+	width:16.404255%;
+	float:right;}
 
 	.widget {
 		padding: 0 10px;

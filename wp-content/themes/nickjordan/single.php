@@ -11,12 +11,12 @@
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 						
 						<header>
+							<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1><br>
 							
-							<h1 class="single-title" itemprop="headline"><?php the_title(); ?></h1>
-							
-							<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
+							<p class="meta"><time datetime="<?php echo the_time('j-m-y'); ?>" pubdate><?php echo the_time('j F y'); ?></time> &ensp;<?php the_tags(('|&ensp;Tags: '), ', ', ''); ?>
+							</p>
 						
-						</header> <!-- end article header -->
+						</header><!-- end article header -->
 					
 						<section class="post_content clearfix" itemprop="articleBody">
 							<?php the_content(); ?>
@@ -25,8 +25,6 @@
 						</section> <!-- end article section -->
 						
 						<footer>
-			
-							<?php the_tags('<p class="tags"><span class="tags-title">Tags:</span> ', ', ', '</p>'); ?>
 							
 						</footer> <!-- end article footer -->
 						
@@ -53,7 +51,7 @@
 					
 					</div> <!-- end #main -->
     				
-					<?php get_sidebar(); // sidebar 1 ?>
+ 					<?php get_sidebar(); // sidebar 1 ?>
     			
     			</div> <!-- #inner-content -->
     			

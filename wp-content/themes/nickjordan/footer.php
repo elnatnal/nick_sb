@@ -15,7 +15,7 @@
 						    if( $my_query->have_posts() ) {
 						      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 						      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-						<p><?php echo substr(get_the_excerpt(), 0,140); ?></p>
+						<p><?php echo substr(get_the_excerpt(), 0,140); ?><a href="<?php the_permalink() ?>">...</a></p>
 							<hr />
 						       <?php
 						      endwhile;

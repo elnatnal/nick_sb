@@ -459,18 +459,48 @@ section#about {
           margin-top: 10px;
           margin-left: 18px; }
 
+/* line 292, ../scss/768up.scss */
+p {
+  font-size: 1.05em;
+  line-height: 1.75em; }
+
 /* line 294, ../scss/768up.scss */
-#main header h1.h2 {
-  width: 78%;
-  float: left; }
+section.post_excerpt, section.post_content {
+  margin-top: -1em;
+  margin-left: 7em; }
+
+/* line 296, ../scss/768up.scss */
+h1.h2 a {
+  border: none; }
+
 /* line 299, ../scss/768up.scss */
-#main p.meta {
-  float: left;
-  width: 12%; }
-/* line 304, ../scss/768up.scss */
-#main section.post_content {
-  width: 60%;
-  float: right; }
+#main {
+  width: 82.404255%;
+  float: left; }
+  /* line 303, ../scss/768up.scss */
+  #main header h1.h2 {
+    width: 100%;
+    float: left;
+    margin-bottom: 0; }
+  /* line 309, ../scss/768up.scss */
+  #main p.meta {
+    width: 100%;
+    margin-top: -0.5em; }
+  /* line 314, ../scss/768up.scss */
+  #main section.post_excerpt {
+    width: 80%; }
+  /* line 317, ../scss/768up.scss */
+  #main section.post_content {
+    width: 80%; }
+  /* line 321, ../scss/768up.scss */
+  #main ul {
+    list-style-type: disc; }
+  /* line 325, ../scss/768up.scss */
+  #main ol {
+    list-style-type: decimal; }
+  /* line 328, ../scss/768up.scss */
+  #main ul, #main ol {
+    margin-left: -0.18em; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -511,25 +541,27 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 524, ../scss/768up.scss */
+/* line 547, ../scss/768up.scss */
 .sidebar {
-  margin-top: 2.2em; }
+  margin-top: 2.2em;
+  width: 16.404255%;
+  float: right; }
 
-/* line 528, ../scss/768up.scss */
+/* line 552, ../scss/768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0; }
 
-/* line 533, ../scss/768up.scss */
+/* line 557, ../scss/768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em; }
 
-/* line 540, ../scss/768up.scss */
+/* line 564, ../scss/768up.scss */
 .widget li {
   margin-bottom: 0.75em; }
 
-/* line 549, ../scss/768up.scss */
+/* line 573, ../scss/768up.scss */
 .widget li ul {
   margin-top: 0.75em;
   padding-left: 1em; }
@@ -548,33 +580,33 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 648, ../scss/768up.scss */
+/* line 672, ../scss/768up.scss */
 .footer #recent-blog-posts {
   width: 44.936170%;
   display: inline-block;
   float: left; }
-/* line 653, ../scss/768up.scss */
+/* line 677, ../scss/768up.scss */
 .footer #tweet-feed {
   width: 27.914894%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: left; }
-/* line 659, ../scss/768up.scss */
+/* line 683, ../scss/768up.scss */
 .footer #social {
   width: 14.893617%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: right; }
-  /* line 665, ../scss/768up.scss */
+  /* line 689, ../scss/768up.scss */
   .footer #social h4 {
     margin-bottom: -1em; }
-/* line 668, ../scss/768up.scss */
+/* line 692, ../scss/768up.scss */
 .footer .attribution {
   float: left; }
-/* line 670, ../scss/768up.scss */
+/* line 694, ../scss/768up.scss */
 .footer nav {
   float: right; }
-/* line 673, ../scss/768up.scss */
+/* line 697, ../scss/768up.scss */
 .footer nav ul li {
   display: inline; }
 

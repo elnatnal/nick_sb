@@ -34,29 +34,25 @@
 					
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						
-						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-							
-							<header>
-								
-								<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-								
-								<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
-							
-							</header> <!-- end article header -->
-						
-							<section class="post_content">
-							
-								<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-							
-								<?php the_excerpt(); ?>
-						
-							</section> <!-- end article section -->
-							
-							<footer>
-								
-							</footer> <!-- end article footer -->
-						
-						</article> <!-- end article -->
+							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
+								<header>
+									<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1><br>
+
+									<p class="meta"><time datetime="<?php echo the_time('j-m-y'); ?>" pubdate><?php echo the_time('j F y'); ?></time> &ensp;<?php the_category(('|&ensp;Categories: '), ', ', ''); ?><?php the_tags(('|&ensp;Tags: '), ', ', ''); ?>
+									</p>
+
+								</header> <!-- end article header -->
+
+								<section class="post_excerpt clearfix">
+									<?php the_excerpt(); ?>
+
+								</section> <!-- end article section -->
+
+								<footer>
+
+								</footer> <!-- end article footer -->
+
+							</article> <!-- end article -->
 						
 						<?php endwhile; ?>	
 						

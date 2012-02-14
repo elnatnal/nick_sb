@@ -21,13 +21,6 @@ The comments page for Bones
 <?php if ( have_comments() ) : ?>
 	
 	<h3 id="comments" class="h2"><?php comments_number('<span>No</span> Responses', '<span>One</span> Response', '<span>%</span> Responses' );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
-
-	<nav id="comment-nav">
-		<ul class="clearfix">
-	  		<li><?php previous_comments_link() ?></li>
-	  		<li><?php next_comments_link() ?></li>
-	 	</ul>
-	</nav>
 	
 	<ol class="commentlist">
 		<?php wp_list_comments('type=comment&callback=bones_comments'); ?>

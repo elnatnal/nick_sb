@@ -10,21 +10,20 @@
 						
 						<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 							<header>
-								<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1><br />
+								<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1><br>
 								
-								<p class="meta"><time datetime="<?php echo the_time('j-m-y'); ?>" pubdate></time> <?php _e("Tagged", "bonestheme"); ?> <?php the_tags(', '); ?>.</p>
+								<p class="meta"><time datetime="<?php echo the_time('j-m-y'); ?>" pubdate><?php echo the_time('j F y'); ?></time> &ensp;<?php the_category(('|&ensp;Categories: '), ', ', ''); ?><?php the_tags(('|&ensp;Tags: '), ', ', ''); ?>
+								</p>
 							
 							</header> <!-- end article header -->
 						
-							<section class="post_content clearfix">
-								<?php the_content(_e('<span class="read-more">Read more on "'.the_title('', '', false).'" &raquo;</span>', "bonestheme")); ?>
+							<section class="post_excerpt clearfix">
+								<?php the_excerpt(); ?>
 						
 							</section> <!-- end article section -->
 							
 							<footer>
-					
-								<p class="tags"><?php the_tags('<span class="tags-title">Tags:</span> ', ', ', ''); ?></p>
-								
+													
 							</footer> <!-- end article footer -->
 						
 						</article> <!-- end article -->
@@ -38,7 +37,7 @@
 							<?php page_navi(); // use the page navi function ?>
 							
 						<?php } else { // if it is disabled, display regular wp prev & next links ?>
-							<nav class="wp-prev-next">
+							<nav class="blog-pagination">
 								<ul class="clearfix">
 									<li class="prev-link"><?php next_posts_link(_e('&laquo; Older Entries', "bonestheme")) ?></li>
 									<li class="next-link"><?php previous_posts_link(_e('Newer Entries &raquo;', "bonestheme")) ?></li>
@@ -63,7 +62,7 @@
 					
 					</div> <!-- end #main -->
     				
-			<!--		<?php get_sidebar(); // sidebar 1 ?> -->
+					<?php get_sidebar(); // sidebar 1 ?> 
 					
 				</div> <!-- end #inner-content -->
     

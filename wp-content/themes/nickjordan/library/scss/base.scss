@@ -26,13 +26,10 @@ Author: Jonathan Stephens
 		background:#fff;
 	}
 	
-	a, a:visited{
+	a, a:visited, a:hover, a:active{
 		border-bottom:none;
 	}
 	
-	a:hover, a:active{
-		border-bottom:2px solid $blue;
-	}
 
 	#logo {
 		font-weight:600;
@@ -152,7 +149,7 @@ a, a:visited {
 	text-decoration:none;
 }
 a:hover, a:focus { 
-	color: $black;
+	color: $blue;
 	border-bottom:2px solid $blue; 
 }
 a:active {} /* on click */
@@ -435,11 +432,16 @@ section#contact{
 		/* post meta */
 		.meta {
 			color: #999;
+			margin-top:-1.5em;
 		}
 			.meta time {}
 			
 		/* post content */
-		.post_content {}
+		.post_content {
+			.single-post{
+				width:100%;
+			}
+		}
 			
 			.post_content p {}
 			.post_content ul, .post_content ol, .post_content table, .post_content dl {}
@@ -448,7 +450,18 @@ section#contact{
 			.post_content ul li {}
 			.post_content ol li {}
 			
-			.post_content blockquote {}
+			.post_content blockquote {
+				font-style:italic;
+				border-left:2px solid $blue;
+				padding-left:1.15em;
+			}
+			
+			cite{
+				margin-left:3.95em;
+				color:$blue;}
+			cite a, cite a:visited, cite a:hover, cite a:active{
+				border:none;
+			}
 			.post_content blockquote:before {} /* this adds the quote before the blockquote */
 			
 			.post_content dl {}
@@ -518,9 +531,10 @@ section#contact{
 .page-navigation, .wp-prev-next { 
 	margin: 1.1em 0 2.2em; 
 }
-	.bones_page_navi, .wp-prev-next ul {}
+	.bones_page_navi, .wp-prev-next ul {list-style:none;}
 	
 		.bones_page_navi li { 
+			list-style:none;
 			float: left; 
 			margin-left: 10px; 
 			} 
@@ -539,7 +553,7 @@ section#contact{
 		/* current page link */	
 		.bones_page_navi li.bpn-current { 
 			padding: 3px 6px; 
-			border-bottom: 2px solid #f01d4f; 
+			border-bottom: 2px solid $black; 
 			position: relative; 
 		}	
 			/* hovering on current page link */
@@ -548,6 +562,7 @@ section#contact{
 		/* common styles for page-navi links */
 		.bones_page_navi li.bpn-prev-link a, .bones_page_navi li.bpn-next-link a {
 			padding: 0;
+			padding-top:.45em;
 		}
 		.bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {
 			background: none;
@@ -769,8 +784,8 @@ section#contact{
 	
 /*  SIDEBARS & ASIDES  */
 
-.sidebar {}
-
+.sidebar {opacity:.5;}
+.sidebar:hover, .sidebar:active{opacity:.9;}
 	.widget {}
 	
 		.widgettitle {}
