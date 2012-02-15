@@ -164,23 +164,36 @@ HEADER SYTLES
 #content.frontpage {
   margin-top: 2.2em; }
 
+/* line 118, ../scss/768up.scss */
+section#contact {
+  width: 100%;
+  height: 415px;
+  margin-bottom: -15px; }
+  /* line 123, ../scss/768up.scss */
+  section#contact h1 {
+    font-size: 5.32em;
+    margin-top: 0.3em; }
+  /* line 127, ../scss/768up.scss */
+  section#contact h2 {
+    font-size: 1.53em; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 127, ../scss/768up.scss */
+/* line 142, ../scss/768up.scss */
 .menu ul {
   background: #eee; }
 
-/* line 131, ../scss/768up.scss */
+/* line 146, ../scss/768up.scss */
 .menu li {
   float: left;
   position: relative; }
 
-/* line 135, ../scss/768up.scss */
+/* line 150, ../scss/768up.scss */
 .menu li a {
   border-bottom: 0; }
 
-/* line 138, ../scss/768up.scss */
+/* line 153, ../scss/768up.scss */
 .menu li a:hover {
   background-color: #dedede; }
 
@@ -188,7 +201,7 @@ NAVIGATION STYLES
 /*
 plan your menus and drop-downs wisely.
 */
-/* line 153, ../scss/768up.scss */
+/* line 168, ../scss/768up.scss */
 .menu ul li ul {
   width: 200px;
   border: 1px solid #ccc;
@@ -198,12 +211,12 @@ plan your menus and drop-downs wisely.
   z-index: 8999; }
 
 /* show the dropdowns on hover */
-/* line 163, ../scss/768up.scss */
+/* line 178, ../scss/768up.scss */
 .menu ul li:hover ul {
   top: auto;
   display: block; }
 
-/* line 168, ../scss/768up.scss */
+/* line 183, ../scss/768up.scss */
 .menu ul ul li a {
   padding-left: 10px;
   border-right: 0;
@@ -211,7 +224,7 @@ plan your menus and drop-downs wisely.
   width: 180px;
   border-bottom: 1px solid #ccc; }
 
-/* line 177, ../scss/768up.scss */
+/* line 192, ../scss/768up.scss */
 .menu ul li:last-child a {
   border-bottom: 0; }
 
@@ -221,147 +234,143 @@ more levels
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 193, ../scss/768up.scss */
+/* line 208, ../scss/768up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 198, ../scss/768up.scss */
+  /* line 213, ../scss/768up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 203, ../scss/768up.scss */
+  /* line 218, ../scss/768up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 207, ../scss/768up.scss */
+    /* line 222, ../scss/768up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 215, ../scss/768up.scss */
+    /* line 230, ../scss/768up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 221, ../scss/768up.scss */
+  /* line 236, ../scss/768up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 40px;
     margin-top: -1em; }
-    /* line 227, ../scss/768up.scss */
+    /* line 242, ../scss/768up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 228, ../scss/768up.scss */
+    /* line 243, ../scss/768up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 229, ../scss/768up.scss */
+    /* line 244, ../scss/768up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 232, ../scss/768up.scss */
+      /* line 247, ../scss/768up.scss */
       section#about div.right-column section.startups a.smashingboxes {
-        height: 158px;
-        width: 300px;
+        height: 63px;
+        width: 430px;
         float: left; }
-        /* line 237, ../scss/768up.scss */
+        /* line 252, ../scss/768up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
-          margin-top: 66px;
-          margin-left: 22px; }
-      /* line 240, ../scss/768up.scss */
+          margin-top: 19px;
+          margin-left: 82px; }
+      /* line 255, ../scss/768up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
-        width: 267px;
-        float: right; }
-        /* line 245, ../scss/768up.scss */
+        width: 429px;
+        margin-top: 5.4em; }
+        /* line 260, ../scss/768up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
-          margin-left: 46px; }
-    /* line 251, ../scss/768up.scss */
-    section#about div.right-column section.clients a.cbc {
-      height: 173px;
-      width: 143px;
-      float: left; }
-      /* line 256, ../scss/768up.scss */
-      section#about div.right-column section.clients a.cbc img {
-        margin-top: 33px;
-        margin-left: 22px; }
-    /* line 258, ../scss/768up.scss */
-    section#about div.right-column section.clients div.client-right-column {
-      width: 433px;
-      float: right; }
-      /* line 261, ../scss/768up.scss */
-      section#about div.right-column section.clients div.client-right-column a.groundworklabs {
-        height: 87px;
-        width: 433px;
-        margin-bottom: 1.5em; }
-        /* line 266, ../scss/768up.scss */
-        section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
-          margin-top: 10px;
-          margin-left: 56px; }
-      /* line 270, ../scss/768up.scss */
-      section#about div.right-column section.clients div.client-right-column a.sony {
-        height: 64px;
-        width: 159px;
+          margin-left: 124px; }
+    /* line 264, ../scss/768up.scss */
+    section#about div.right-column section.clients {
+      padding-top: 6em; }
+      /* line 267, ../scss/768up.scss */
+      section#about div.right-column section.clients a.cbc {
+        float: left; }
+        /* line 270, ../scss/768up.scss */
+        section#about div.right-column section.clients a.cbc img {
+          margin-top: 33px;
+          margin-left: 22px; }
+      /* line 272, ../scss/768up.scss */
+      section#about div.right-column section.clients div.client-right-column {
+        width: 283px;
         float: left; }
         /* line 275, ../scss/768up.scss */
-        section#about div.right-column section.clients div.client-right-column a.sony img {
-          margin-top: 23px;
-          margin-left: 27px; }
-      /* line 278, ../scss/768up.scss */
-      section#about div.right-column section.clients div.client-right-column a.alphamed {
-        height: 64px;
-        width: 248px;
-        float: right; }
+        section#about div.right-column section.clients div.client-right-column a.groundworklabs {
+          height: 87px;
+          width: 433px; }
+          /* line 279, ../scss/768up.scss */
+          section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
+            margin-top: 10px;
+            margin-left: 56px; }
         /* line 283, ../scss/768up.scss */
-        section#about div.right-column section.clients div.client-right-column a.alphamed img {
-          margin-top: 10px;
-          margin-left: 18px; }
+        section#about div.right-column section.clients div.client-right-column a.sony {
+          height: 64px;
+          float: left; }
+          /* line 287, ../scss/768up.scss */
+          section#about div.right-column section.clients div.client-right-column a.sony img {
+            margin-top: 23px; }
+        /* line 290, ../scss/768up.scss */
+        section#about div.right-column section.clients div.client-right-column a.alphamed {
+          height: 64px;
+          float: right; }
+          /* line 294, ../scss/768up.scss */
+          section#about div.right-column section.clients div.client-right-column a.alphamed img {
+            margin-top: 10px; }
 
-/* line 290, ../scss/768up.scss */
+/* line 301, ../scss/768up.scss */
 p {
   font-size: 1.05em;
   line-height: 1.75em; }
 
-/* line 292, ../scss/768up.scss */
+/* line 303, ../scss/768up.scss */
 section.post_excerpt, section.post_content {
   margin-top: -1em;
   margin-left: 7em; }
 
-/* line 296, ../scss/768up.scss */
+/* line 307, ../scss/768up.scss */
 #main {
   float: left; }
-  /* line 299, ../scss/768up.scss */
+  /* line 310, ../scss/768up.scss */
   #main header h1.h2 {
     width: 100%;
     float: left;
     margin-bottom: 0; }
-  /* line 305, ../scss/768up.scss */
+  /* line 316, ../scss/768up.scss */
   #main p.meta {
     width: 100%;
     margin-top: -0.5em; }
-  /* line 310, ../scss/768up.scss */
+  /* line 321, ../scss/768up.scss */
   #main section.post_excerpt {
     width: 80%; }
-  /* line 313, ../scss/768up.scss */
+  /* line 324, ../scss/768up.scss */
   #main section.post_content {
     width: 80%; }
-  /* line 317, ../scss/768up.scss */
+  /* line 328, ../scss/768up.scss */
   #main ul {
     list-style-type: disc; }
-  /* line 321, ../scss/768up.scss */
+  /* line 332, ../scss/768up.scss */
   #main ol {
     list-style-type: decimal; }
-  /* line 324, ../scss/768up.scss */
+  /* line 335, ../scss/768up.scss */
   #main ul, #main ol {
     margin-left: -0.18em; }
 
-/* line 330, ../scss/768up.scss */
+/* line 341, ../scss/768up.scss */
 #main.innerpage {
   width: 82.404255%; }
 
@@ -404,27 +413,27 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 547, ../scss/768up.scss */
+/* line 558, ../scss/768up.scss */
 .sidebar {
   margin-top: 2.2em;
   width: 16.404255%;
   float: right; }
 
-/* line 552, ../scss/768up.scss */
+/* line 563, ../scss/768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0; }
 
-/* line 557, ../scss/768up.scss */
+/* line 568, ../scss/768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em; }
 
-/* line 564, ../scss/768up.scss */
+/* line 575, ../scss/768up.scss */
 .widget li {
   margin-bottom: 0.75em; }
 
-/* line 573, ../scss/768up.scss */
+/* line 584, ../scss/768up.scss */
 .widget li ul {
   margin-top: 0.75em;
   padding-left: 1em; }
@@ -440,7 +449,7 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 665, ../scss/768up.scss */
+/* line 676, ../scss/768up.scss */
 #archives-2 {
   display: block;
   width: 100%;
@@ -449,30 +458,30 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 678, ../scss/768up.scss */
+/* line 689, ../scss/768up.scss */
 .footer #recent-blog-posts {
   width: 44.936170%;
   display: inline-block;
   float: left; }
-/* line 683, ../scss/768up.scss */
+/* line 694, ../scss/768up.scss */
 .footer #tweet-feed {
   width: 27.914894%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: left; }
-/* line 689, ../scss/768up.scss */
+/* line 700, ../scss/768up.scss */
 .footer #social {
   width: 14.893617%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: right; }
-  /* line 695, ../scss/768up.scss */
+  /* line 706, ../scss/768up.scss */
   .footer #social h4 {
     margin-bottom: -1em; }
-/* line 698, ../scss/768up.scss */
+/* line 709, ../scss/768up.scss */
 .footer .attribution {
   float: left; }
-/* line 700, ../scss/768up.scss */
+/* line 711, ../scss/768up.scss */
 .footer nav {
   float: right;
   margin-top: -1.45em; }

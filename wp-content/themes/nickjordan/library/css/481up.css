@@ -61,98 +61,99 @@ section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 109, ../scss/481up.scss */
-  section#about h4 {
-    text-transform: uppercase;
-    margin-bottom: -0.05em; }
-  /* line 115, ../scss/481up.scss */
+  /* line 110, ../scss/481up.scss */
   section#about div.left-column blockquote {
     font-style: italic;
     color: #19c7db;
     font-size: 1.75em;
     line-height: 1.5em;
     margin: 0; }
-  /* line 123, ../scss/481up.scss */
+  /* line 118, ../scss/481up.scss */
   section#about div.left-column .img {
     width: 100%;
     height: 96px;
     background-color: #888; }
-  /* line 129, ../scss/481up.scss */
+  /* line 124, ../scss/481up.scss */
   section#about div.right-column {
     margin-top: 1em;
     width: 100%; }
-    /* line 133, ../scss/481up.scss */
+    /* line 128, ../scss/481up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block;
       vertical-align: center; }
-    /* line 134, ../scss/481up.scss */
+    /* line 129, ../scss/481up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 135, ../scss/481up.scss */
+    /* line 130, ../scss/481up.scss */
     section#about div.right-column section.startups {
       width: 100%;
       display: inline-block; }
-      /* line 139, ../scss/481up.scss */
+      /* line 134, ../scss/481up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 74px; }
-        /* line 143, ../scss/481up.scss */
+        /* line 138, ../scss/481up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 27px;
-          margin-left: 20%; }
-      /* line 146, ../scss/481up.scss */
+          margin-left: 23%; }
+      /* line 141, ../scss/481up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 150px;
         margin-top: 1em; }
-        /* line 150, ../scss/481up.scss */
+        /* line 145, ../scss/481up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 13px;
           margin-left: 35%; }
-    /* line 154, ../scss/481up.scss */
+    /* line 149, ../scss/481up.scss */
     section#about div.right-column section.clients {
-      width: 100%; }
-      /* line 156, ../scss/481up.scss */
-      section#about div.right-column section.clients a.cbc {
-        height: 173px;
-        width: 143px;
-        float: left; }
-        /* line 161, ../scss/481up.scss */
-        section#about div.right-column section.clients a.cbc img {
-          margin-top: 33px;
-          margin-left: 22px; }
-      /* line 163, ../scss/481up.scss */
+      width: 100%;
+      padding-top: 1em; }
+      /* line 153, ../scss/481up.scss */
       section#about div.right-column section.clients div.client-right-column {
-        width: 433px;
+        width: 66%;
         float: right; }
-        /* line 166, ../scss/481up.scss */
+        /* line 156, ../scss/481up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs {
           height: 87px;
-          width: 433px;
-          margin-bottom: 1.5em; }
-          /* line 171, ../scss/481up.scss */
+          width: 436px;
+          margin-top: 1em;
+          margin-left: -10.75em;
+          margin-bottom: 1em; }
+          /* line 163, ../scss/481up.scss */
           section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
             margin-top: 10px;
             margin-left: 56px; }
-        /* line 175, ../scss/481up.scss */
+        /* line 168, ../scss/481up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
-          width: 159px;
-          float: left; }
-          /* line 180, ../scss/481up.scss */
+          width: 276px; }
+          /* line 172, ../scss/481up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px;
-            margin-left: 27px; }
-        /* line 183, ../scss/481up.scss */
+            margin-left: 76px; }
+        /* line 175, ../scss/481up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed {
           height: 64px;
-          width: 248px;
-          float: right; }
-          /* line 188, ../scss/481up.scss */
+          width: 276px; }
+          /* line 179, ../scss/481up.scss */
           section#about div.right-column section.clients div.client-right-column a.alphamed img {
             margin-top: 10px;
             margin-left: 18px; }
+
+/* line 187, ../scss/481up.scss */
+section#contact {
+  width: 100%;
+  height: 415px;
+  margin-bottom: -15px; }
+  /* line 192, ../scss/481up.scss */
+  section#contact h1 {
+    font-size: 5.32em;
+    margin-top: 0.3em; }
+  /* line 196, ../scss/481up.scss */
+  section#contact h2 {
+    font-size: 1.53em; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -167,19 +168,19 @@ section#about {
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 240, ../scss/481up.scss */
+/* line 244, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 245, ../scss/481up.scss */
+/* line 249, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 250, ../scss/481up.scss */
+/* line 254, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;

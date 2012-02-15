@@ -11,104 +11,123 @@
     font-size: 2.8em;
     margin-top: -2.6em; }
 
-/* line 19, ../scss/992up.scss */
+/* line 18, ../scss/992up.scss */
+section#contact {
+  width: 100%;
+  height: 415px;
+  margin-bottom: -15px; }
+  /* line 23, ../scss/992up.scss */
+  section#contact h1 {
+    font-size: 5.32em;
+    margin-top: 0.3em; }
+  /* line 27, ../scss/992up.scss */
+  section#contact h2 {
+    font-size: 1.53em; }
+
+/* line 32, ../scss/992up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 24, ../scss/992up.scss */
+  /* line 37, ../scss/992up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 29, ../scss/992up.scss */
+  /* line 42, ../scss/992up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 33, ../scss/992up.scss */
+    /* line 46, ../scss/992up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 41, ../scss/992up.scss */
+    /* line 54, ../scss/992up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 47, ../scss/992up.scss */
+  /* line 60, ../scss/992up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 51px;
     margin-top: -1em; }
-    /* line 53, ../scss/992up.scss */
+    /* line 66, ../scss/992up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 54, ../scss/992up.scss */
+    /* line 67, ../scss/992up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 55, ../scss/992up.scss */
+    /* line 68, ../scss/992up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 57, ../scss/992up.scss */
+      /* line 70, ../scss/992up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
-        width: 300px;
+        width: 51%;
         float: left; }
-        /* line 62, ../scss/992up.scss */
+        /* line 75, ../scss/992up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 65, ../scss/992up.scss */
+      /* line 78, ../scss/992up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
-        width: 267px;
-        float: right; }
-        /* line 70, ../scss/992up.scss */
+        width: 47%;
+        float: right;
+        margin-top: 0; }
+        /* line 84, ../scss/992up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 76, ../scss/992up.scss */
-    section#about div.right-column section.clients a.cbc {
-      height: 173px;
-      width: 143px;
-      float: left; }
-      /* line 81, ../scss/992up.scss */
-      section#about div.right-column section.clients a.cbc img {
-        margin-top: 33px;
-        margin-left: 22px; }
-    /* line 83, ../scss/992up.scss */
-    section#about div.right-column section.clients div.client-right-column {
-      width: 433px;
-      float: right; }
-      /* line 86, ../scss/992up.scss */
-      section#about div.right-column section.clients div.client-right-column a.groundworklabs {
-        height: 87px;
-        width: 433px;
-        margin-bottom: 1.5em; }
-        /* line 91, ../scss/992up.scss */
-        section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
-          margin-top: 10px;
-          margin-left: 56px; }
-      /* line 95, ../scss/992up.scss */
-      section#about div.right-column section.clients div.client-right-column a.sony {
-        height: 64px;
-        width: 159px;
+    /* line 88, ../scss/992up.scss */
+    section#about div.right-column section.clients {
+      padding-top: 2em; }
+      /* line 91, ../scss/992up.scss */
+      section#about div.right-column section.clients a.cbc {
+        height: 173px;
+        width: 143px;
         float: left; }
-        /* line 100, ../scss/992up.scss */
-        section#about div.right-column section.clients div.client-right-column a.sony img {
-          margin-top: 23px;
-          margin-left: 27px; }
-      /* line 103, ../scss/992up.scss */
-      section#about div.right-column section.clients div.client-right-column a.alphamed {
-        height: 64px;
-        width: 248px;
+        /* line 96, ../scss/992up.scss */
+        section#about div.right-column section.clients a.cbc img {
+          margin-top: 33px;
+          margin-left: 22px; }
+      /* line 98, ../scss/992up.scss */
+      section#about div.right-column section.clients div.client-right-column {
+        width: 74%;
         float: right; }
-        /* line 108, ../scss/992up.scss */
-        section#about div.right-column section.clients div.client-right-column a.alphamed img {
-          margin-top: 10px;
-          margin-left: 18px; }
+        /* line 101, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.groundworklabs {
+          height: 87px;
+          width: 100%;
+          margin-left: 0; }
+          /* line 106, ../scss/992up.scss */
+          section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
+            margin-top: 10px;
+            margin-left: 56px; }
+        /* line 110, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.sony {
+          height: 64px;
+          width: 40%;
+          margin-left: 0;
+          float: left; }
+          /* line 116, ../scss/992up.scss */
+          section#about div.right-column section.clients div.client-right-column a.sony img {
+            margin-top: 23px;
+            margin-left: 27px; }
+        /* line 119, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.alphamed {
+          height: 64px;
+          width: 57%;
+          float: right;
+          margin-top: 0; }
+          /* line 125, ../scss/992up.scss */
+          section#about div.right-column section.clients div.client-right-column a.alphamed img {
+            margin-top: 10px;
+            margin-left: 18px; }

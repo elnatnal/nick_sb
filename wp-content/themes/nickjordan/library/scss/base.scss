@@ -71,8 +71,9 @@ section#contact {
 	
 	h1{
 		text-transform:uppercase;
-		font-size:5.32em;
+		font-size:2.32em;
 		font-weight:bold;
+		line-height:1.2;
 		margin-top:0.3em;
 		opacity:.9;
 		text-shadow: 5px 5px 8px #000000;
@@ -309,10 +310,16 @@ h5, .h5 {
 
 section#about{
 	width:100%;
+	height:63em;
 	display:block;
 	margin-top:1em;
 	background-color:#fff;
+	
+	h4{
+		text-transform:uppercase;
+		margin-bottom:.5em;
 
+	}
 	div.left-column {
 		float:left;
 		
@@ -324,6 +331,77 @@ section#about{
 			margin:0;
 		}
 	}
+
+	div.right-column{
+		margin-top:1em;
+		width:100%;
+
+	a, a:visited{border:none;background-color:#f8f8f8;	display:block;vertical-align:center;}
+	a:hover, a:active{background-color:rgb(25,199,219); background-color:rgba(25,199,219, .2);}
+		section.startups{
+			width:100%;
+			display:inline-block;
+			
+			a.smashingboxes{
+				height:74px;
+
+				
+				img {margin-top:27px;margin-left:14%;}					
+			}					
+
+			a.getzeek{
+				height:150px;
+				margin-top:1em;
+				
+				img{margin-top:13px;margin-left:25%;}
+				}	
+			}	
+
+		section.clients{
+			width:100%;
+			padding-top:1em;
+			
+				a.cbc{
+					height:143px;
+					width:143px;
+					float:left;
+
+					img {margin-top:25px;margin-left:22px;}					
+				}					
+				div.client-right-column{
+					width:433px;
+				
+					a.groundworklabs{
+						height:87px;
+						width:340px;
+						margin-top:.65em;
+						float:left;
+						
+						img{margin-top:10px;margin-left:17px;}
+						}	
+
+	
+					a.sony{
+						height:64px;
+						width:44%;
+						float:left;
+						margin-left:.75em;
+						
+						img{margin-top:23px;margin-left:37px;}
+						}	
+					
+					a.alphamed{
+						height:64px;
+						width:188px;
+						float:left;	
+						margin-left:.75em;
+						margin-top:1em;						
+						img{margin-top:13px;margin-left:18px; width:82%;}
+						}	
+					}
+			}
+	}
+
 
 }
 

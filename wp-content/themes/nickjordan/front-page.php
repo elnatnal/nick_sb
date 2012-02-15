@@ -35,9 +35,10 @@
 								<a class="cbc" href="http://cbc-raleigh.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/cbc.png"></a>
 								
 								<div class="client-right-column">
-									<a class="groundworklabs" href="http://groundworklabs.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/groundwork.png"></a>
 									<a class="sony" href="http://sony.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/sony.png"></a>
 									<a class="alphamed" href="http://alphamedpress.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/alphamedpress.png"></a>
+									<a class="groundworklabs" href="http://groundworklabs.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/groundwork.png"></a>
+									
 								</div>
 							</section>	
 										

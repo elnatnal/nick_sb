@@ -15,6 +15,19 @@
 	}
 
 }	
+section#contact {
+	width:100%;
+	height:415px;
+	margin-bottom:-15px;
+	
+	h1{
+		font-size:5.32em;
+		margin-top:0.3em;
+	}
+	h2{
+		font-size:1.53em;
+	}
+}
 
 section#about{
 		width:100%;
@@ -56,7 +69,7 @@ section#about{
 				height:180px;
 				a.smashingboxes{
 					height:158px;
-					width:300px;
+					width:51%;
 					float:left;
 					
 					img {margin-top:66px;margin-left:22px;}					
@@ -64,15 +77,17 @@ section#about{
 
 				a.getzeek{
 					height:158px;
-					width:267px;
-					float:right;					
+					width:47%;
+					float:right;
+					margin-top:0;					
 					
 					img{margin-top:19px;margin-left:46px;}
 					}	
 				}	
 	
 			section.clients{
-
+				padding-top:2em;
+			
 					a.cbc{
 						height:173px;
 						width:143px;
@@ -81,20 +96,21 @@ section#about{
 						img {margin-top:33px;margin-left:22px;}					
 					}					
 					div.client-right-column{
-						width:433px;float:right;
+						width:74%;float:right;
 					
 						a.groundworklabs{
 							height:87px;
-							width:433px;
-							margin-bottom:1.5em;
-							
+							width:100%;
+							margin-left:0;
+
 							img{margin-top:10px;margin-left:56px;}
 							}	
 
 		
 						a.sony{
 							height:64px;
-							width:159px;
+							width:40%;
+							margin-left:0;
 							float:left;					
 							
 							img{margin-top:23px;margin-left:27px;}
@@ -102,8 +118,9 @@ section#about{
 						
 						a.alphamed{
 							height:64px;
-							width:248px;
-							float:right;					
+							width:57%;
+							float:right;
+							margin-top:0;					
 														
 							img{margin-top:10px;margin-left:18px;}
 							}	
