@@ -23,6 +23,22 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER SYTLES
 *********************/
+/* line 39, ../scss/481up.scss */
+#bottom-header section#home {
+  height: 20em; }
+  /* line 42, ../scss/481up.scss */
+  #bottom-header section#home h1 {
+    font-size: 4em;
+    margin-top: .8em;
+    line-height: 2.5em;
+    text-align: center; }
+  /* line 49, ../scss/481up.scss */
+  #bottom-header section#home h2 {
+    opacity: .8;
+    font-size: 2em;
+    margin-top: -2.6em;
+    text-align: center; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -40,6 +56,104 @@ more levels
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+/* line 104, ../scss/481up.scss */
+section#about {
+  width: 100%;
+  height: 525px;
+  margin-top: 0em; }
+  /* line 109, ../scss/481up.scss */
+  section#about h4 {
+    text-transform: uppercase;
+    margin-bottom: -0.05em; }
+  /* line 115, ../scss/481up.scss */
+  section#about div.left-column blockquote {
+    font-style: italic;
+    color: #19c7db;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    margin: 0; }
+  /* line 123, ../scss/481up.scss */
+  section#about div.left-column .img {
+    width: 100%;
+    height: 96px;
+    background-color: #888; }
+  /* line 129, ../scss/481up.scss */
+  section#about div.right-column {
+    margin-top: 1em;
+    width: 100%; }
+    /* line 133, ../scss/481up.scss */
+    section#about div.right-column a, section#about div.right-column a:visited {
+      border: none;
+      background-color: #f8f8f8;
+      display: block;
+      vertical-align: center; }
+    /* line 134, ../scss/481up.scss */
+    section#about div.right-column a:hover, section#about div.right-column a:active {
+      background-color: #19c7db;
+      background-color: rgba(25, 199, 219, 0.2); }
+    /* line 135, ../scss/481up.scss */
+    section#about div.right-column section.startups {
+      width: 100%;
+      display: inline-block; }
+      /* line 139, ../scss/481up.scss */
+      section#about div.right-column section.startups a.smashingboxes {
+        height: 74px; }
+        /* line 143, ../scss/481up.scss */
+        section#about div.right-column section.startups a.smashingboxes img {
+          margin-top: 27px;
+          margin-left: 20%; }
+      /* line 146, ../scss/481up.scss */
+      section#about div.right-column section.startups a.getzeek {
+        height: 150px;
+        margin-top: 1em; }
+        /* line 150, ../scss/481up.scss */
+        section#about div.right-column section.startups a.getzeek img {
+          margin-top: 13px;
+          margin-left: 35%; }
+    /* line 154, ../scss/481up.scss */
+    section#about div.right-column section.clients {
+      width: 100%; }
+      /* line 156, ../scss/481up.scss */
+      section#about div.right-column section.clients a.cbc {
+        height: 173px;
+        width: 143px;
+        float: left; }
+        /* line 161, ../scss/481up.scss */
+        section#about div.right-column section.clients a.cbc img {
+          margin-top: 33px;
+          margin-left: 22px; }
+      /* line 163, ../scss/481up.scss */
+      section#about div.right-column section.clients div.client-right-column {
+        width: 433px;
+        float: right; }
+        /* line 166, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.groundworklabs {
+          height: 87px;
+          width: 433px;
+          margin-bottom: 1.5em; }
+          /* line 171, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
+            margin-top: 10px;
+            margin-left: 56px; }
+        /* line 175, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.sony {
+          height: 64px;
+          width: 159px;
+          float: left; }
+          /* line 180, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.sony img {
+            margin-top: 23px;
+            margin-left: 27px; }
+        /* line 183, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.alphamed {
+          height: 64px;
+          width: 248px;
+          float: right; }
+          /* line 188, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.alphamed img {
+            margin-top: 10px;
+            margin-left: 18px; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -53,19 +167,19 @@ POSTS & CONTENT STYLES
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 124, ../scss/481up.scss */
+/* line 240, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 129, ../scss/481up.scss */
+/* line 245, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 134, ../scss/481up.scss */
+/* line 250, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;

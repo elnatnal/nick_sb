@@ -35,7 +35,13 @@
 		<!-- modernizr (without media query polyfill) -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.full.min.js"></script>
 		
-  		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+  		
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/rwd-toolset.css">
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/rwd-toolset.js"></script>
+		<script type="text/javascript" src="http://use.typekit.com/czs3vvt.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>

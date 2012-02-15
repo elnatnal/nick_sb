@@ -50,7 +50,6 @@
 				</div>
 				
 				<div id="bottom" class="wrap clearfix">
-					<p class="attribution">Copyright &copy; 2012 &ndash; <?php bloginfo('name'); ?></p>
 					<nav>
 						<ul>
 							<li><a href="<?php site_url(); ?>">Home</a></li>
@@ -59,6 +58,9 @@
 							<li><a href="<?php site_url(); ?>/blog">Blog</a></li>
 						</ul>
 					</nav>
+					<p class="attribution">Copyright &copy; 2012 &ndash; <?php bloginfo('name'); ?></p>
+					
+					
 				</div> <!-- end #inner-footer -->
 				
 			</footer> <!-- end footer -->

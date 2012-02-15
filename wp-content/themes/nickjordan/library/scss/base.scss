@@ -183,6 +183,9 @@ h2, .h2 {
 	margin-bottom: 0.375em; 
 }
 
+h1.h2 a{
+	border:none;}
+
 h3, .h3 { 
 	font-size: 1.125em; 
 }
@@ -432,7 +435,7 @@ section#contact{
 		/* post meta */
 		.meta {
 			color: #999;
-			margin-top:-1.5em;
+			margin-top:-2em;
 		}
 			.meta time {}
 			
@@ -801,6 +804,12 @@ section#contact{
 			
 			.widget li ul {}
 
+	#archives-2{
+		display:inline-block;
+		width:48%;
+		float:right;
+	}
+
 
 /*  FOOTER STYLES  */
 
@@ -834,7 +843,7 @@ section#contact{
 
 		nav ul li{
 			a.twitter{
-margin-left:2em;
+			margin-left:2em;
 			}
 			
 		}
@@ -847,8 +856,21 @@ margin-left:2em;
 		}
 }
 
+footer #bottom {
+	text-align:center;
+	
+	li{
+		display:inline-block;
+		margin-left:.5em;	
+	}
+	
+	.attribution{
+		margin-top:-.5em;
+	}
+	}
+
 footer #tweet-feed{
-	ul{margin-top:-.5em;}
+	ul{margin-top:0em}
 	li{
 		margin-top:.5em;
 		padding-bottom:.5em;
@@ -856,6 +878,11 @@ footer #tweet-feed{
 	}
 }
 hr{color:$blue;background-color:$blue;border:none;height:1px;}
+
+#recent-blog-posts{
+	margin-bottom:4em;
+}
+
 
 	.footer-links {}
 		.footer-links ul {}

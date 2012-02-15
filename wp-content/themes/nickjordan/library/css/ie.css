@@ -46,6 +46,22 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER SYTLES
 *********************/
+/* line 39, ../scss/481up.scss */
+#bottom-header section#home {
+  height: 20em; }
+  /* line 42, ../scss/481up.scss */
+  #bottom-header section#home h1 {
+    font-size: 4em;
+    margin-top: .8em;
+    line-height: 2.5em;
+    text-align: center; }
+  /* line 49, ../scss/481up.scss */
+  #bottom-header section#home h2 {
+    opacity: .8;
+    font-size: 2em;
+    margin-top: -2.6em;
+    text-align: center; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -63,6 +79,104 @@ more levels
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+/* line 104, ../scss/481up.scss */
+section#about {
+  width: 100%;
+  height: 525px;
+  margin-top: 0em; }
+  /* line 109, ../scss/481up.scss */
+  section#about h4 {
+    text-transform: uppercase;
+    margin-bottom: -0.05em; }
+  /* line 115, ../scss/481up.scss */
+  section#about div.left-column blockquote {
+    font-style: italic;
+    color: #19c7db;
+    font-size: 1.75em;
+    line-height: 1.5em;
+    margin: 0; }
+  /* line 123, ../scss/481up.scss */
+  section#about div.left-column .img {
+    width: 100%;
+    height: 96px;
+    background-color: #888; }
+  /* line 129, ../scss/481up.scss */
+  section#about div.right-column {
+    margin-top: 1em;
+    width: 100%; }
+    /* line 133, ../scss/481up.scss */
+    section#about div.right-column a, section#about div.right-column a:visited {
+      border: none;
+      background-color: #f8f8f8;
+      display: block;
+      vertical-align: center; }
+    /* line 134, ../scss/481up.scss */
+    section#about div.right-column a:hover, section#about div.right-column a:active {
+      background-color: #19c7db;
+      background-color: rgba(25, 199, 219, 0.2); }
+    /* line 135, ../scss/481up.scss */
+    section#about div.right-column section.startups {
+      width: 100%;
+      display: inline-block; }
+      /* line 139, ../scss/481up.scss */
+      section#about div.right-column section.startups a.smashingboxes {
+        height: 74px; }
+        /* line 143, ../scss/481up.scss */
+        section#about div.right-column section.startups a.smashingboxes img {
+          margin-top: 27px;
+          margin-left: 20%; }
+      /* line 146, ../scss/481up.scss */
+      section#about div.right-column section.startups a.getzeek {
+        height: 150px;
+        margin-top: 1em; }
+        /* line 150, ../scss/481up.scss */
+        section#about div.right-column section.startups a.getzeek img {
+          margin-top: 13px;
+          margin-left: 35%; }
+    /* line 154, ../scss/481up.scss */
+    section#about div.right-column section.clients {
+      width: 100%; }
+      /* line 156, ../scss/481up.scss */
+      section#about div.right-column section.clients a.cbc {
+        height: 173px;
+        width: 143px;
+        float: left; }
+        /* line 161, ../scss/481up.scss */
+        section#about div.right-column section.clients a.cbc img {
+          margin-top: 33px;
+          margin-left: 22px; }
+      /* line 163, ../scss/481up.scss */
+      section#about div.right-column section.clients div.client-right-column {
+        width: 433px;
+        float: right; }
+        /* line 166, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.groundworklabs {
+          height: 87px;
+          width: 433px;
+          margin-bottom: 1.5em; }
+          /* line 171, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
+            margin-top: 10px;
+            margin-left: 56px; }
+        /* line 175, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.sony {
+          height: 64px;
+          width: 159px;
+          float: left; }
+          /* line 180, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.sony img {
+            margin-top: 23px;
+            margin-left: 27px; }
+        /* line 183, ../scss/481up.scss */
+        section#about div.right-column section.clients div.client-right-column a.alphamed {
+          height: 64px;
+          width: 248px;
+          float: right; }
+          /* line 188, ../scss/481up.scss */
+          section#about div.right-column section.clients div.client-right-column a.alphamed img {
+            margin-top: 10px;
+            margin-left: 18px; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -76,19 +190,19 @@ POSTS & CONTENT STYLES
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 124, ../scss/481up.scss */
+/* line 240, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 129, ../scss/481up.scss */
+/* line 245, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 134, ../scss/481up.scss */
+/* line 250, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -142,6 +256,10 @@ Author:
 /*********************
 GENERAL STYLES
 *********************/
+/* line 11, ../scss/768up.scss */
+body {
+  opacity: 1; }
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -282,41 +400,38 @@ HEADER SYTLES
 *********************/
 /* line 99, ../scss/768up.scss */
 #bottom-header section#home {
-  height: 40em; }
+  height: 20em; }
   /* line 102, ../scss/768up.scss */
   #bottom-header section#home h1 {
-    font-size: 8em;
-    margin-top: 1.3em;
-    text-align: center; }
+    font-size: 6em;
+    margin-top: .4em;
+    line-height: 1.85em; }
   /* line 108, ../scss/768up.scss */
   #bottom-header section#home h2 {
-    opacity: .8;
     font-size: 2.8em;
-    opacity: .8;
-    margin-top: -2.6em;
-    text-align: center; }
+    margin-top: -2.3em; }
 
-/* line 119, ../scss/768up.scss */
+/* line 116, ../scss/768up.scss */
 #content.frontpage {
   margin-top: 2.2em; }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 130, ../scss/768up.scss */
+/* line 127, ../scss/768up.scss */
 .menu ul {
   background: #eee; }
 
-/* line 134, ../scss/768up.scss */
+/* line 131, ../scss/768up.scss */
 .menu li {
   float: left;
   position: relative; }
 
-/* line 138, ../scss/768up.scss */
+/* line 135, ../scss/768up.scss */
 .menu li a {
   border-bottom: 0; }
 
-/* line 141, ../scss/768up.scss */
+/* line 138, ../scss/768up.scss */
 .menu li a:hover {
   background-color: #dedede; }
 
@@ -324,7 +439,7 @@ NAVIGATION STYLES
 /*
 plan your menus and drop-downs wisely.
 */
-/* line 156, ../scss/768up.scss */
+/* line 153, ../scss/768up.scss */
 .menu ul li ul {
   width: 200px;
   border: 1px solid #ccc;
@@ -334,12 +449,12 @@ plan your menus and drop-downs wisely.
   z-index: 8999; }
 
 /* show the dropdowns on hover */
-/* line 166, ../scss/768up.scss */
+/* line 163, ../scss/768up.scss */
 .menu ul li:hover ul {
   top: auto;
   display: block; }
 
-/* line 171, ../scss/768up.scss */
+/* line 168, ../scss/768up.scss */
 .menu ul ul li a {
   padding-left: 10px;
   border-right: 0;
@@ -347,7 +462,7 @@ plan your menus and drop-downs wisely.
   width: 180px;
   border-bottom: 1px solid #ccc; }
 
-/* line 180, ../scss/768up.scss */
+/* line 177, ../scss/768up.scss */
 .menu ul li:last-child a {
   border-bottom: 0; }
 
@@ -357,150 +472,149 @@ more levels
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 196, ../scss/768up.scss */
+/* line 193, ../scss/768up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 201, ../scss/768up.scss */
+  /* line 198, ../scss/768up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 206, ../scss/768up.scss */
+  /* line 203, ../scss/768up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 210, ../scss/768up.scss */
+    /* line 207, ../scss/768up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 218, ../scss/768up.scss */
+    /* line 215, ../scss/768up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 224, ../scss/768up.scss */
+  /* line 221, ../scss/768up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
-    padding-left: 51px;
+    padding-left: 40px;
     margin-top: -1em; }
-    /* line 230, ../scss/768up.scss */
+    /* line 227, ../scss/768up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 231, ../scss/768up.scss */
+    /* line 228, ../scss/768up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 232, ../scss/768up.scss */
+    /* line 229, ../scss/768up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 234, ../scss/768up.scss */
+      /* line 232, ../scss/768up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
         width: 300px;
         float: left; }
-        /* line 239, ../scss/768up.scss */
+        /* line 237, ../scss/768up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 242, ../scss/768up.scss */
+      /* line 240, ../scss/768up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 267px;
         float: right; }
-        /* line 247, ../scss/768up.scss */
+        /* line 245, ../scss/768up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 253, ../scss/768up.scss */
+    /* line 251, ../scss/768up.scss */
     section#about div.right-column section.clients a.cbc {
       height: 173px;
       width: 143px;
       float: left; }
-      /* line 258, ../scss/768up.scss */
+      /* line 256, ../scss/768up.scss */
       section#about div.right-column section.clients a.cbc img {
         margin-top: 33px;
         margin-left: 22px; }
-    /* line 260, ../scss/768up.scss */
+    /* line 258, ../scss/768up.scss */
     section#about div.right-column section.clients div.client-right-column {
       width: 433px;
       float: right; }
-      /* line 263, ../scss/768up.scss */
+      /* line 261, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.groundworklabs {
         height: 87px;
         width: 433px;
         margin-bottom: 1.5em; }
-        /* line 268, ../scss/768up.scss */
+        /* line 266, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
           margin-top: 10px;
           margin-left: 56px; }
-      /* line 272, ../scss/768up.scss */
+      /* line 270, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.sony {
         height: 64px;
         width: 159px;
         float: left; }
-        /* line 277, ../scss/768up.scss */
+        /* line 275, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony img {
           margin-top: 23px;
           margin-left: 27px; }
-      /* line 280, ../scss/768up.scss */
+      /* line 278, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column a.alphamed {
         height: 64px;
         width: 248px;
         float: right; }
-        /* line 285, ../scss/768up.scss */
+        /* line 283, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed img {
           margin-top: 10px;
           margin-left: 18px; }
 
-/* line 292, ../scss/768up.scss */
+/* line 290, ../scss/768up.scss */
 p {
   font-size: 1.05em;
   line-height: 1.75em; }
 
-/* line 294, ../scss/768up.scss */
+/* line 292, ../scss/768up.scss */
 section.post_excerpt, section.post_content {
   margin-top: -1em;
   margin-left: 7em; }
 
 /* line 296, ../scss/768up.scss */
-h1.h2 a {
-  border: none; }
-
-/* line 299, ../scss/768up.scss */
 #main {
-  width: 82.404255%;
   float: left; }
-  /* line 303, ../scss/768up.scss */
+  /* line 299, ../scss/768up.scss */
   #main header h1.h2 {
     width: 100%;
     float: left;
     margin-bottom: 0; }
-  /* line 309, ../scss/768up.scss */
+  /* line 305, ../scss/768up.scss */
   #main p.meta {
     width: 100%;
     margin-top: -0.5em; }
-  /* line 314, ../scss/768up.scss */
+  /* line 310, ../scss/768up.scss */
   #main section.post_excerpt {
     width: 80%; }
-  /* line 317, ../scss/768up.scss */
+  /* line 313, ../scss/768up.scss */
   #main section.post_content {
     width: 80%; }
-  /* line 321, ../scss/768up.scss */
+  /* line 317, ../scss/768up.scss */
   #main ul {
     list-style-type: disc; }
-  /* line 325, ../scss/768up.scss */
+  /* line 321, ../scss/768up.scss */
   #main ol {
     list-style-type: decimal; }
-  /* line 328, ../scss/768up.scss */
+  /* line 324, ../scss/768up.scss */
   #main ul, #main ol {
     margin-left: -0.18em; }
+
+/* line 330, ../scss/768up.scss */
+#main.innerpage {
+  width: 82.404255%; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -577,38 +691,42 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
+/* line 665, ../scss/768up.scss */
+#archives-2 {
+  display: block;
+  width: 100%;
+  float: none; }
+
 /*********************
 FOOTER STYLES
 *********************/
-/* line 672, ../scss/768up.scss */
+/* line 678, ../scss/768up.scss */
 .footer #recent-blog-posts {
   width: 44.936170%;
   display: inline-block;
   float: left; }
-/* line 677, ../scss/768up.scss */
+/* line 683, ../scss/768up.scss */
 .footer #tweet-feed {
   width: 27.914894%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: left; }
-/* line 683, ../scss/768up.scss */
+/* line 689, ../scss/768up.scss */
 .footer #social {
   width: 14.893617%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: right; }
-  /* line 689, ../scss/768up.scss */
+  /* line 695, ../scss/768up.scss */
   .footer #social h4 {
     margin-bottom: -1em; }
-/* line 692, ../scss/768up.scss */
+/* line 698, ../scss/768up.scss */
 .footer .attribution {
   float: left; }
-/* line 694, ../scss/768up.scss */
+/* line 700, ../scss/768up.scss */
 .footer nav {
-  float: right; }
-/* line 697, ../scss/768up.scss */
-.footer nav ul li {
-  display: inline; }
+  float: right;
+  margin-top: -1.45em; }
 
 /*
 you'll probably need to do quite a bit
@@ -622,19 +740,121 @@ be careful with the depth of your menus.
 it's very rare to have multi-depth menus in
 the footer.
 */
-/******************************************************************
-Site Name: 
-Author: 
+/* line 2, ../scss/992up.scss */
+#bottom-header section#home {
+  height: 40em; }
+  /* line 5, ../scss/992up.scss */
+  #bottom-header section#home h1 {
+    font-size: 8em;
+    margin-top: 1.3em;
+    line-height: 1.65em; }
+  /* line 11, ../scss/992up.scss */
+  #bottom-header section#home h2 {
+    font-size: 2.8em;
+    margin-top: -2.6em; }
 
-Stylesheet: Average Desktop View
+/* line 19, ../scss/992up.scss */
+section#about {
+  width: 100%;
+  height: 525px;
+  margin-top: 0em; }
+  /* line 24, ../scss/992up.scss */
+  section#about h4 {
+    text-transform: uppercase;
+    margin-bottom: -0.05em; }
+  /* line 29, ../scss/992up.scss */
+  section#about div.left-column {
+    width: 31.914894%;
+    float: left; }
+    /* line 33, ../scss/992up.scss */
+    section#about div.left-column blockquote {
+      font-style: italic;
+      color: #19c7db;
+      font-size: 1.75em;
+      line-height: 1.5em;
+      margin: 0; }
+    /* line 41, ../scss/992up.scss */
+    section#about div.left-column .img {
+      width: 100%;
+      height: 96px;
+      background-color: #888; }
+  /* line 47, ../scss/992up.scss */
+  section#about div.right-column {
+    width: 61.914894%;
+    float: right;
+    padding-left: 51px;
+    margin-top: -1em; }
+    /* line 53, ../scss/992up.scss */
+    section#about div.right-column a, section#about div.right-column a:visited {
+      border: none;
+      background-color: #f8f8f8;
+      display: block; }
+    /* line 54, ../scss/992up.scss */
+    section#about div.right-column a:hover, section#about div.right-column a:active {
+      background-color: #19c7db;
+      background-color: rgba(25, 199, 219, 0.2); }
+    /* line 55, ../scss/992up.scss */
+    section#about div.right-column section.startups {
+      height: 180px; }
+      /* line 57, ../scss/992up.scss */
+      section#about div.right-column section.startups a.smashingboxes {
+        height: 158px;
+        width: 300px;
+        float: left; }
+        /* line 62, ../scss/992up.scss */
+        section#about div.right-column section.startups a.smashingboxes img {
+          margin-top: 66px;
+          margin-left: 22px; }
+      /* line 65, ../scss/992up.scss */
+      section#about div.right-column section.startups a.getzeek {
+        height: 158px;
+        width: 267px;
+        float: right; }
+        /* line 70, ../scss/992up.scss */
+        section#about div.right-column section.startups a.getzeek img {
+          margin-top: 19px;
+          margin-left: 46px; }
+    /* line 76, ../scss/992up.scss */
+    section#about div.right-column section.clients a.cbc {
+      height: 173px;
+      width: 143px;
+      float: left; }
+      /* line 81, ../scss/992up.scss */
+      section#about div.right-column section.clients a.cbc img {
+        margin-top: 33px;
+        margin-left: 22px; }
+    /* line 83, ../scss/992up.scss */
+    section#about div.right-column section.clients div.client-right-column {
+      width: 433px;
+      float: right; }
+      /* line 86, ../scss/992up.scss */
+      section#about div.right-column section.clients div.client-right-column a.groundworklabs {
+        height: 87px;
+        width: 433px;
+        margin-bottom: 1.5em; }
+        /* line 91, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
+          margin-top: 10px;
+          margin-left: 56px; }
+      /* line 95, ../scss/992up.scss */
+      section#about div.right-column section.clients div.client-right-column a.sony {
+        height: 64px;
+        width: 159px;
+        float: left; }
+        /* line 100, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.sony img {
+          margin-top: 23px;
+          margin-left: 27px; }
+      /* line 103, ../scss/992up.scss */
+      section#about div.right-column section.clients div.client-right-column a.alphamed {
+        height: 64px;
+        width: 248px;
+        float: right; }
+        /* line 108, ../scss/992up.scss */
+        section#about div.right-column section.clients div.client-right-column a.alphamed img {
+          margin-top: 10px;
+          margin-left: 18px; }
 
-Here's where you can start getting into the good stuff.
-This size will work on iPads, other tablets, and desktops.
-So you can start working with more styles, background images,
-and other resources. You'll also notice the grid starts to
-come into play. Have fun!
-
-******************************************************************/
 /* 
 you can call the larger styles if you want, but there's really no need 
 */
