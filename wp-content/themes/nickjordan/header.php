@@ -11,9 +11,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		
 		<title><?php wp_title(''); ?></title>
-		
-		<!-- meta tags should be handled by SEO plugin. I reccomend (http://yoast.com/wordpress/seo/) -->
-		
+				
 		<!-- mobile optimized -->
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<!-- IE6 toolbar removal -->
@@ -21,9 +19,6 @@
 		<!-- allow pinned sites -->
 		<meta name="application-name" content="<?php bloginfo('name'); ?>" />
 		
-		<!-- icons & favicons (for more: http://themble.com/support/adding-icons-favicons/) -->
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-
 		<!-- normalize, mixins, & mobile stylesheet -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/base.css">		
 		
@@ -35,10 +30,7 @@
 		<!-- modernizr (without media query polyfill) -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.full.min.js"></script>
 		
-  		
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/rwd-toolset.css">
-		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/rwd-toolset.js"></script>
-		<script type="text/javascript" src="http://use.typekit.com/czs3vvt.js"></script>
+  		<script type="text/javascript" src="http://use.typekit.com/czs3vvt.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
@@ -49,25 +41,6 @@
 		
 		<!-- responsive stylesheet for those browsers that can read it -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/style.css" media="(min-width:481px)">	
-		<link href="<?php echo get_template_directory_uri(); ?>/library/css/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
-		
-<!--		<script type="text/javascript">
-      jQuery(function($){
-        $(".tweet").tweet({
-          join_text: "auto",
-          username: "seaofclouds",
-          avatar_size: 48,
-          count: 3,
-          auto_join_text_default: "we said,",
-          auto_join_text_ed: "we",
-          auto_join_text_ing: "we were",
-          auto_join_text_reply: "we replied",
-          auto_join_text_url: "we were checking out",
-          loading_text: "loading tweets..."
-        });
-      });
-</script>		
--->
 		
 		<!-- load all styles for IE -->
 		<!--[if (lt IE 9) & (!IEMobile)]>
@@ -82,11 +55,23 @@
 					<h1 id="logo" class="h1 clearfix"><a href="<?php echo site_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
 				
 					<nav role="navigation" class="nav">
-							<ul>
-								<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
-								<li><a class="scc" href="<?php site_url(); ?>#contact">Contact</a></li>
-								<li><a class="sca" href="<?php site_url(); ?>#about">About</a></li>
-							</ul>
+							<?php if (is_front_page()) { ?>
+
+								<ul>
+									<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+									<li><a class="scc" href="#contact">Contact</a></li>
+									<li><a class="sca" href="#about">About</a></li>
+								</ul>
+
+							<?php } else { ?>
+								
+								<ul>
+									<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+									<li><a class="scc" href="http://nickmjordan.com/#contact">Contact</a></li>
+									<li><a class="sca" href="http://nickmjordan.com/#about">About</a></li>
+								</ul>
+
+							<?php } ?>
 					</nav>										
 				</div>
 			</header>

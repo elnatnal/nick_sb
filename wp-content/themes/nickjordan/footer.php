@@ -51,12 +51,25 @@
 				
 				<div id="bottom" class="wrap clearfix">
 					<nav>
-						<ul>
-							<li><a href="<?php site_url(); ?>">Home</a></li>
-							<li><a class="scc" href="<?php site_url(); ?>#about">About</a></li>
-							<li><a class="sca" href="<?php site_url(); ?>#contact">Contact</a></li>
-							<li><a href="<?php site_url(); ?>/blog">Blog</a></li>
-						</ul>
+						<?php if (is_front_page()) { ?>
+
+							<ul>
+								<li><a href="http://nickmjordan.com">Home</a></li>
+								<li><a class="scc" href="#contact">Contact</a></li>
+								<li><a class="sca" href="#about">About</a></li>
+								<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+							</ul>
+
+						<?php } else { ?>
+							
+							<ul>
+								<li><a href="http://nickmjordan.com">Home</a></li>
+								<li><a class="scc" href="http://nickmjordan.com/#contact">Contact</a></li>
+								<li><a class="sca" href="http://nickmjordan.com/#about">About</a></li>
+								<li><a href="<?php echo site_url(); ?>/blog">Blog</a></li>
+							</ul>
+
+						<?php } ?>
 					</nav>
 					<p class="attribution">Copyright &copy; 2012 &ndash; <?php bloginfo('name'); ?></p>
 					
@@ -78,17 +91,21 @@
   			<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 		<![endif]-->
 		
-	        <script type="text/javascript">
-	            $(document).ready(function(){
-	                $("a.scc, a.sca").click(function(e) {
-					  e.preventDefault();
+			<?php if (is_front_page()) { ?>
 
-					  var target = $(this).attr("href");
+		        <script type="text/javascript">
+		            $(document).ready(function(){
+		                $("a.scc, a.sca").click(function(e) {
+						  e.preventDefault();
 
-					  $("html, body").animate({ scrollTop: $(target).offset().top - 100 });
+						  var target = $(this).attr("href");
+
+						  $("html, body").animate({ scrollTop: $(target).offset().top - 150 });
+						});
 					});
-				});
-	        </script>
+		        </script>
+				
+			<?php } else { } ?>
 	    </head>
 		
 		<?php wp_footer(); // js scripts are inserted using this function ?>

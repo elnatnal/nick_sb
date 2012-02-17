@@ -167,7 +167,7 @@ section#about{
 	
 					a.sony{
 						height:64px;
-						width:276px;
+						width:97;
 						
 						img{margin-top:23px;margin-left:76px;}
 						}	
@@ -186,15 +186,80 @@ section#about{
 
 section#contact {
 	width:100%;
-	height:415px;
+	height:669px;
 	margin-bottom:-15px;
 	
 	h1{
-		font-size:5.32em;
+		font-size:4.32em;
 		margin-top:0.3em;
 	}
 	h2{
-		font-size:1.53em;
+		font-size:1.43em;
+		margin-top:-2.3em;
+	}
+	
+	ul li{
+		display:inline-block;
+		margin-left:1.35em;
+		margin-top:2em;
+	
+	
+		div.twitter {			
+			a, a:visited{
+				background:url('../images/backup-twitter.png') no-repeat;
+				height:152px;
+				width:152px;
+				margin-left:-23%;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-twitter-hvr.png');
+			}
+		}
+
+		div.facebook {			
+			a, a:visited{
+				background:url('../images/backup-facebook.png') no-repeat;
+				height:159px;
+				width:159px;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-facebook-hvr.png');
+			}
+		}
+		
+		div.linkedin {			
+			a, a:visited{
+				background:url('../images/backup-linkedin.png') no-repeat;
+				height:158px;
+				width:161px;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-linkedin-hvr.png');
+			}
+		}
+		
+		div.skype {			
+			a, a:visited{
+				background:url('../images/backup-skype.png') no-repeat;
+				height:155px;
+				width:156px;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-skype-hvr.png');
+			}
+		}
+		
+		div.mail {			
+			a, a:visited{
+				background:url('../images/backup-mail.png') no-repeat;
+				height:150px;
+				width:161px;
+				margin:0;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-mail-hvr.png');
+			}
+		}
 	}
 }
 

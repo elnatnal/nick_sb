@@ -121,11 +121,78 @@ section#contact {
 	margin-bottom:-15px;
 	
 	h1{
-		font-size:5.32em;
+		font-size:3.96em;
 		margin-top:0.3em;
 	}
 	h2{
 		font-size:1.53em;
+	}
+	
+	ul li{
+		display:inline-block;
+		margin-left:1.35em;
+		margin-top:2em;
+	
+	
+		div.twitter {			
+			a, a:visited{
+				background:url('../images/backup-twitter.png') no-repeat;
+				height:136px;
+				width:136px;
+				margin-left:-23%;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-twitter-hvr.png');
+			}
+		}
+
+		div.facebook {			
+			a, a:visited{
+				background:url('../images/backup-facebook.png') no-repeat;
+				height:139px;
+				width:139px;
+				margin-left:-42%;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-facebook-hvr.png');
+			}
+		}
+		
+		div.linkedin {			
+			a, a:visited{
+				background:url('../images/backup-linkedin.png') no-repeat;
+				height:139px;
+				width:141px;
+				margin-left:-61%
+			}
+			a:hover, a:active{
+				background:url('../images/backup-linkedin-hvr.png');
+			}
+		}
+		
+		div.skype {			
+			a, a:visited{
+				background:url('../images/backup-skype.png') no-repeat;
+				height:140px;
+				width:141px;
+				margin-left:-79%;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-skype-hvr.png');
+			}
+		}
+		
+		div.mail {			
+			a, a:visited{
+				background:url('../images/backup-mail.png') no-repeat;
+				height:136px;
+				width:145px;
+				margin-left:-135px;
+			}
+			a:hover, a:active{
+				background:url('../images/backup-mail-hvr.png');
+			}
+		}
 	}
 }
 

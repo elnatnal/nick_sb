@@ -11,123 +11,177 @@
     font-size: 2.8em;
     margin-top: -2.6em; }
 
-/* line 18, ../scss/992up.scss */
+/* line 19, ../scss/992up.scss */
 section#contact {
   width: 100%;
-  height: 415px;
+  height: 487px;
   margin-bottom: -15px; }
-  /* line 23, ../scss/992up.scss */
+  /* line 24, ../scss/992up.scss */
+  section#contact .wrap {
+    margin-top: 2em; }
+  /* line 26, ../scss/992up.scss */
   section#contact h1 {
     font-size: 5.32em;
     margin-top: 0.3em; }
-  /* line 27, ../scss/992up.scss */
+  /* line 30, ../scss/992up.scss */
   section#contact h2 {
-    font-size: 1.53em; }
+    font-size: 1.53em;
+    margin-top: -3.3em; }
+  /* line 35, ../scss/992up.scss */
+  section#contact ul li {
+    display: inline-block;
+    margin-left: 1.35em;
+    margin-top: 2em; }
+    /* line 42, ../scss/992up.scss */
+    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+      background: url("../images/backup-twitter.png") no-repeat;
+      height: 161px;
+      width: 161px;
+      margin-left: -26px; }
+    /* line 48, ../scss/992up.scss */
+    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
+      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 54, ../scss/992up.scss */
+    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+      background: url("../images/backup-facebook.png") no-repeat;
+      height: 164px;
+      width: 164px;
+      margin-left: -2px; }
+    /* line 60, ../scss/992up.scss */
+    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
+      background: url("../images/backup-facebook-hvr.png"); }
+    /* line 66, ../scss/992up.scss */
+    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+      background: url("../images/backup-linkedin.png") no-repeat;
+      height: 163px;
+      width: 166px;
+      margin-left: -2px; }
+    /* line 72, ../scss/992up.scss */
+    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
+      background: url("../images/backup-linkedin-hvr.png"); }
+    /* line 78, ../scss/992up.scss */
+    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+      background: url("../images/backup-skype.png") no-repeat;
+      height: 161px;
+      width: 161px;
+      margin-left: -2px; }
+    /* line 84, ../scss/992up.scss */
+    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
+      background: url("../images/backup-skype-hvr.png"); }
+    /* line 90, ../scss/992up.scss */
+    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+      background: url("../images/backup-mail.png") no-repeat;
+      height: 153px;
+      width: 163px;
+      margin-left: -2px; }
+    /* line 96, ../scss/992up.scss */
+    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
+      background: url("../images/backup-mail-hvr.png"); }
 
-/* line 32, ../scss/992up.scss */
+/* line 103, ../scss/992up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 37, ../scss/992up.scss */
+  /* line 108, ../scss/992up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 42, ../scss/992up.scss */
+  /* line 113, ../scss/992up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 46, ../scss/992up.scss */
+    /* line 117, ../scss/992up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 54, ../scss/992up.scss */
+    /* line 125, ../scss/992up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 60, ../scss/992up.scss */
+  /* line 131, ../scss/992up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 51px;
     margin-top: -1em; }
-    /* line 66, ../scss/992up.scss */
+    /* line 137, ../scss/992up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 67, ../scss/992up.scss */
+    /* line 138, ../scss/992up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 68, ../scss/992up.scss */
+    /* line 139, ../scss/992up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 70, ../scss/992up.scss */
+      /* line 141, ../scss/992up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
         width: 51%;
         float: left; }
-        /* line 75, ../scss/992up.scss */
+        /* line 146, ../scss/992up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 78, ../scss/992up.scss */
+      /* line 149, ../scss/992up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 47%;
         float: right;
         margin-top: 0; }
-        /* line 84, ../scss/992up.scss */
+        /* line 155, ../scss/992up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 88, ../scss/992up.scss */
+    /* line 159, ../scss/992up.scss */
     section#about div.right-column section.clients {
       padding-top: 2em; }
-      /* line 91, ../scss/992up.scss */
+      /* line 162, ../scss/992up.scss */
       section#about div.right-column section.clients a.cbc {
         height: 173px;
         width: 143px;
         float: left; }
-        /* line 96, ../scss/992up.scss */
+        /* line 167, ../scss/992up.scss */
         section#about div.right-column section.clients a.cbc img {
           margin-top: 33px;
           margin-left: 22px; }
-      /* line 98, ../scss/992up.scss */
+      /* line 169, ../scss/992up.scss */
       section#about div.right-column section.clients div.client-right-column {
         width: 74%;
         float: right; }
-        /* line 101, ../scss/992up.scss */
+        /* line 172, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs {
           height: 87px;
           width: 100%;
           margin-left: 0; }
-          /* line 106, ../scss/992up.scss */
+          /* line 177, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
             margin-top: 10px;
             margin-left: 56px; }
-        /* line 110, ../scss/992up.scss */
+        /* line 181, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
           width: 40%;
           margin-left: 0;
           float: left; }
-          /* line 116, ../scss/992up.scss */
+          /* line 187, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px;
             margin-left: 27px; }
-        /* line 119, ../scss/992up.scss */
+        /* line 190, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed {
           height: 64px;
           width: 57%;
           float: right;
           margin-top: 0; }
-          /* line 125, ../scss/992up.scss */
+          /* line 196, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.alphamed img {
             margin-top: 10px;
             margin-left: 18px; }

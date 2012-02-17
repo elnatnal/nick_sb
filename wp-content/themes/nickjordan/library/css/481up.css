@@ -128,7 +128,7 @@ section#about {
         /* line 168, ../scss/481up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
-          width: 276px; }
+          width: 97; }
           /* line 172, ../scss/481up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px;
@@ -145,15 +145,63 @@ section#about {
 /* line 187, ../scss/481up.scss */
 section#contact {
   width: 100%;
-  height: 415px;
+  height: 669px;
   margin-bottom: -15px; }
   /* line 192, ../scss/481up.scss */
   section#contact h1 {
-    font-size: 5.32em;
+    font-size: 4.32em;
     margin-top: 0.3em; }
   /* line 196, ../scss/481up.scss */
   section#contact h2 {
-    font-size: 1.53em; }
+    font-size: 1.43em;
+    margin-top: -2.3em; }
+  /* line 201, ../scss/481up.scss */
+  section#contact ul li {
+    display: inline-block;
+    margin-left: 1.35em;
+    margin-top: 2em; }
+    /* line 208, ../scss/481up.scss */
+    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+      background: url("../images/backup-twitter.png") no-repeat;
+      height: 152px;
+      width: 152px;
+      margin-left: -23%; }
+    /* line 214, ../scss/481up.scss */
+    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
+      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 220, ../scss/481up.scss */
+    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+      background: url("../images/backup-facebook.png") no-repeat;
+      height: 159px;
+      width: 159px; }
+    /* line 225, ../scss/481up.scss */
+    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
+      background: url("../images/backup-facebook-hvr.png"); }
+    /* line 231, ../scss/481up.scss */
+    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+      background: url("../images/backup-linkedin.png") no-repeat;
+      height: 158px;
+      width: 161px; }
+    /* line 236, ../scss/481up.scss */
+    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
+      background: url("../images/backup-linkedin-hvr.png"); }
+    /* line 242, ../scss/481up.scss */
+    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+      background: url("../images/backup-skype.png") no-repeat;
+      height: 155px;
+      width: 156px; }
+    /* line 247, ../scss/481up.scss */
+    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
+      background: url("../images/backup-skype-hvr.png"); }
+    /* line 253, ../scss/481up.scss */
+    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+      background: url("../images/backup-mail.png") no-repeat;
+      height: 150px;
+      width: 161px;
+      margin: 0; }
+    /* line 259, ../scss/481up.scss */
+    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
+      background: url("../images/backup-mail-hvr.png"); }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -168,19 +216,19 @@ section#contact {
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 244, ../scss/481up.scss */
+/* line 309, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 249, ../scss/481up.scss */
+/* line 314, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 254, ../scss/481up.scss */
+/* line 319, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;

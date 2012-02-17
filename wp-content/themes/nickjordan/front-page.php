@@ -18,7 +18,7 @@
 							<section>
 								<h4>A bit more</h4>
 									<div class="img"></div>
-								<p>I live in Durham with my amazing wife, son, dog, and two cats. I am UNC-Chapel Hill alumni, where I studied finance and economics, and played on the 2001 National Champion Men’s Soccer Team.</p>	
+								<p>I live in Durham with my amazing wife, son, dog, and two cats. I am a UNC-Chapel Hill alumni, where I studied finance and economics, and played on the 2001 National Champion Men’s Soccer Team.</p>	
 							</section>						
 						</div>
 						
@@ -26,18 +26,18 @@
 						<div class="right-column">
 							<section class="startups">
 								<h4>Start&ndash;ups</h4>
-								<a class="smashingboxes" href="http://smashingboxes.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/smashingboxes.png"></a>
-								<a class="getzeek" href="http://getzeek"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/getzeek.png"></a>
+								<a class="smashingboxes" href="http://smashingboxes.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/smashingboxes.png"></a>
+								<a class="getzeek" href="http://getzeek"><img src="<?php echo get_template_directory_uri(); ?>/library/images/getzeek.png"></a>
 							</section>
 							
 							<section class="clients">
 								<h4>Clients</h4>
-								<a class="cbc" href="http://cbc-raleigh.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/cbc.png"></a>
+								<a class="cbc" href="http://cbc-raleigh.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/cbc.png"></a>
 								
 								<div class="client-right-column">
-									<a class="sony" href="http://sony.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/sony.png"></a>
-									<a class="alphamed" href="http://alphamedpress.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/alphamedpress.png"></a>
-									<a class="groundworklabs" href="http://groundworklabs.com"><img src="http://localhost:8888/nick_sb/wp-content/themes/nickjordan/library/images/groundwork.png"></a>
+									<a class="sony" href="http://sony.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/sony.png"></a>
+									<a class="alphamed" href="http://alphamedpress.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/alphamedpress.png"></a>
+									<a class="groundworklabs" href="http://groundworklabs.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/groundwork.png"></a>
 									
 								</div>
 							</section>	

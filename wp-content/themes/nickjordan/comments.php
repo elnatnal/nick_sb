@@ -25,13 +25,7 @@ The comments page for Bones
 	<ol class="commentlist">
 		<?php wp_list_comments('type=comment&callback=bones_comments'); ?>
 	</ol>
-	
-	<nav id="comment-nav">
-		<ul class="clearfix">
-	  		<li><?php previous_comments_link() ?></li>
-	  		<li><?php next_comments_link() ?></li>
-		</ul>
-	</nav>
+
   
 	<?php else : // this is displayed if there are no comments so far ?>
 
