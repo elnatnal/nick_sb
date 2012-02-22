@@ -160,48 +160,68 @@ section#contact {
     display: inline-block;
     margin-left: 1.35em;
     margin-top: 2em; }
-    /* line 208, ../scss/481up.scss */
-    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+    /* line 206, ../scss/481up.scss */
+    section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
       background: url("../images/backup-twitter.png") no-repeat;
       height: 152px;
+      background-size: 100%;
       width: 152px;
       margin-left: -23%; }
-    /* line 214, ../scss/481up.scss */
-    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
-      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 213, ../scss/481up.scss */
+    section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
+      background: url("../images/backup-twitter-hvr.png");
+      background-size: 100%;
+      height: 152px;
+      width: 152px; }
     /* line 220, ../scss/481up.scss */
-    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
       background: url("../images/backup-facebook.png") no-repeat;
       height: 159px;
+      width: 159px;
+      background-size: 100%; }
+    /* line 226, ../scss/481up.scss */
+    section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+      background: url("../images/backup-facebook-hvr.png");
+      background-size: 100%;
+      height: 159px;
       width: 159px; }
-    /* line 225, ../scss/481up.scss */
-    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-      background: url("../images/backup-facebook-hvr.png"); }
-    /* line 231, ../scss/481up.scss */
-    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+    /* line 233, ../scss/481up.scss */
+    section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
       background: url("../images/backup-linkedin.png") no-repeat;
       height: 158px;
+      width: 161px;
+      background-size: 100%; }
+    /* line 239, ../scss/481up.scss */
+    section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+      background: url("../images/backup-linkedin-hvr.png");
+      background-size: 100%;
+      height: 158px;
       width: 161px; }
-    /* line 236, ../scss/481up.scss */
-    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-      background: url("../images/backup-linkedin-hvr.png"); }
-    /* line 242, ../scss/481up.scss */
-    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+    /* line 246, ../scss/481up.scss */
+    section#contact ul li a.skype, section#contact ul li a.skype :visited {
       background: url("../images/backup-skype.png") no-repeat;
       height: 155px;
+      width: 156px;
+      background-size: 100%; }
+    /* line 252, ../scss/481up.scss */
+    section#contact ul li a.skype :hover, section#contact ul li a.skype :active {
+      background: url("../images/backup-skype-hvr.png");
+      background-size: 100%;
+      height: 155px;
       width: 156px; }
-    /* line 247, ../scss/481up.scss */
-    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-      background: url("../images/backup-skype-hvr.png"); }
-    /* line 253, ../scss/481up.scss */
-    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+    /* line 259, ../scss/481up.scss */
+    section#contact ul li a.mail, section#contact ul li a.mail:visited {
       background: url("../images/backup-mail.png") no-repeat;
       height: 150px;
       width: 161px;
-      margin: 0; }
-    /* line 259, ../scss/481up.scss */
-    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-      background: url("../images/backup-mail-hvr.png"); }
+      margin: 0;
+      background-size: 100%; }
+    /* line 266, ../scss/481up.scss */
+    section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+      background: url("../images/backup-mail-hvr.png");
+      background-size: 100%;
+      height: 150px;
+      width: 161px; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -216,19 +236,19 @@ section#contact {
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 309, ../scss/481up.scss */
+/* line 318, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 314, ../scss/481up.scss */
+/* line 323, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 319, ../scss/481up.scss */
+/* line 328, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;

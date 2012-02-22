@@ -411,6 +411,7 @@ section#contact{
 		display:inline-block;
 		margin-left:1.35em;
 		margin-top:2em;
+		align:center;
 	
 	
 		a.twitter, a.twitter:visited{
@@ -428,10 +429,12 @@ section#contact{
 		}
 			a.twitter:hover, a.twitter:active{
 				background:url('../images/backup-twitter-hvr.png');
+				height:124px;
+				width:124px;
+				background-size:100%;
 				}
 
-		div.facebook {			
-			a, a:visited{
+			a.facebook, a.facebook:visited{
 				display:block;
 				background:url('../images/backup-facebook.png') no-repeat;
 				z-index:-42;
@@ -442,13 +445,14 @@ section#contact{
 				background-size:100%;
 				margin-left:-43%;
 			}
-			a:hover, a:active{
+			a.facebook:hover, a.facebook:active{
 				background:url('../images/backup-facebook-hvr.png');
+				background-size:100%;
+				height:127px;
+				width:127px;				
 			}
-		}
 		
-		div.linkedin {			
-			a, a:visited{
+			a.linkedin, a.linkedin:visited{
 				display:block;
 				background:url('../images/backup-linkedin.png') no-repeat;
 				z-index:-42;
@@ -459,30 +463,32 @@ section#contact{
 				background-size:100%;
 				margin-left:-95px;
 			}
-			a:hover, a:active{
+			a.linkedin:hover, a.linkedin:active{
 				background:url('../images/backup-linkedin-hvr.png');
+				background-size:100%;
+				height:126px;
+				width:128px;				
 			}
-		}
 		
-		div.skype {			
-			a, a:visited{
+			a.skype, a.skype:visited{
 				display:block;
 				background:url('../images/backup-skype.png') no-repeat;
 				z-index:-42;
-				height:135px;
+				height:132px;
 				width:132px;
 				text-indent:99999999999%;
 				border:none;
 				background-size:100%;
 				margin-left:18%;
 			}
-			a:hover, a:active{
+			a.skype:hover, a.skype:active{
 				background:url('../images/backup-skype-hvr.png');
+				background-size:100%;
+				height:132px;
+				width:132px;				
 			}
-		}
 		
-		div.mail {			
-			a, a:visited{
+			a.mail, a.mail:visited{
 				display:block;
 				background:url('../images/backup-mail.png') no-repeat;
 				z-index:-42;
@@ -493,10 +499,12 @@ section#contact{
 				background-size:100%;
 				margin-left:-11%;
 			}
-			a:hover, a:active{
+			a.mail:hover, a.mail:active{
 				background:url('../images/backup-mail-hvr.png');
+				background-size:100%;
+				height:132px;
+				width:139px;				
 			}
-		}
 	}
 	
 	

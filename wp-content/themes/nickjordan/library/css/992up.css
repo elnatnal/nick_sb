@@ -32,156 +32,176 @@ section#contact {
     display: inline-block;
     margin-left: 1.35em;
     margin-top: 2em; }
-    /* line 42, ../scss/992up.scss */
-    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+    /* line 40, ../scss/992up.scss */
+    section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
       background: url("../images/backup-twitter.png") no-repeat;
       height: 161px;
       width: 161px;
+      background-size: 100%;
       margin-left: -26px; }
-    /* line 48, ../scss/992up.scss */
-    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
-      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 47, ../scss/992up.scss */
+    section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
+      background: url("../images/backup-twitter-hvr.png");
+      background-size: 100%;
+      height: 161px;
+      width: 161px; }
     /* line 54, ../scss/992up.scss */
-    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
       background: url("../images/backup-facebook.png") no-repeat;
       height: 164px;
       width: 164px;
+      background-size: 100%;
       margin-left: -2px; }
-    /* line 60, ../scss/992up.scss */
-    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-      background: url("../images/backup-facebook-hvr.png"); }
-    /* line 66, ../scss/992up.scss */
-    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+    /* line 61, ../scss/992up.scss */
+    section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+      background: url("../images/backup-facebook-hvr.png");
+      background-size: 100%;
+      height: 164px;
+      width: 164px; }
+    /* line 68, ../scss/992up.scss */
+    section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
       background: url("../images/backup-linkedin.png") no-repeat;
       height: 163px;
+      background-size: 100%;
       width: 166px;
       margin-left: -2px; }
-    /* line 72, ../scss/992up.scss */
-    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-      background: url("../images/backup-linkedin-hvr.png"); }
-    /* line 78, ../scss/992up.scss */
-    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+    /* line 75, ../scss/992up.scss */
+    section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+      background: url("../images/backup-linkedin-hvr.png");
+      background-size: 100%;
+      height: 163px;
+      width: 166px; }
+    /* line 82, ../scss/992up.scss */
+    section#contact ul li a.skype, section#contact ul li a.skype:visited {
       background: url("../images/backup-skype.png") no-repeat;
       height: 161px;
+      background-size: 100%;
       width: 161px;
       margin-left: -2px; }
-    /* line 84, ../scss/992up.scss */
-    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-      background: url("../images/backup-skype-hvr.png"); }
-    /* line 90, ../scss/992up.scss */
-    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+    /* line 89, ../scss/992up.scss */
+    section#contact ul li a.skype:hover, section#contact ul li a.skype:active {
+      background: url("../images/backup-skype-hvr.png");
+      background-size: 100%;
+      height: 161px;
+      width: 161px; }
+    /* line 96, ../scss/992up.scss */
+    section#contact ul li a.mail, section#contact ul li a.mail:visited {
       background: url("../images/backup-mail.png") no-repeat;
       height: 153px;
       width: 163px;
+      background-size: 100%;
       margin-left: -2px; }
-    /* line 96, ../scss/992up.scss */
-    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-      background: url("../images/backup-mail-hvr.png"); }
+    /* line 103, ../scss/992up.scss */
+    section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+      background: url("../images/backup-mail-hvr.png");
+      background-size: 100%;
+      height: 153px;
+      width: 163px; }
 
-/* line 103, ../scss/992up.scss */
+/* line 112, ../scss/992up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 108, ../scss/992up.scss */
+  /* line 117, ../scss/992up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 113, ../scss/992up.scss */
+  /* line 122, ../scss/992up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 117, ../scss/992up.scss */
+    /* line 126, ../scss/992up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 125, ../scss/992up.scss */
+    /* line 134, ../scss/992up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 131, ../scss/992up.scss */
+  /* line 140, ../scss/992up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 51px;
     margin-top: -1em; }
-    /* line 137, ../scss/992up.scss */
+    /* line 146, ../scss/992up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 138, ../scss/992up.scss */
+    /* line 147, ../scss/992up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 139, ../scss/992up.scss */
+    /* line 148, ../scss/992up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 141, ../scss/992up.scss */
+      /* line 150, ../scss/992up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
         width: 51%;
         float: left; }
-        /* line 146, ../scss/992up.scss */
+        /* line 155, ../scss/992up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 149, ../scss/992up.scss */
+      /* line 158, ../scss/992up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 47%;
         float: right;
         margin-top: 0; }
-        /* line 155, ../scss/992up.scss */
+        /* line 164, ../scss/992up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 159, ../scss/992up.scss */
+    /* line 168, ../scss/992up.scss */
     section#about div.right-column section.clients {
       padding-top: 2em; }
-      /* line 162, ../scss/992up.scss */
+      /* line 171, ../scss/992up.scss */
       section#about div.right-column section.clients a.cbc {
         height: 173px;
         width: 143px;
         float: left; }
-        /* line 167, ../scss/992up.scss */
+        /* line 176, ../scss/992up.scss */
         section#about div.right-column section.clients a.cbc img {
           margin-top: 33px;
           margin-left: 22px; }
-      /* line 169, ../scss/992up.scss */
+      /* line 178, ../scss/992up.scss */
       section#about div.right-column section.clients div.client-right-column {
         width: 74%;
         float: right; }
-        /* line 172, ../scss/992up.scss */
+        /* line 181, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs {
           height: 87px;
           width: 100%;
           margin-left: 0; }
-          /* line 177, ../scss/992up.scss */
+          /* line 186, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
             margin-top: 10px;
             margin-left: 56px; }
-        /* line 181, ../scss/992up.scss */
+        /* line 190, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
           width: 40%;
           margin-left: 0;
           float: left; }
-          /* line 187, ../scss/992up.scss */
+          /* line 196, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px;
             margin-left: 27px; }
-        /* line 190, ../scss/992up.scss */
+        /* line 199, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed {
           height: 64px;
           width: 57%;
           float: right;
           margin-top: 0; }
-          /* line 196, ../scss/992up.scss */
+          /* line 205, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.alphamed img {
             margin-top: 10px;
             margin-left: 18px; }

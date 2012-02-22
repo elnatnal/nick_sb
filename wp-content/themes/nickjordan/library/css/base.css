@@ -871,8 +871,9 @@ section#about {
 section#contact ul li {
   display: inline-block;
   margin-left: 1.35em;
-  margin-top: 2em; }
-  /* line 416, ../scss/base.scss */
+  margin-top: 2em;
+  align: center; }
+  /* line 417, ../scss/base.scss */
   section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
     display: block;
     background: url("../images/backup-twitter.png") no-repeat;
@@ -885,11 +886,14 @@ section#contact ul li {
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     margin-left: -15%; }
-  /* line 429, ../scss/base.scss */
+  /* line 430, ../scss/base.scss */
   section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
-    background: url("../images/backup-twitter-hvr.png"); }
-  /* line 434, ../scss/base.scss */
-  section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    background: url("../images/backup-twitter-hvr.png");
+    height: 124px;
+    width: 124px;
+    background-size: 100%; }
+  /* line 437, ../scss/base.scss */
+  section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
     display: block;
     background: url("../images/backup-facebook.png") no-repeat;
     z-index: -42;
@@ -899,11 +903,14 @@ section#contact ul li {
     border: none;
     background-size: 100%;
     margin-left: -43%; }
-  /* line 445, ../scss/base.scss */
-  section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-    background: url("../images/backup-facebook-hvr.png"); }
-  /* line 451, ../scss/base.scss */
-  section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+  /* line 448, ../scss/base.scss */
+  section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+    background: url("../images/backup-facebook-hvr.png");
+    background-size: 100%;
+    height: 127px;
+    width: 127px; }
+  /* line 455, ../scss/base.scss */
+  section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
     display: block;
     background: url("../images/backup-linkedin.png") no-repeat;
     z-index: -42;
@@ -913,25 +920,31 @@ section#contact ul li {
     border: none;
     background-size: 100%;
     margin-left: -95px; }
-  /* line 462, ../scss/base.scss */
-  section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-    background: url("../images/backup-linkedin-hvr.png"); }
-  /* line 468, ../scss/base.scss */
-  section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+  /* line 466, ../scss/base.scss */
+  section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+    background: url("../images/backup-linkedin-hvr.png");
+    background-size: 100%;
+    height: 126px;
+    width: 128px; }
+  /* line 473, ../scss/base.scss */
+  section#contact ul li a.skype, section#contact ul li a.skype:visited {
     display: block;
     background: url("../images/backup-skype.png") no-repeat;
     z-index: -42;
-    height: 135px;
+    height: 132px;
     width: 132px;
     text-indent: 99999999999%;
     border: none;
     background-size: 100%;
     margin-left: 18%; }
-  /* line 479, ../scss/base.scss */
-  section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-    background: url("../images/backup-skype-hvr.png"); }
-  /* line 485, ../scss/base.scss */
-  section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+  /* line 484, ../scss/base.scss */
+  section#contact ul li a.skype:hover, section#contact ul li a.skype:active {
+    background: url("../images/backup-skype-hvr.png");
+    background-size: 100%;
+    height: 132px;
+    width: 132px; }
+  /* line 491, ../scss/base.scss */
+  section#contact ul li a.mail, section#contact ul li a.mail:visited {
     display: block;
     background: url("../images/backup-mail.png") no-repeat;
     z-index: -42;
@@ -941,9 +954,12 @@ section#contact ul li {
     border: none;
     background-size: 100%;
     margin-left: -11%; }
-  /* line 496, ../scss/base.scss */
-  section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-    background: url("../images/backup-mail-hvr.png"); }
+  /* line 502, ../scss/base.scss */
+  section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+    background: url("../images/backup-mail-hvr.png");
+    background-size: 100%;
+    height: 132px;
+    width: 139px; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -955,40 +971,40 @@ section#contact ul li {
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 522, ../scss/base.scss */
+/* line 530, ../scss/base.scss */
 .meta {
   color: #999;
   margin-top: -2em; }
 
 /* post content */
-/* line 530, ../scss/base.scss */
+/* line 538, ../scss/base.scss */
 .post_content .single-post {
   width: 100%; }
 
-/* line 542, ../scss/base.scss */
+/* line 550, ../scss/base.scss */
 .post_content blockquote {
   font-style: italic;
   border-left: 2px solid #19c7db;
   padding-left: 1.15em; }
 
-/* line 548, ../scss/base.scss */
+/* line 556, ../scss/base.scss */
 cite {
   margin-left: 3.95em;
   color: #19c7db; }
 
-/* line 551, ../scss/base.scss */
+/* line 559, ../scss/base.scss */
 cite a, cite a:visited, cite a:hover, cite a:active {
   border: none; }
 
 /* this adds the quote before the blockquote */
-/* line 558, ../scss/base.scss */
+/* line 566, ../scss/base.scss */
 .post_content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em; }
 
-/* line 565, ../scss/base.scss */
+/* line 573, ../scss/base.scss */
 .post_content img {
   margin: 0 0 1.5em 0;
   max-width: 100%; }
@@ -999,27 +1015,27 @@ a bit difficult. It's set to start aligning
 and floating images at the next breakpoint,
 but it's up to you. Feel free to change it up.
 */
-/* line 580, ../scss/base.scss */
+/* line 588, ../scss/base.scss */
 .post_content video, .post_content object {
   max-width: 100%; }
 
-/* line 583, ../scss/base.scss */
+/* line 591, ../scss/base.scss */
 .post_content pre, .post_content code {
   background: #eee;
   border: 1px solid #cecece;
   padding: 10px; }
 
-/* line 589, ../scss/base.scss */
+/* line 597, ../scss/base.scss */
 .wp-caption {
   background: #eee;
   padding: 5px; }
 
-/* line 593, ../scss/base.scss */
+/* line 601, ../scss/base.scss */
 .wp-caption img {
   margin-bottom: 0;
   width: 100%; }
 
-/* line 597, ../scss/base.scss */
+/* line 605, ../scss/base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -1027,34 +1043,34 @@ but it's up to you. Feel free to change it up.
 
 /* image gallery styles */
 /*  PAGE NAVI STYLES  */
-/* line 620, ../scss/base.scss */
+/* line 628, ../scss/base.scss */
 .page-navigation, .wp-prev-next {
   margin: 1.1em 0 2.2em; }
 
-/* line 623, ../scss/base.scss */
+/* line 631, ../scss/base.scss */
 .bones_page_navi, .wp-prev-next ul {
   list-style: none; }
 
-/* line 625, ../scss/base.scss */
+/* line 633, ../scss/base.scss */
 .bones_page_navi li {
   list-style: none;
   float: left;
   margin-left: 10px; }
 
-/* line 631, ../scss/base.scss */
+/* line 639, ../scss/base.scss */
 .bones_page_navi li a {
   padding: 3px 6px;
   display: block;
   text-decoration: none;
   position: relative; }
 
-/* line 637, ../scss/base.scss */
+/* line 645, ../scss/base.scss */
 .bones_page_navi li a:hover {
   color: #f01d4f;
   text-decoration: none; }
 
 /* current page link */
-/* line 643, ../scss/base.scss */
+/* line 651, ../scss/base.scss */
 .bones_page_navi li.bpn-current {
   padding: 3px 6px;
   border-bottom: 2px solid #111111;
@@ -1062,36 +1078,36 @@ but it's up to you. Feel free to change it up.
 
 /* hovering on current page link */
 /* common styles for page-navi links */
-/* line 652, ../scss/base.scss */
+/* line 660, ../scss/base.scss */
 .bones_page_navi li.bpn-prev-link a, .bones_page_navi li.bpn-next-link a {
   padding: 0;
   padding-top: .45em; }
 
-/* line 656, ../scss/base.scss */
+/* line 664, ../scss/base.scss */
 .bones_page_navi li.bpn-prev-link a:hover, .bones_page_navi li.bpn-next-link a:hover, .bones_page_navi li.bpn-first-page-link a:hover, .bones_page_navi li.bpn-last-page-link a:hover {
   background: none; }
 
 /* previous link */
 /* next page link */
-/* line 666, ../scss/base.scss */
+/* line 674, ../scss/base.scss */
 .bones_page_navi li.bpn-next-link {
   font-weight: 700; }
 
 /* first page link */
 /* last page link */
 /* fallback previous & next links */
-/* line 683, ../scss/base.scss */
+/* line 691, ../scss/base.scss */
 .wp-prev-next .prev-link {
   float: left; }
 
-/* line 684, ../scss/base.scss */
+/* line 692, ../scss/base.scss */
 .wp-prev-next .next-link {
   float: right; }
 
 /*  COMMENT STYLES  */
 /* h3 comment title */
 /* number of comments span */
-/* line 696, ../scss/base.scss */
+/* line 704, ../scss/base.scss */
 .commentlist li {
   position: relative;
   clear: both;
@@ -1100,58 +1116,58 @@ but it's up to you. Feel free to change it up.
   margin-bottom: 1.5em;
   padding: 0.7335em 10px; }
 
-/* line 704, ../scss/base.scss */
+/* line 712, ../scss/base.scss */
 .commentlist li[class*=depth-] {
   margin-top: 1.1em; }
 
-/* line 707, ../scss/base.scss */
+/* line 715, ../scss/base.scss */
 .commentlist li.depth-1 {
   margin-left: 0;
   margin-top: 0; }
 
-/* line 711, ../scss/base.scss */
+/* line 719, ../scss/base.scss */
 .commentlist li:not(.depth-1) {
   margin-right: -10px;
   margin-left: -10px;
   margin-top: 0;
   padding-bottom: 0; }
 
-/* line 721, ../scss/base.scss */
+/* line 729, ../scss/base.scss */
 .commentlist li:last-child {
   margin-bottom: 0; }
 
 /* change number for different depth */
-/* line 735, ../scss/base.scss */
+/* line 743, ../scss/base.scss */
 .commentlist .odd {
   background: #eee; }
 
-/* line 738, ../scss/base.scss */
+/* line 746, ../scss/base.scss */
 .commentlist .even {
   background: #fefefe; }
 
-/* line 753, ../scss/base.scss */
+/* line 761, ../scss/base.scss */
 .commentlist .vcard {
   margin-left: 50px; }
 
-/* line 756, ../scss/base.scss */
+/* line 764, ../scss/base.scss */
 .commentlist .vcard cite.fn {
   font-weight: 700;
   font-style: normal; }
 
-/* line 760, ../scss/base.scss */
+/* line 768, ../scss/base.scss */
 .commentlist .vcard time {
   float: right; }
 
-/* line 763, ../scss/base.scss */
+/* line 771, ../scss/base.scss */
 .commentlist .vcard time a {
   color: #999;
   text-decoration: none; }
 
-/* line 767, ../scss/base.scss */
+/* line 775, ../scss/base.scss */
 .commentlist .vcard time a:hover {
   text-decoration: none; }
 
-/* line 771, ../scss/base.scss */
+/* line 779, ../scss/base.scss */
 .commentlist .vcard img.avatar {
   position: absolute;
   left: 10px;
@@ -1159,21 +1175,21 @@ but it's up to you. Feel free to change it up.
   border: 1px solid #cecece;
   background: #fff; }
 
-/* line 783, ../scss/base.scss */
+/* line 791, ../scss/base.scss */
 .commentlist li .comment_content {
   margin-left: 50px; }
 
-/* line 786, ../scss/base.scss */
+/* line 794, ../scss/base.scss */
 .commentlist li .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em; }
 
-/* line 791, ../scss/base.scss */
+/* line 799, ../scss/base.scss */
 .commentlist li ul {
   margin: 0; }
 
-/* line 794, ../scss/base.scss */
+/* line 802, ../scss/base.scss */
 .commentlist .comment-reply-link {
   text-decoration: none;
   float: right;
@@ -1185,62 +1201,62 @@ but it's up to you. Feel free to change it up.
   font-weight: 700;
   font-size: 0.9em; }
 
-/* line 805, ../scss/base.scss */
+/* line 813, ../scss/base.scss */
 .commentlist a.comment-reply-link:hover {
   opacity: 1; }
 
 /*  COMMENT FORM STYLES  */
-/* line 809, ../scss/base.scss */
+/* line 817, ../scss/base.scss */
 .respond-form {
   margin: 1.5em 10px;
   padding-bottom: 2.2em; }
 
-/* line 813, ../scss/base.scss */
+/* line 821, ../scss/base.scss */
 #comment-form-title {
   margin: 0 0 1.1em; }
 
-/* line 820, ../scss/base.scss */
+/* line 828, ../scss/base.scss */
 .respond-form form[method=post] {
   margin: 0.75em 0; }
 
-/* line 826, ../scss/base.scss */
+/* line 834, ../scss/base.scss */
 .respond-form form[method=post] li {
   list-style-type: none;
   clear: both;
   margin-bottom: 0.7335em; }
 
-/* line 831, ../scss/base.scss */
+/* line 839, ../scss/base.scss */
 .respond-form form[method=post] li label, .respond-form form[method=post] li small {
   display: none; }
 
-/* line 834, ../scss/base.scss */
+/* line 842, ../scss/base.scss */
 .respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url], .respond-form textarea {
   padding: 3px 6px;
   background: #efefef;
   border: 2px solid #cecece;
   line-height: 1.5em; }
 
-/* line 840, ../scss/base.scss */
+/* line 848, ../scss/base.scss */
 .respond-form input[type=text]:focus, .respond-form input[type=email]:focus, .respond-form input[type=url]:focus, .respond-form textarea:focus {
   background: #fff; }
 
-/* line 843, ../scss/base.scss */
+/* line 851, ../scss/base.scss */
 .respond-form input[type=text], .respond-form input[type=email], .respond-form input[type=url] {
   max-width: 400px;
   min-width: 250px; }
 
-/* line 848, ../scss/base.scss */
+/* line 856, ../scss/base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0; }
 
-/* line 851, ../scss/base.scss */
+/* line 859, ../scss/base.scss */
 .respond-form textarea {
   resize: none;
   width: 97.3%;
   height: 150px; }
 
 /* form validation */
-/* line 859, ../scss/base.scss */
+/* line 867, ../scss/base.scss */
 .respond-form input:invalid, .respond-form textarea:invalid {
   outline: none;
   border-color: #fbc2c4;
@@ -1251,101 +1267,101 @@ but it's up to you. Feel free to change it up.
   box-shadow: none; }
 
 /* no comments */
-/* line 870, ../scss/base.scss */
+/* line 878, ../scss/base.scss */
 .nocomments {
   margin: 0 20px 1.1em; }
 
 /*  SIDEBARS & ASIDES  */
-/* line 876, ../scss/base.scss */
+/* line 884, ../scss/base.scss */
 .sidebar {
   opacity: .5; }
 
-/* line 877, ../scss/base.scss */
+/* line 885, ../scss/base.scss */
 .sidebar:hover, .sidebar:active {
   opacity: .9; }
 
-/* line 893, ../scss/base.scss */
+/* line 901, ../scss/base.scss */
 #archives-2 {
   display: inline-block;
   width: 48%;
   float: right; }
 
 /*  FOOTER STYLES  */
-/* line 902, ../scss/base.scss */
+/* line 910, ../scss/base.scss */
 .footer {
   clear: both;
   z-index: 100;
   background: rgba(255, 255, 255, 0.9) url("../images/bg-footer.png") repeat-x top;
   padding-top: 1em; }
-  /* line 908, ../scss/base.scss */
+  /* line 916, ../scss/base.scss */
   .footer h4 {
     font: 1em/1.5em "ff-meta-serif-sc-web-pro", "Droid Serif", "Georgia", Cambria, Times New Roman, Times, serif;
     text-transform: uppercase;
     margin-bottom: 0;
     font-weight: bold; }
-  /* line 915, ../scss/base.scss */
+  /* line 923, ../scss/base.scss */
   .footer a, .footer a:visited {
     border: none;
     color: #19c7db;
     margin-bottom: -1em; }
-  /* line 921, ../scss/base.scss */
+  /* line 929, ../scss/base.scss */
   .footer a:hover, .footer a:active {
     color: #111111; }
-  /* line 925, ../scss/base.scss */
+  /* line 933, ../scss/base.scss */
   .footer p {
     margin-top: 0.1em; }
-  /* line 927, ../scss/base.scss */
+  /* line 935, ../scss/base.scss */
   .footer nav ul li {
     margin-left: 2em; }
-  /* line 931, ../scss/base.scss */
+  /* line 939, ../scss/base.scss */
   .footer nav ul li a.twitter {
     margin-left: 2em; }
-  /* line 938, ../scss/base.scss */
+  /* line 946, ../scss/base.scss */
   .footer p.button {
     float: right;
     font-weight: 200;
     font-style: italic; }
 
-/* line 945, ../scss/base.scss */
+/* line 953, ../scss/base.scss */
 footer #bottom {
   text-align: center; }
-  /* line 948, ../scss/base.scss */
+  /* line 956, ../scss/base.scss */
   footer #bottom li {
     display: inline-block;
     margin-left: .5em; }
-  /* line 953, ../scss/base.scss */
+  /* line 961, ../scss/base.scss */
   footer #bottom .attribution {
     margin-top: -0.5em; }
 
-/* line 959, ../scss/base.scss */
+/* line 967, ../scss/base.scss */
 footer #tweet-feed ul {
   margin-top: 0em; }
-/* line 960, ../scss/base.scss */
+/* line 968, ../scss/base.scss */
 footer #tweet-feed li {
   margin-top: .5em;
   padding-bottom: .5em;
   border-bottom: 1px solid #19c7db; }
 
-/* line 966, ../scss/base.scss */
+/* line 974, ../scss/base.scss */
 hr {
   color: #19c7db;
   background-color: #19c7db;
   border: none;
   height: 1px; }
 
-/* line 968, ../scss/base.scss */
+/* line 976, ../scss/base.scss */
 #recent-blog-posts {
   margin-bottom: 4em; }
 
 /* remember, no hover in mobile */
 /* highlight current page */
 /* be careful with the depth of your menus */
-/* line 989, ../scss/base.scss */
+/* line 997, ../scss/base.scss */
 ::selection {
   background-color: #19c7db;
   color: #fff; }
 
-/* line 990, ../scss/base.scss */
+/* line 998, ../scss/base.scss */
 ::-moz-selection {
   background-color: #19c7db;
   color: #fff; }

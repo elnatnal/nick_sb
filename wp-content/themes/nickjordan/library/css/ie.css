@@ -183,48 +183,68 @@ section#contact {
     display: inline-block;
     margin-left: 1.35em;
     margin-top: 2em; }
-    /* line 208, ../scss/481up.scss */
-    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+    /* line 206, ../scss/481up.scss */
+    section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
       background: url("../images/backup-twitter.png") no-repeat;
       height: 152px;
+      background-size: 100%;
       width: 152px;
       margin-left: -23%; }
-    /* line 214, ../scss/481up.scss */
-    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
-      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 213, ../scss/481up.scss */
+    section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
+      background: url("../images/backup-twitter-hvr.png");
+      background-size: 100%;
+      height: 152px;
+      width: 152px; }
     /* line 220, ../scss/481up.scss */
-    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
       background: url("../images/backup-facebook.png") no-repeat;
       height: 159px;
+      width: 159px;
+      background-size: 100%; }
+    /* line 226, ../scss/481up.scss */
+    section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+      background: url("../images/backup-facebook-hvr.png");
+      background-size: 100%;
+      height: 159px;
       width: 159px; }
-    /* line 225, ../scss/481up.scss */
-    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-      background: url("../images/backup-facebook-hvr.png"); }
-    /* line 231, ../scss/481up.scss */
-    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+    /* line 233, ../scss/481up.scss */
+    section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
       background: url("../images/backup-linkedin.png") no-repeat;
       height: 158px;
+      width: 161px;
+      background-size: 100%; }
+    /* line 239, ../scss/481up.scss */
+    section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+      background: url("../images/backup-linkedin-hvr.png");
+      background-size: 100%;
+      height: 158px;
       width: 161px; }
-    /* line 236, ../scss/481up.scss */
-    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-      background: url("../images/backup-linkedin-hvr.png"); }
-    /* line 242, ../scss/481up.scss */
-    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+    /* line 246, ../scss/481up.scss */
+    section#contact ul li a.skype, section#contact ul li a.skype :visited {
       background: url("../images/backup-skype.png") no-repeat;
       height: 155px;
+      width: 156px;
+      background-size: 100%; }
+    /* line 252, ../scss/481up.scss */
+    section#contact ul li a.skype :hover, section#contact ul li a.skype :active {
+      background: url("../images/backup-skype-hvr.png");
+      background-size: 100%;
+      height: 155px;
       width: 156px; }
-    /* line 247, ../scss/481up.scss */
-    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-      background: url("../images/backup-skype-hvr.png"); }
-    /* line 253, ../scss/481up.scss */
-    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+    /* line 259, ../scss/481up.scss */
+    section#contact ul li a.mail, section#contact ul li a.mail:visited {
       background: url("../images/backup-mail.png") no-repeat;
       height: 150px;
       width: 161px;
-      margin: 0; }
-    /* line 259, ../scss/481up.scss */
-    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-      background: url("../images/backup-mail-hvr.png"); }
+      margin: 0;
+      background-size: 100%; }
+    /* line 266, ../scss/481up.scss */
+    section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+      background: url("../images/backup-mail-hvr.png");
+      background-size: 100%;
+      height: 150px;
+      width: 161px; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -239,19 +259,19 @@ section#contact {
 /* post content */
 /* this adds the quote before the blockquote */
 /* at this larger size, we can start to align images */
-/* line 309, ../scss/481up.scss */
+/* line 318, ../scss/481up.scss */
 .alignleft, img.alignleft {
   margin-right: 1.5em;
   display: inline;
   float: left; }
 
-/* line 314, ../scss/481up.scss */
+/* line 323, ../scss/481up.scss */
 .alignright, img.alignright {
   margin-left: 1.5em;
   display: inline;
   float: right; }
 
-/* line 319, ../scss/481up.scss */
+/* line 328, ../scss/481up.scss */
 .aligncenter, img.aligncenter {
   margin-right: auto;
   margin-left: auto;
@@ -481,69 +501,89 @@ section#contact {
     display: inline-block;
     margin-left: 1.35em;
     margin-top: 2em; }
-    /* line 138, ../scss/768up.scss */
-    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+    /* line 136, ../scss/768up.scss */
+    section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
       background: url("../images/backup-twitter.png") no-repeat;
       height: 136px;
       width: 136px;
+      background-size: 100%;
       margin-left: -23%; }
-    /* line 144, ../scss/768up.scss */
-    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
-      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 143, ../scss/768up.scss */
+    section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
+      background: url("../images/backup-twitter-hvr.png");
+      background-size: 100%;
+      height: 136px;
+      width: 136px; }
     /* line 150, ../scss/768up.scss */
-    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
       background: url("../images/backup-facebook.png") no-repeat;
       height: 139px;
       width: 139px;
+      background-size: 100%;
       margin-left: -42%; }
-    /* line 156, ../scss/768up.scss */
-    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-      background: url("../images/backup-facebook-hvr.png"); }
-    /* line 162, ../scss/768up.scss */
-    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+    /* line 157, ../scss/768up.scss */
+    section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+      background: url("../images/backup-facebook-hvr.png");
+      background-size: 100%;
+      height: 139px;
+      width: 139px; }
+    /* line 164, ../scss/768up.scss */
+    section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
       background: url("../images/backup-linkedin.png") no-repeat;
       height: 139px;
       width: 141px;
+      background-size: 100%;
       margin-left: -61%; }
-    /* line 168, ../scss/768up.scss */
-    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-      background: url("../images/backup-linkedin-hvr.png"); }
-    /* line 174, ../scss/768up.scss */
-    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+    /* line 171, ../scss/768up.scss */
+    section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+      background: url("../images/backup-linkedin-hvr.png");
+      background-size: 100%;
+      height: 139px;
+      width: 141px; }
+    /* line 178, ../scss/768up.scss */
+    section#contact ul li a.skype, section#contact ul li a.skype:visited {
       background: url("../images/backup-skype.png") no-repeat;
       height: 140px;
+      background-size: 100%;
       width: 141px;
       margin-left: -79%; }
-    /* line 180, ../scss/768up.scss */
-    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-      background: url("../images/backup-skype-hvr.png"); }
-    /* line 186, ../scss/768up.scss */
-    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+    /* line 185, ../scss/768up.scss */
+    section#contact ul li a.skype:hover, section#contact ul li a.skype:active {
+      background: url("../images/backup-skype-hvr.png");
+      background-size: 100%;
+      height: 140px;
+      width: 141px; }
+    /* line 192, ../scss/768up.scss */
+    section#contact ul li a.mail, section#contact ul li a.mail:visited {
       background: url("../images/backup-mail.png") no-repeat;
       height: 136px;
       width: 145px;
+      background-size: 100%;
       margin-left: -135px; }
-    /* line 192, ../scss/768up.scss */
-    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-      background: url("../images/backup-mail-hvr.png"); }
+    /* line 199, ../scss/768up.scss */
+    section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+      background: url("../images/backup-mail-hvr.png");
+      background-size: 100%;
+      height: 136px;
+      width: 145px; }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 209, ../scss/768up.scss */
+/* line 218, ../scss/768up.scss */
 .menu ul {
   background: #eee; }
 
-/* line 213, ../scss/768up.scss */
+/* line 222, ../scss/768up.scss */
 .menu li {
   float: left;
   position: relative; }
 
-/* line 217, ../scss/768up.scss */
+/* line 226, ../scss/768up.scss */
 .menu li a {
   border-bottom: 0; }
 
-/* line 220, ../scss/768up.scss */
+/* line 229, ../scss/768up.scss */
 .menu li a:hover {
   background-color: #dedede; }
 
@@ -551,7 +591,7 @@ NAVIGATION STYLES
 /*
 plan your menus and drop-downs wisely.
 */
-/* line 235, ../scss/768up.scss */
+/* line 244, ../scss/768up.scss */
 .menu ul li ul {
   width: 200px;
   border: 1px solid #ccc;
@@ -561,12 +601,12 @@ plan your menus and drop-downs wisely.
   z-index: 8999; }
 
 /* show the dropdowns on hover */
-/* line 245, ../scss/768up.scss */
+/* line 254, ../scss/768up.scss */
 .menu ul li:hover ul {
   top: auto;
   display: block; }
 
-/* line 250, ../scss/768up.scss */
+/* line 259, ../scss/768up.scss */
 .menu ul ul li a {
   padding-left: 10px;
   border-right: 0;
@@ -574,7 +614,7 @@ plan your menus and drop-downs wisely.
   width: 180px;
   border-bottom: 1px solid #ccc; }
 
-/* line 259, ../scss/768up.scss */
+/* line 268, ../scss/768up.scss */
 .menu ul li:last-child a {
   border-bottom: 0; }
 
@@ -584,143 +624,143 @@ more levels
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 275, ../scss/768up.scss */
+/* line 284, ../scss/768up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 280, ../scss/768up.scss */
+  /* line 289, ../scss/768up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 285, ../scss/768up.scss */
+  /* line 294, ../scss/768up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 289, ../scss/768up.scss */
+    /* line 298, ../scss/768up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 297, ../scss/768up.scss */
+    /* line 306, ../scss/768up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 303, ../scss/768up.scss */
+  /* line 312, ../scss/768up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 40px;
     margin-top: -1em; }
-    /* line 309, ../scss/768up.scss */
+    /* line 318, ../scss/768up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 310, ../scss/768up.scss */
+    /* line 319, ../scss/768up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 311, ../scss/768up.scss */
+    /* line 320, ../scss/768up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 314, ../scss/768up.scss */
+      /* line 323, ../scss/768up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 63px;
         width: 430px;
         float: left; }
-        /* line 319, ../scss/768up.scss */
+        /* line 328, ../scss/768up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 19px;
           margin-left: 82px; }
-      /* line 322, ../scss/768up.scss */
+      /* line 331, ../scss/768up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 429px;
         margin-top: 5.4em; }
-        /* line 327, ../scss/768up.scss */
+        /* line 336, ../scss/768up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 124px; }
-    /* line 331, ../scss/768up.scss */
+    /* line 340, ../scss/768up.scss */
     section#about div.right-column section.clients {
       padding-top: 6em; }
-      /* line 334, ../scss/768up.scss */
+      /* line 343, ../scss/768up.scss */
       section#about div.right-column section.clients a.cbc {
         float: left; }
-        /* line 337, ../scss/768up.scss */
+        /* line 346, ../scss/768up.scss */
         section#about div.right-column section.clients a.cbc img {
           margin-top: 33px;
           margin-left: 22px; }
-      /* line 339, ../scss/768up.scss */
+      /* line 348, ../scss/768up.scss */
       section#about div.right-column section.clients div.client-right-column {
         width: 283px;
         float: left; }
-        /* line 342, ../scss/768up.scss */
+        /* line 351, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs {
           height: 87px;
           width: 433px; }
-          /* line 346, ../scss/768up.scss */
+          /* line 355, ../scss/768up.scss */
           section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
             margin-top: 10px;
             margin-left: 56px; }
-        /* line 350, ../scss/768up.scss */
+        /* line 359, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
           float: left; }
-          /* line 354, ../scss/768up.scss */
+          /* line 363, ../scss/768up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px; }
-        /* line 357, ../scss/768up.scss */
+        /* line 366, ../scss/768up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed {
           height: 64px;
           float: right; }
-          /* line 361, ../scss/768up.scss */
+          /* line 370, ../scss/768up.scss */
           section#about div.right-column section.clients div.client-right-column a.alphamed img {
             margin-top: 10px; }
 
-/* line 368, ../scss/768up.scss */
+/* line 377, ../scss/768up.scss */
 p {
   font-size: 1.05em;
   line-height: 1.75em; }
 
-/* line 370, ../scss/768up.scss */
+/* line 379, ../scss/768up.scss */
 section.post_excerpt, section.post_content {
   margin-top: -1em;
   margin-left: 7em; }
 
-/* line 374, ../scss/768up.scss */
+/* line 383, ../scss/768up.scss */
 #main {
   float: left; }
-  /* line 377, ../scss/768up.scss */
+  /* line 386, ../scss/768up.scss */
   #main header h1.h2 {
     width: 100%;
     float: left;
     margin-bottom: 0; }
-  /* line 383, ../scss/768up.scss */
+  /* line 392, ../scss/768up.scss */
   #main p.meta {
     width: 100%;
     margin-top: -0.5em; }
-  /* line 388, ../scss/768up.scss */
+  /* line 397, ../scss/768up.scss */
   #main section.post_excerpt {
     width: 80%; }
-  /* line 391, ../scss/768up.scss */
+  /* line 400, ../scss/768up.scss */
   #main section.post_content {
     width: 80%; }
-  /* line 395, ../scss/768up.scss */
+  /* line 404, ../scss/768up.scss */
   #main ul {
     list-style-type: disc; }
-  /* line 399, ../scss/768up.scss */
+  /* line 408, ../scss/768up.scss */
   #main ol {
     list-style-type: decimal; }
-  /* line 402, ../scss/768up.scss */
+  /* line 411, ../scss/768up.scss */
   #main ul, #main ol {
     margin-left: -0.18em; }
 
-/* line 408, ../scss/768up.scss */
+/* line 417, ../scss/768up.scss */
 #main.innerpage {
   width: 82.404255%; }
 
@@ -763,27 +803,27 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 625, ../scss/768up.scss */
+/* line 634, ../scss/768up.scss */
 .sidebar {
   margin-top: 2.2em;
   width: 16.404255%;
   float: right; }
 
-/* line 630, ../scss/768up.scss */
+/* line 639, ../scss/768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0; }
 
-/* line 635, ../scss/768up.scss */
+/* line 644, ../scss/768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em; }
 
-/* line 642, ../scss/768up.scss */
+/* line 651, ../scss/768up.scss */
 .widget li {
   margin-bottom: 0.75em; }
 
-/* line 651, ../scss/768up.scss */
+/* line 660, ../scss/768up.scss */
 .widget li ul {
   margin-top: 0.75em;
   padding-left: 1em; }
@@ -799,7 +839,7 @@ SIDEBARS & ASIDES
 /* recent-comments widget */
 /* search widget */
 /* text widget */
-/* line 743, ../scss/768up.scss */
+/* line 752, ../scss/768up.scss */
 #archives-2 {
   display: block;
   width: 100%;
@@ -808,30 +848,30 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 756, ../scss/768up.scss */
+/* line 765, ../scss/768up.scss */
 .footer #recent-blog-posts {
   width: 44.936170%;
   display: inline-block;
   float: left; }
-/* line 761, ../scss/768up.scss */
+/* line 770, ../scss/768up.scss */
 .footer #tweet-feed {
   width: 27.914894%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: left; }
-/* line 767, ../scss/768up.scss */
+/* line 776, ../scss/768up.scss */
 .footer #social {
   width: 14.893617%;
   display: inline-block;
   margin-left: 4.3829787%;
   float: right; }
-  /* line 773, ../scss/768up.scss */
+  /* line 782, ../scss/768up.scss */
   .footer #social h4 {
     margin-bottom: -1em; }
-/* line 776, ../scss/768up.scss */
+/* line 785, ../scss/768up.scss */
 .footer .attribution {
   float: left; }
-/* line 778, ../scss/768up.scss */
+/* line 787, ../scss/768up.scss */
 .footer nav {
   float: right;
   margin-top: -1.45em; }
@@ -882,156 +922,176 @@ section#contact {
     display: inline-block;
     margin-left: 1.35em;
     margin-top: 2em; }
-    /* line 42, ../scss/992up.scss */
-    section#contact ul li div.twitter a, section#contact ul li div.twitter a:visited {
+    /* line 40, ../scss/992up.scss */
+    section#contact ul li a.twitter, section#contact ul li a.twitter:visited {
       background: url("../images/backup-twitter.png") no-repeat;
       height: 161px;
       width: 161px;
+      background-size: 100%;
       margin-left: -26px; }
-    /* line 48, ../scss/992up.scss */
-    section#contact ul li div.twitter a:hover, section#contact ul li div.twitter a:active {
-      background: url("../images/backup-twitter-hvr.png"); }
+    /* line 47, ../scss/992up.scss */
+    section#contact ul li a.twitter:hover, section#contact ul li a.twitter:active {
+      background: url("../images/backup-twitter-hvr.png");
+      background-size: 100%;
+      height: 161px;
+      width: 161px; }
     /* line 54, ../scss/992up.scss */
-    section#contact ul li div.facebook a, section#contact ul li div.facebook a:visited {
+    section#contact ul li a.facebook, section#contact ul li a.facebook:visited {
       background: url("../images/backup-facebook.png") no-repeat;
       height: 164px;
       width: 164px;
+      background-size: 100%;
       margin-left: -2px; }
-    /* line 60, ../scss/992up.scss */
-    section#contact ul li div.facebook a:hover, section#contact ul li div.facebook a:active {
-      background: url("../images/backup-facebook-hvr.png"); }
-    /* line 66, ../scss/992up.scss */
-    section#contact ul li div.linkedin a, section#contact ul li div.linkedin a:visited {
+    /* line 61, ../scss/992up.scss */
+    section#contact ul li a.facebook:hover, section#contact ul li a.facebook:active {
+      background: url("../images/backup-facebook-hvr.png");
+      background-size: 100%;
+      height: 164px;
+      width: 164px; }
+    /* line 68, ../scss/992up.scss */
+    section#contact ul li a.linkedin, section#contact ul li a.linkedin:visited {
       background: url("../images/backup-linkedin.png") no-repeat;
       height: 163px;
+      background-size: 100%;
       width: 166px;
       margin-left: -2px; }
-    /* line 72, ../scss/992up.scss */
-    section#contact ul li div.linkedin a:hover, section#contact ul li div.linkedin a:active {
-      background: url("../images/backup-linkedin-hvr.png"); }
-    /* line 78, ../scss/992up.scss */
-    section#contact ul li div.skype a, section#contact ul li div.skype a:visited {
+    /* line 75, ../scss/992up.scss */
+    section#contact ul li a.linkedin:hover, section#contact ul li a.linkedin:active {
+      background: url("../images/backup-linkedin-hvr.png");
+      background-size: 100%;
+      height: 163px;
+      width: 166px; }
+    /* line 82, ../scss/992up.scss */
+    section#contact ul li a.skype, section#contact ul li a.skype:visited {
       background: url("../images/backup-skype.png") no-repeat;
       height: 161px;
+      background-size: 100%;
       width: 161px;
       margin-left: -2px; }
-    /* line 84, ../scss/992up.scss */
-    section#contact ul li div.skype a:hover, section#contact ul li div.skype a:active {
-      background: url("../images/backup-skype-hvr.png"); }
-    /* line 90, ../scss/992up.scss */
-    section#contact ul li div.mail a, section#contact ul li div.mail a:visited {
+    /* line 89, ../scss/992up.scss */
+    section#contact ul li a.skype:hover, section#contact ul li a.skype:active {
+      background: url("../images/backup-skype-hvr.png");
+      background-size: 100%;
+      height: 161px;
+      width: 161px; }
+    /* line 96, ../scss/992up.scss */
+    section#contact ul li a.mail, section#contact ul li a.mail:visited {
       background: url("../images/backup-mail.png") no-repeat;
       height: 153px;
       width: 163px;
+      background-size: 100%;
       margin-left: -2px; }
-    /* line 96, ../scss/992up.scss */
-    section#contact ul li div.mail a:hover, section#contact ul li div.mail a:active {
-      background: url("../images/backup-mail-hvr.png"); }
+    /* line 103, ../scss/992up.scss */
+    section#contact ul li a.mail:hover, section#contact ul li a.mail:active {
+      background: url("../images/backup-mail-hvr.png");
+      background-size: 100%;
+      height: 153px;
+      width: 163px; }
 
-/* line 103, ../scss/992up.scss */
+/* line 112, ../scss/992up.scss */
 section#about {
   width: 100%;
   height: 525px;
   margin-top: 0em; }
-  /* line 108, ../scss/992up.scss */
+  /* line 117, ../scss/992up.scss */
   section#about h4 {
     text-transform: uppercase;
     margin-bottom: -0.05em; }
-  /* line 113, ../scss/992up.scss */
+  /* line 122, ../scss/992up.scss */
   section#about div.left-column {
     width: 31.914894%;
     float: left; }
-    /* line 117, ../scss/992up.scss */
+    /* line 126, ../scss/992up.scss */
     section#about div.left-column blockquote {
       font-style: italic;
       color: #19c7db;
       font-size: 1.75em;
       line-height: 1.5em;
       margin: 0; }
-    /* line 125, ../scss/992up.scss */
+    /* line 134, ../scss/992up.scss */
     section#about div.left-column .img {
       width: 100%;
       height: 96px;
       background-color: #888; }
-  /* line 131, ../scss/992up.scss */
+  /* line 140, ../scss/992up.scss */
   section#about div.right-column {
     width: 61.914894%;
     float: right;
     padding-left: 51px;
     margin-top: -1em; }
-    /* line 137, ../scss/992up.scss */
+    /* line 146, ../scss/992up.scss */
     section#about div.right-column a, section#about div.right-column a:visited {
       border: none;
       background-color: #f8f8f8;
       display: block; }
-    /* line 138, ../scss/992up.scss */
+    /* line 147, ../scss/992up.scss */
     section#about div.right-column a:hover, section#about div.right-column a:active {
       background-color: #19c7db;
       background-color: rgba(25, 199, 219, 0.2); }
-    /* line 139, ../scss/992up.scss */
+    /* line 148, ../scss/992up.scss */
     section#about div.right-column section.startups {
       height: 180px; }
-      /* line 141, ../scss/992up.scss */
+      /* line 150, ../scss/992up.scss */
       section#about div.right-column section.startups a.smashingboxes {
         height: 158px;
         width: 51%;
         float: left; }
-        /* line 146, ../scss/992up.scss */
+        /* line 155, ../scss/992up.scss */
         section#about div.right-column section.startups a.smashingboxes img {
           margin-top: 66px;
           margin-left: 22px; }
-      /* line 149, ../scss/992up.scss */
+      /* line 158, ../scss/992up.scss */
       section#about div.right-column section.startups a.getzeek {
         height: 158px;
         width: 47%;
         float: right;
         margin-top: 0; }
-        /* line 155, ../scss/992up.scss */
+        /* line 164, ../scss/992up.scss */
         section#about div.right-column section.startups a.getzeek img {
           margin-top: 19px;
           margin-left: 46px; }
-    /* line 159, ../scss/992up.scss */
+    /* line 168, ../scss/992up.scss */
     section#about div.right-column section.clients {
       padding-top: 2em; }
-      /* line 162, ../scss/992up.scss */
+      /* line 171, ../scss/992up.scss */
       section#about div.right-column section.clients a.cbc {
         height: 173px;
         width: 143px;
         float: left; }
-        /* line 167, ../scss/992up.scss */
+        /* line 176, ../scss/992up.scss */
         section#about div.right-column section.clients a.cbc img {
           margin-top: 33px;
           margin-left: 22px; }
-      /* line 169, ../scss/992up.scss */
+      /* line 178, ../scss/992up.scss */
       section#about div.right-column section.clients div.client-right-column {
         width: 74%;
         float: right; }
-        /* line 172, ../scss/992up.scss */
+        /* line 181, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.groundworklabs {
           height: 87px;
           width: 100%;
           margin-left: 0; }
-          /* line 177, ../scss/992up.scss */
+          /* line 186, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.groundworklabs img {
             margin-top: 10px;
             margin-left: 56px; }
-        /* line 181, ../scss/992up.scss */
+        /* line 190, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.sony {
           height: 64px;
           width: 40%;
           margin-left: 0;
           float: left; }
-          /* line 187, ../scss/992up.scss */
+          /* line 196, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.sony img {
             margin-top: 23px;
             margin-left: 27px; }
-        /* line 190, ../scss/992up.scss */
+        /* line 199, ../scss/992up.scss */
         section#about div.right-column section.clients div.client-right-column a.alphamed {
           height: 64px;
           width: 57%;
           float: right;
           margin-top: 0; }
-          /* line 196, ../scss/992up.scss */
+          /* line 205, ../scss/992up.scss */
           section#about div.right-column section.clients div.client-right-column a.alphamed img {
             margin-top: 10px;
             margin-left: 18px; }

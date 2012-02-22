@@ -57,33 +57,24 @@
 						</header>
 						<ul>
 							<li>
-								<div class="twitter">
-									<a href="http://twitter.com/nick_sb/">Twitter</a>
-								</div>
+								<a class="twitter" href="http://twitter.com/nick_sb/">Twitter</a>
 							</li>
 							
 							<li>
-								<div class="facebook">
-									<a href="http://facebook.com/nickjordan99/">Facebook</a>
-								</div>
+								<a class="facebook" href="http://facebook.com/nickjordan99/">Facebook</a>
+
 							</li>
 							
 							<li>
-								<div class="linkedin">
-									<a href="http://www.linkedin.com/profile/view?id=20902507&trk=tab_pro  ">LinkedIn</a>
-								</div>
+								<a class="linkedin" href="http://www.linkedin.com/profile/view?id=20902507&trk=tab_pro  ">LinkedIn</a>
 							</li>
 
 							<li>
-								<div class="skype">
-									<a href="skype:nick.jordan.1?call">Skype</a>
-								</div>
+								<a class="skype" href="skype:nick.jordan.1?call">Skype</a>
 							</li>
 							
 							<li>
-								<div class="mail">
-									<a href="mailto:nick@smashingboxes.com">Mail</a>
-								</div>
+								<a class="mail" href="mailto:nick@smashingboxes.com">Mail</a>
 							</li>
 						</ul>
 
