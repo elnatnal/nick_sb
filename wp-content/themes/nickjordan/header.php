@@ -82,9 +82,11 @@
 
 			            <section id="home" class="content clearfix">
 			            <hgroup  class="wrap banner">
-			                <h1>I'm Nick Jordan</h1>		
-							<h2>I'm a technology entrepreneur in Durham, N.C.</h2>
+			                <h1>I’m Nick Jordan, a Technology Entrepreneur in Durham, North Carolina</h1>		
+							<h2>I build companies and help them grow. I also help companies and startups leverage technology to improve their business.</h2>
 			            </hgroup>
+						
+						<a href="#about" class="readmore"><img src="<?php echo get_template_directory_uri(); ?>/library/images/readmore-tab.png"></a>
 				
 					<?php } else { ?>
 

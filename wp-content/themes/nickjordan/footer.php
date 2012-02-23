@@ -95,7 +95,7 @@
 
 		        <script type="text/javascript">
 		            $(document).ready(function(){
-		                $("a.scc, a.sca").click(function(e) {
+		                $("a.scc, a.sca, a.readmore, a.readmore-contact").click(function(e) {
 						  e.preventDefault();
 
 						  var target = $(this).attr("href");

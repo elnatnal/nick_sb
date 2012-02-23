@@ -83,55 +83,22 @@ section#contact {
 		font-size:1.33em;
 		font-style:italic;
 		opacity:.9;
-		margin-top:-1.3em;
+		margin-top:-.8em;
 		text-shadow: 5px 5px 8px #000000;
 		filter: dropshadow(color=#000000, offx=5, offy=5);
 	}
 }
-
+a.readmore{
+	display:none;
+}	
+a.readmore-contact{
+	display:none;
+}
 
 body {
 	font: 14px/21px $serif;
 	color: $black;
 }
-
-/*  WORDPRESS BODY CLASSES — style a page via class  */
-
-.rtl {}
-.home {} /* home page */
-.blog {} 
-.archive {} /* archive page */
-.date {} /* date archive page */
-	.date-paged-1 {} /* replace the number to the corresponding page number */
-.search {} /* search page */
-	.search-results {} /* search result page */
-	.search-no-results {} /* no results search page */
-	.search-paged-1 {} /* individual paged search (i.e. body.search-paged-3) */
-.error404 {} /* 404 page */
-.single {} /* single post page */
-	.postid-1 {} /* individual post page by id (i.e. body.postid-73) */
-	.single-paged-1 {} /* individual paged single (i.e. body.single-paged-3) */
-.attachment {} /* attatchment page */
-	.attachmentid-1 {} /* individual attatchment page (i.e. body.attachmentid-763) */
-	.attachment-mime-type {} /* style mime type pages */
-.author {} /* author page */
-	.author-nicename {} /* user nicename (i.e. body.author-samueladams) */
-	.author-paged-1 {} /* paged author archives (i.e. body.author-paged-4) for page 4 */
-.category {} /* category page */
-	.category-1 {} /* individual category page (i.e. body.category-6) */
-	.category-paged-1 {} /* replace the number to the corresponding page number */
-.tag {} /* tag page */
-	.tag-slug {} /* individual tag page (i.e. body.tag-news) */
-	.tag-paged-1 {} /* replace the number to the corresponding page number */
-.page-template {} /* custom page template page */
-	.page-template-page-php {} /* individual page template (i.e. body.page-template-contact-php */
-	.page-paged-1 {} /* replace the number to the corresponding page number */
-	.page-parent {}
-	.page-child {}
-	.parent-pageid-1 {} /* replace the number to the corresponding page number */
-.logged-in {} /* if user is logged in */
-.paged {} /* paged items like search results or archives */
-	.paged-1 {} /* individual paged (i.e. body.paged-3) */
 
 /*  LAYOUT & GRID STYLES  */
 
@@ -206,12 +173,12 @@ h5, .h5 {
 #bottom-header{	
 
 	section#home {
-		height:15em;		
+		height:18em;		
 		h1{
-			font-size:3.2em;
+			font-size:1.6em;
 			text-shadow: 5px 5px 8px #000000;
 			filter: dropshadow(color=#000000, offx=5, offy=5);
-			margin-top:1.3em;
+			margin-top:2.2em;
 			text-align:left;
 		}
 
@@ -219,9 +186,9 @@ h5, .h5 {
 			opacity:.8;
 			text-shadow: 5px 5px 8px #000000;
 			filter: dropshadow(color=#000000, offx=5, offy=5);
-			font-size:1.5em;
+			font-size:1.3em;
 			opacity:.8;
-			margin-top:-1.8em;
+			margin-top:-.8em;
 			text-align:left;
 		}
 	}
@@ -260,30 +227,7 @@ h5, .h5 {
 					background-color: #eee;
 					border-bottom: 1px solid #ccc; 
 				}
-					
-					/*
-					remember this is for mobile ONLY, so there's no need
-					to even declare hover styles here, you can do it in
-					the style.less file where it's relevant. We want to 
-					keep this file as small as possible!
-					*/
-					.menu li a:hover {}
-				
-					.menu li:first-child a {}
-					.menu li:last-child a {}
-					
-					/* highlight current page */
-					.menu li.current-menu-item a, 
-					.menu li.current_page_item a,
-					.menu li.current-page-ancestor a {}
-					
-					/*
-					so you really have to rethink your dropdowns for mobile.
-					you don't want to have it expand too much because the
-					screen is so small. How you manage your menu should
-					depend on the project. Here's some great info on it:
-					http://www.alistapart.com/articles/organizing-mobile/
-					*/
+
 					.menu .sub-menu, .menu .children {}
 						.menu ul ul li a {
 							padding-left: 30px;
@@ -291,14 +235,6 @@ h5, .h5 {
 							.menu ul ul li a:hover {}
 							.menu ul ul li:last-child a {}
 							
-							/* 
-							menus should definitely not go down this
-							deep on a mobile device. that would just be
-							a mess.
-							*/
-							.menu ul ul ul { }
-								.menu ul li:hover ul ul { }
-
 /*  POSTS & CONTENT STYLES  */
 
 #content { 	
@@ -306,7 +242,6 @@ h5, .h5 {
 		text-decoration:none;
 	}
 }
-
 
 section#about{
 	width:100%;
@@ -329,7 +264,10 @@ section#about{
 			font-size:1.75em;
 			line-height:1.5em;
 			margin:0;
+			padding-left:1.5em;
 		}
+		
+		p:nth-child(1){margin-top:-.1em;}
 	}
 
 	div.right-column{
@@ -344,6 +282,7 @@ section#about{
 			
 			a.smashingboxes{
 				height:74px;
+				background-color:#E80C7A;
 
 				
 				img {margin-top:27px;margin-left:14%;}					
@@ -352,14 +291,29 @@ section#about{
 			a.getzeek{
 				height:150px;
 				margin-top:1em;
+				background-color:#A1D54D;
 				
 				img{margin-top:13px;margin-left:25%;}
-				}	
-			}	
+				}		
+			a.firstcs, a.secondcs {
+				height:50px;
+				width:100%;
+				float:left;
+				background-color:#f8f8f8;
+				margin-top:11px;
+				
+				img{margin-top:15px; margin-left:10%;}
+			}
+	
+			a.secondcs{
+				width:100%;
+			}
+			}
+			
+	
 
 		section.clients{
 			width:100%;
-			padding-top:1em;
 			
 				a.cbc{
 					height:143px;
@@ -398,8 +352,11 @@ section#about{
 						margin-top:1em;						
 						img{margin-top:13px;margin-left:18px; width:82%;}
 						}	
+
 					}
+				
 			}
+			
 	}
 
 
@@ -509,22 +466,6 @@ section#contact{
 	
 	
 }
-		.hentry {}
-		
-		.single-title, .page-title {}
-		.single-title {}
-		.page-title {}
-		.archive_title { }
-	
-		/* want to style individual post classes? Booya! */
-		.post-id {} /* post by id (i.e. post-3) */
-		.post {} /* general post style */
-		.page {} /* general article on a page style */
-		.attachment {} /* general style on an attatchment */
-		.sticky {} /* sticky post style */
-		.hentry {} /* hentry class */
-		.category-slug {} /* style by category (i.e. category-videos) */
-		.tag-slug {} /* style by tag (i.e. tag-news) */
 	
 		/* post meta */
 		.meta {
@@ -539,13 +480,6 @@ section#contact{
 				width:100%;
 			}
 		}
-			
-			.post_content p {}
-			.post_content ul, .post_content ol, .post_content table, .post_content dl {}
-			.post_content ul, .post_content ol {}
-			.post_content li {}
-			.post_content ul li {}
-			.post_content ol li {}
 			
 			.post_content blockquote {
 				font-style:italic;
@@ -574,17 +508,7 @@ section#contact{
 				margin: 0 0 1.5em 0; 
 				max-width: 100%; 
 			}
-			
-			/*
-			image alignment on a screen this size may be
-			a bit difficult. It's set to start aligning 
-			and floating images at the next breakpoint,
-			but it's up to you. Feel free to change it up.
-			*/
-			.alignleft, img.alignleft {}
-			.alignright, img.alignright {}
-			.aligncenter, img.aligncenter {}
-			
+
 			.post_content video, .post_content object { 
 				max-width: 100%; 
 			}
@@ -608,20 +532,6 @@ section#contact{
 				text-align: center;
 			}
 			
-			/* image gallery styles */
-			.gallery dl {}
-			.gallery dt {}
-			.gallery dd {}
-			.gallery dl a {}
-			.gallery dl img {}
-			.gallery-caption {}
-			
-			.size-full {}
-			.size-large {}
-			.size-medium {}
-			.size-thumbnail {}
-			
-		.hentry footer {}	
 
 /*  PAGE NAVI STYLES  */
 

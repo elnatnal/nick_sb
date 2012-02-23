@@ -100,14 +100,14 @@ HEADER SYTLES
 		height:20em;
 		
 		h1{
-			font-size:6em;
-			margin-top:.4em;
-			line-height:1.85em;
+			font-size:2.53em;
+			margin-top:1.55em;
+			line-height:1.25em;
 		}
 
 		h2{
-			font-size:2.8em;
-			margin-top:-2.3em;
+			font-size:1.8em;
+			margin-top:-.7em;
 		}
 	}
 
@@ -280,6 +280,24 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+a.readmore{
+	display:inline;
+	border:none;
+	
+	img{
+		margin-top:0.2em; border:none;}
+}	
+a.readmore-contact{
+	border:none;
+	display:inline;
+	
+	img{
+		margin-top:.8em; border:none;
+		margin-left:6%;
+		margin-bottom:-0.5em;
+		
+		}
+}	
 
 	section#about{
 		width:100%;
@@ -318,7 +336,7 @@ POSTS & CONTENT STYLES
 		a, a:visited{border:none;background-color:#f8f8f8;	display:block;}
 		a:hover, a:active{background-color:rgb(25,199,219); background-color:rgba(25,199,219, .2);}
 			section.startups{
-				height:180px;
+				height:315px;
 				
 				a.smashingboxes{
 					height:63px;
@@ -661,93 +679,6 @@ SIDEBARS & ASIDES
 				margin-top: 0.75em;
 				padding-left: 1em;
 			}
-
-	/* links widget */
-	.widget_links {}
-	.widget_links ul {}
-	.widget_links ul li {}
-	.widget_links ul li a {}
-	
-	/* meta widget */
-	.widget_meta {}
-	.widget_meta ul {}
-	.widget_meta ul li {}
-	.widget_meta ul li a {}
-	
-	/* pages widget */
-	.widget_pages {}
-	.widget_pages ul {}
-	.widget_pages ul li {}
-	.widget_pages ul li a {}
-	
-	/* recent-posts widget */
-	.widget_recent_entries {}
-	.widget_recent_entries ul {}
-	.widget_recent_entries ul li {}
-	.widget_recent_entries ul li a {}
-	
-	/* archives widget */
-	.widget_archive {}
-	.widget_archive ul {}
-	.widget_archive ul li {} 
-	.widget_archive ul li a {}
-	.widget_archive select {}
-	.widget_archive option {}
-	
-	/* tag-cloud widget */
-	.widget_links {}
-	.widget_links li:after {}
-	.widget_links li:before {}
-	.widget_tag_cloud {}
-	.widget_tag_cloud a {}
-	.widget_tag_cloud a:after {}
-	.widget_tag_cloud a:before {}
-	
-	/* calendar widget */
-	.widget_calendar {}
-	#calendar_wrap {}
-	#calendar_wrap th {}
-	#calendar_wrap td {}
-	#wp-calendar tr td {}
-	#wp-calendar caption {}
-	#wp-calendar a {}
-	#wp-calendar #today {}
-	#wp-calendar #prev {}
-	#wp-calendar #next {}
-	#wp-calendar #next a {}
-	#wp-calendar #prev a {}
-	
-	/* category widget */
-	.widget_categories {}
-	.widget_categories ul {}
-	.widget_categories ul li {} 
-	.widget_categories ul ul.children {}
-	.widget_categories a {}
-	.widget_categories select{}
-	.widget_categories select#cat {}
-	.widget_categories select.postform {}
-	.widget_categories option {}
-	.widget_categories .level-0 {}
-	.widget_categories .level-1 {}
-	.widget_categories .level-2 {}
-	.widget_categories .level-3 {}
-	
-	/* recent-comments widget */
-	.recentcomments {}
-	#recentcomments {}
-	#recentcomments li {}
-	#recentcomments li a {}
-	.widget_recent_comments {}
-	
-	/* search widget */
-	#searchform {}
-	.widget_search {}
-	.screen-reader-text {}
-	
-	/* text widget */
-	.textwidget {}
-	.widget_text {}
-	.textwidget p {}
 	
 	#archives-2{
 		display:block;
@@ -791,29 +722,6 @@ FOOTER STYLES
 	
 	
 }
-
-	/*
-	you'll probably need to do quite a bit
-	of overriding here if you styled them for
-	mobile. Make sure to double check these!
-	*/
-	.footer-links {}
-		.footer-links ul {}
-			.footer-links li {}
-				.footer-links li a {}
-					
-					/* hover styles */
-					.footer-links li a:hover {} 
-				
-				/* highlight current page */	
-				.nav li.current-menu-item a, .nav li.current_page_item a {}
-				
-				/* 
-				be careful with the depth of your menus.
-				it's very rare to have multi-depth menus in
-				the footer.
-				*/
-				.footer-links .sub-menu {}
 			
 
 	

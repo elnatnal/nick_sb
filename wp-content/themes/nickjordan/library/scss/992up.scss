@@ -3,19 +3,39 @@
 		height:40em;
 		
 		h1{
-			font-size:8em;
-			margin-top:1.3em;
-			line-height:1.65em;
+			font-size:3.3em;
+			margin-top:3.6em;
+			line-height:1.2em;
 		}
 
 		h2{
-			font-size:2.8em;
-			margin-top:-2.6em;
+			font-size:1.8em;
+			margin-top:-0.6em;
 		}
 	}
 
 }	
 
+a.readmore{
+	display:inline;
+	border:none;
+	
+	img{
+		margin-top:9.8em; border:none;}
+}	
+a.readmore-contact{
+	border:none;
+	display:inline;
+	
+	img{
+		margin-top:.8em; border:none;
+		margin-left:41%;
+		margin-bottom:-0.5em;
+		
+		}
+}	
+
+	
 section#contact {
 	width:100%;
 	height:487px;
@@ -121,6 +141,7 @@ section#about{
 		}
 		div.left-column {
 			width: 31.914894%;
+			margin-top:-1em;
 			float:left;
 
 			blockquote{
@@ -144,7 +165,7 @@ section#about{
 			margin-top:-1em;
 
 		a, a:visited{border:none;background-color:#f8f8f8;	display:block;}
-		a:hover, a:active{background-color:rgb(25,199,219); background-color:rgba(25,199,219, .2);}
+		a:hover, a:active{background-color:rgb(25,199,219);background-color:rgba(25,199,219, .2);}
 			section.startups{
 				height:180px;
 				a.smashingboxes{
@@ -163,13 +184,30 @@ section#about{
 					
 					img{margin-top:19px;margin-left:46px;}
 					}	
+					a.firstcs, a.secondcs {
+						height:50px;
+						width:48.5%;
+						float:left;
+						background-color:#f8f8f8;
+						margin-top:11px;
+						margin-bottom:45px;
+
+						img{margin-top:15px; margin-left:5%;}
+					}
+
+					a.secondcs{
+						margin-left:13px;
+						width:49%;
+					}
+
+
 				}	
 	
 			section.clients{
-				padding-top:2em;
+				padding-top:7em;
 			
 					a.cbc{
-						height:173px;
+						height:168px;
 						width:143px;
 						float:left;
 

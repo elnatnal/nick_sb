@@ -14,10 +14,10 @@
 											
 					<section id="about">
 						<div class="left-column">
-							<blockquote>My experience lies in business development, product strategy and growth hacking</blockquote>
+							<h4>A bit more</h4>
 							<section>
-								<h4>A bit more</h4>
-									<div class="img"></div>
+									<p>I provide strategic technology consulting as well as implementation and software development for startups and large companies alike through my company, <a href="http://smashingboxes.com">Smashing Boxes</a>, and am a partner, co-founder, investor, or board member in several other Durham Startups.</p>
+								<blockquote>My experience lies in business development, product strategy and growth hacking</blockquote>
 								<p>I live in Durham with my amazing wife, son, dog, and two cats. I am a UNC-Chapel Hill alumni, where I studied finance and economics, and played on the 2001 National Champion Men’s Soccer Team.</p>	
 							</section>						
 						</div>
@@ -25,13 +25,16 @@
 						
 						<div class="right-column">
 							<section class="startups">
-								<h4>Start&ndash;ups</h4>
+								<h4>Current Start&ndash;ups</h4>
 								<a class="smashingboxes" href="http://smashingboxes.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/smashingboxes.png"></a>
 								<a class="getzeek" href="http://getzeek"><img src="<?php echo get_template_directory_uri(); ?>/library/images/getzeek.png"></a>
+								<a class="comingsoon firstcs" href="http://smashingboxes.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/comingsoon.png"></a>
+								<a class="comingsoon secondcs" href="http://smashingboxes.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/comingsoon.png"></a>
+								
 							</section>
 							
 							<section class="clients">
-								<h4>Clients</h4>
+								<h4>Companies I've worked with</h4>
 								<a class="cbc" href="http://cbc-raleigh.com"><img src="<?php echo get_template_directory_uri(); ?>/library/images/cbc.png"></a>
 								
 								<div class="client-right-column">
@@ -44,7 +47,10 @@
 										
 						</div>
 					</section> 
+					<a href="#contact" class="readmore-contact"><img src="<?php echo get_template_directory_uri(); ?>/library/images/readmore-tab.png"></a>
+
 					</div>
+
 					</div>
 					
 					<section id="contact">
